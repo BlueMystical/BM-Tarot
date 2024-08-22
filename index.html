@@ -4,16 +4,21 @@
 <head>
   <script src="assets/js/color-modes.js"></script>
 
+  <title>BM's Tarot · Start Page</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="Blue Mystic - blue.mystic.play@gmail.com">
   <meta name="generator" content="Bootstrap v5.3">
-  <title>BM's Tarot · Start Page</title>
+  
+  <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" />
+  <meta expires="Sat, 26 Jul 1997 05:00:00 GMT" />
+  <meta pragma="no-cache" />
 
-  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/Icon.ico">
+  <link rel="canonical"  href="https://getbootstrap.com/docs/5.3/examples/album/">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
-  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css" >
 
   <style>
     .bd-placeholder-img {
@@ -91,6 +96,10 @@
 
     .bd-mode-toggle .dropdown-menu .active .bi {
       display: block !important;
+    }
+
+    .inverted-image {        
+        transform: rotate(180deg);
     }
   </style>
 </head>
@@ -173,19 +182,38 @@
     <div class="collapse text-bg-dark" id="navbarHeader">
       <div class="container">
         <div class="row">
-          <div class="col-sm-8 col-md-7 py-4">
-            <h4>BM's Tarot</h4>
-            <p class="text-body-secondary">Add some information about the album below, the author, or any other
-              background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link
-              them off to some social networking sites or contact information.</p>
+          <div class="col-sm-8 col-md-7 py-4">            
+            <label id="lblcboLanguage" for="cboLanguage">Select your Language:</label>
+            <select id="cboLanguage" class="form-select" aria-label="Default select example">
+              <option selected value="en">English</option>
+              <option value="es">Español</option>
+              <option value="de">Deutsche</option>
+              <option value="fr">Française</option>
+              <option value="ru">Русский</option>
+            </select>
+            <label id="lblcboUserDeck" for="cboUserDeck">Select your Deck:</label>
+            <select id="cboUserDeck" class="form-select" aria-label="Default select example">
+              <option value="Angels">Angels</option>
+              <option selected value="Marsella">Marsella</option>
+              <option value="Rider">Rider</option>
+              <option value="Cyberpunk">Cyberpunk</option>
+            </select>
+            <label id="lblcboCardCount" for="cboCardCount">Cards to Draw:</label>
+            <select id="cboCardCount" class="form-select" aria-label="Default select example">
+              <option selected value="3">3</option>
+              <option value="6">6</option>
+              <option value="9">9</option>
+            </select>
           </div>
           <div class="col-sm-4 offset-md-1 py-4">
-            <h4>Contact</h4>
+            <h4 id="lbContact">Contact</h4>
             <ul class="list-unstyled">
-              <li><a href="#" class="text-white">Check my Github</a></li>
-              <li><a href="#" class="text-white">Email Me</a></li>
-              <li><a href="#" class="text-white">Buy me a Beer</a></li>
+              <li><a id="lbGithub" href="https://github.com/BlueMystical" target="_blank" class="text-white">Check my Github</a></li>
+              <li><a id="lbEmail" href="mailto:'Blue Mystic'<blue.mystic.play@gmail.com>?Subject=Hello%20Blue%20o/'" class="text-white">Email Me</a></li>
+              <li><a id="lbBuyaBeer" href="https://buymeacoffee.com/blue.mystic" target="_blank" class="text-white">Buy me a Beer</a></li>
             </ul>
+            <h4>BM's Tarot</h4>
+            <p>Blue Mystic &#8482; - 2024</p>
           </div>
         </div>
       </div>
@@ -209,17 +237,17 @@
   </header>
 
   <main>
-
-
-    <section class="py-5 text-center container">
-      <div class="row py-lg-5">
+    <section class="py-2 text-center container">
+      <div class="row py-lg-3">
         <div class="col-lg-6 col-md-8 mx-auto">
-          <h1 class="fw-light">BM's Tarot</h1>
-          <p class="lead text-body-secondary">Its a simple and easy to use App to read your Tarot.<br>
-            Start by clickick this Blue button to draw your cards.</p>
+          <h1 id="lblWelcome" class="fw-light">Welcome to BM's Tarot</h1>
+          <p id="lblIntroduction" class="lead text-body-secondary">Its a simple and easy to use App to read your Tarot.<br>Start by clicking this Blue button to draw your cards.</p>
           <p>
-            <a href="#" class="btn btn-primary my-2">Draw Deck</a>
-            <a href="#" class="btn btn-secondary my-2">Pick Deck Design</a>
+            <a id="cmdDrawCards" href="#" class="btn btn-primary my-2">Draw your Cards</a>
+            <a id="cmdFlipCards" href="#" class="btn btn-secondary my-2">Flip the Cards</a>
+          </p>
+          <p>
+            <input id="txtUserQuery" type="text" class="form-control" placeholder="Type your Query Here" aria-label="Type your Query Here" aria-describedby="basic-addon1">
           </p>
         </div>
       </div>
@@ -227,115 +255,77 @@
 
     <div class="album py-5 bg-body-tertiary">
       <div class="container">
-
+        <!-- First Row, 3 Cards-->
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <div class="col">
-            <div class="card shadow-sm">
-              <img src="decks/background_01.jpg" alt="card"></img>
-              <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal"
-                      data-bs-target="#staticBackdrop">View</button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
+            <div id="Card-01-div" class="card shadow-sm visible">
+              <a id="Card-01" href="#" data-bs-toggle="modal" data-bs-target="#CardInfo" data-bs-info='{"id": 1, "name": "Carta 01"}'>
+                <img id="Card-01-img" src="decks/background_01.jpg" alt="card" style="width:420px"></a>
             </div>
           </div>
           <div class="col">
-            <div class="card shadow-sm">
-              <img src="decks/background_01.jpg" alt="card"></img>
-              <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
+            <div id="Card-02-div" class="card shadow-sm visible" >
+              <a id="Card-02" href="#" data-bs-toggle="modal" data-bs-target="#CardInfo" data-bs-info=""><img id="Card-02-img" src="decks/background_01.jpg" alt="card" style="width:420px"></a>
             </div>
           </div>
           <div class="col">
-            <div class="card shadow-sm">
-              <img src="decks/background_01.jpg" alt="card"></img>
-              <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
+            <div id="Card-03-div" class="card shadow-sm visible">
+              <a id="Card-03" href="#" data-bs-toggle="modal" data-bs-target="#CardInfo" data-bs-info=""><img id="Card-03-img" src="decks/background_01.jpg" alt="card" style="width:420px"></a>
             </div>
           </div>
-
+          <!--Second Row, 3 cards-->
           <div class="col">
-            <div class="card shadow-sm">
-              <img src="decks/background_01.jpg" alt="card"></img>
-              <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
+            <div id="Card-04-div" class="card shadow-sm invisible">
+              <a id="Card-04" href="#" data-bs-toggle="modal" data-bs-target="#CardInfo" data-bs-info=""><img id="Card-04-img" src="decks/background_01.jpg" alt="card" style="width:420px"></a>
             </div>
           </div>
           <div class="col">
-            <div class="card shadow-sm">
-              <img src="decks/background_01.jpg" alt="card"></img>
-              <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
+            <div id="Card-05-div" class="card shadow-sm invisible">
+              <a id="Card-05" href="#" data-bs-toggle="modal" data-bs-target="#CardInfo" data-bs-info=""><img id="Card-05-img" src="decks/background_01.jpg" alt="card" style="width:420px"></a>
             </div>
           </div>
           <div class="col">
-            <div class="card shadow-sm">
-              <img src="decks/background_01.jpg" alt="card"></img>
-              <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
+            <div id="Card-06-div" class="card shadow-sm invisible">
+              <a id="Card-06" href="#" data-bs-toggle="modal" data-bs-target="#CardInfo" data-bs-info=""><img id="Card-06-img" src="decks/background_01.jpg" alt="card" style="width:420px"></a>
             </div>
           </div>
-
+          <!--Third Row, 3 cards-->
+          <div class="col">
+            <div id="Card-07-div" class="card shadow-sm invisible">
+              <a id="Card-07" href="#" data-bs-toggle="modal" data-bs-target="#CardInfo" data-bs-info=""><img id="Card-07-img" src="decks/background_01.jpg" alt="card" style="width:420px"></a>
+            </div>
+          </div>
+          <div class="col">
+            <div id="Card-08-div" class="card shadow-sm invisible">
+              <a id="Card-08" href="#" data-bs-toggle="modal" data-bs-target="#CardInfo" data-bs-info=""><img id="Card-08-img" src="decks/background_01.jpg" alt="card" style="width:420px"></a>
+            </div>
+          </div>
+          <div class="col">
+            <div id="Card-09-div" class="card shadow-sm invisible">
+              <a id="Card-09" href="#" data-bs-toggle="modal" data-bs-target="#CardInfo" data-bs-info=""><img id="Card-09-img" src="decks/background_01.jpg" alt="card" style="width:420px"></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <!-- a Popup Window to show the selected Card -->
+    <div class="modal fade" id="CardInfo" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-dialog ">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="lblDialogTitle">Modal title</h5>
+            <h5 class="modal-title" id="card-title">El Loco</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
 
           <div class="modal-body">
             <div class="card" >
-              <img class="card-img-top mx-auto" id="imgCardFull" src="decks/Marsella/A0_TheFool.png"  alt="..." style="width: 300px;">
-              <div class="card-body">
-                <h5 id="cardTitle" class="card-title">Card title</h5>
-                <p id="cardText" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <img id="imgCardFull" class="card-img-top mx-auto"  src="decks/Marsella/Arcane-0.png"  alt="..." style="width: 280px;">
+              <div class="card-body">                
+                <p id="cardText" class="card-text">Libertad, búsqueda de nuevas experiencias y espontaneidad. Simboliza el inicio de un ciclo nuevo, la confianza en el proceso y la valentía con la que te embarcas en un viaje desconocido.</p>
               </div>
               <ul id="cardList" class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
+                <li id="cardText2" class="list-group-item">Versátil, reacción rápida, entusiasta, espontáneo, corazón joven, imprevisible, novato, atípico/diferente, inventiva, experimento, asume riesgos, revolucionario, innovador, extiende la mano, alegre, drástico, factor de suerte, juguetón, euforia, libertad del individuo, inesperado, ilusión, desacuerdo con el universo, fiestas, ideas nuevas, extrovertido.</li>
               </ul>
             </div> <!-- Card -->
           </div>  <!-- Modal-Body -->        
@@ -357,7 +347,8 @@
     </div>
   </footer>
   <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
-
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script type="application/javascript" src="assets/js/index.js?version=1"></script>
 </body>
 
 </html>

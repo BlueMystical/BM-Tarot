@@ -1,0 +1,135 @@
+{
+    "instance": "BM-Tarot",
+    "translations": [
+        {
+            "key": "main-welcome",
+            "lang": {
+                "en": "Welcome to BM's Tarot",
+                "es": "Bienvenido/a al Tarot de BM",
+                "de": "Willkommen bei BM's Tarot",
+                "ru": "Добро пожаловать в Таро БМ",
+                "fr": "Bienvenue au Tarot de BM"
+            }
+        },
+        {
+            "key": "main-intro",
+            "lang": {
+                "en": "Its a simple and easy to use App to read your Tarot.<br>Start by clicking this Blue button to draw your cards.",
+                "es": "Es una aplicación sencilla y fácil de usar para leer tu Tarot.<br>Comienza haciendo clic en este botón azul para sacar tus cartas.",
+                "de": "Es ist eine einfache und leicht zu verwendende App zum Tarotlesen.<br>Klicken Sie zunächst auf diese blaue Schaltfläche, um Ihre Karten zu ziehen.",
+                "ru": "Это простое и удобное приложение для чтения карт Таро.<br>Начните с нажатия этой синей кнопки, чтобы вытянуть карты.",
+                "fr": "C'est une application simple et facile à utiliser pour lire votre Tarot.<br>Commencez par cliquer sur ce bouton bleu pour tirer vos cartes."
+            }
+        },
+        {
+            "key": "main-button",
+            "lang": {
+                "en": "Shuffle your cards",
+                "es": "Baraja tus cartas",
+                "de": "Mische deine Karten",
+                "ru": "Перетасуйте карты",
+                "fr": "Mélangez vos cartes"
+            }
+        },
+        {
+            "key": "main-button2",
+            "lang": {
+                "en": "Flip the cards",
+                "es": "Voltea las cartas",
+                "de": "Drehe die Karten um",
+                "ru": "Переверните карты",
+                "fr": "Retournez les cartes"
+            }
+        },
+        {
+            "key": "cboLanguage",
+            "lang": {
+                "en": "Select your Language:",
+                "es": "Seleccione su idioma:",
+                "de": "Wählen Sie Ihre Sprache:",
+                "ru": "Выберите язык:",
+                "fr": "Sélectionnez votre langue:"
+            }
+        },
+        {
+            "key": "cboUserDeck",
+            "lang": {
+                "en": "Choose your Cards:",
+                "es": "Elige tus Cartas:",
+                "de": "Wählen Sie Ihre Karten:",
+                "ru": "Выберите карты:",
+                "fr": "Choisissez vos cartes :"
+            }
+        },
+        {
+            "key": "cboCardCount",
+            "lang": {
+                "en": "Cards to Throw:",
+                "es": "Cartas para lanzar:",
+                "de": "Zu werfende Karten:",
+                "ru": "Карты для броска:",
+                "fr": "Cartes à lancer:"
+            }
+        },
+        {
+            "key": "lbContact",
+            "lang": {
+                "en": "Contact",
+                "es": "Contacto",
+                "de": "Kontakt",
+                "ru": "Контакт",
+                "fr": "Contact"
+            }
+        },
+        {
+            "key": "lbGithub",
+            "lang": {
+                "en": "Check my Github",
+                "es": "Revisa mi Github",
+                "de": "Schauen Sie sich mein Github an",
+                "ru": "Проверьте мой Github",
+                "fr": "Consultez mon Github"
+            }
+        },
+        {
+            "key": "lbEmail",
+            "lang": {
+                "en": "Email Me",
+                "es": "Envíame un correo electrónico",
+                "de": "E-Mail an mich",
+                "ru": "Напишите мне по электронной почте",
+                "fr": "Envoyez-moi un e-mail"
+            }
+        },
+        {
+            "key": "lbBuyaBeer",
+            "lang": {
+                "en": "Buy me a Beer",
+                "es": "Invitame una cerveza",
+                "de": "Kauf mir ein Bier",
+                "ru": "Купи мне пива",
+                "fr": "Offre-moi une bière"
+            }
+        },
+        {
+            "key": "UserQuery",
+            "lang": {
+                "en": "Type your Query Here",
+                "es": "Escriba su consulta aquí",
+                "de": "Geben Sie hier Ihre Anfrage ein",
+                "ru": "Введите ваш запрос здесь",
+                "fr": "Tapez votre requête ici"
+            }
+        },
+        {
+            "key": "",
+            "lang": {
+                "en": "",
+                "es": "",
+                "de": "",
+                "ru": "",
+                "fr": ""
+            }
+        }
+    ]
+}

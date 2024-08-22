@@ -1,0 +1,1463 @@
+﻿[
+  {
+    "id": 0,
+    "number": 0,
+    "type": "Arcane",
+    "translations": {
+      "en": {        
+        "name": "The Fool",
+        "normal": [
+          "Freedom, the search for new experiences and spontaneity. It symbolizes the beginning of a new cycle, confidence in the process and the courage with which you embark on an unknown journey.",
+          "Versatile, quick reaction, enthusiastic, spontaneous, young at heart, unpredictable, novice, atypical/different, inventive, experiment, risk taker, revolutionary, innovative, reach out, cheerful, drastic, luck factor, playful, euphoria, freedom of the individual, unexpected, illusion, disagreement with the universe, parties, new ideas, extroverted."
+        ],
+        "inverted": [
+          "Wrong decisions have been made or are imminent. Passions and obsessions, indecision, irrationality, apathy, complications. Wrong decisions, fall, abandonment, immobilization. Madness. Psychic and/or emotional overflow. Obstructed journey.",
+          "Obsessions, indecision, irrationality, apathy, complications. Wrong decisions, fall, abandonment, immobilization. Madness. Psychic and/or emotional overflow. Obstructed journey."
+        ]
+      },
+      "es": {
+        "name": "El Loco",
+        "normal": [
+          "Libertad, búsqueda de nuevas experiencias y espontaneidad. Simboliza el inicio de un ciclo nuevo, la confianza en el proceso y la valentía con la que te embarcas en un viaje desconocido.",
+          "Versátil, reacción rápida, entusiasta, espontáneo, corazón joven, imprevisible, novato, atípico/diferente, inventiva, experimento, asume riesgos, revolucionario, innovador, extiende la mano, alegre, drástico, factor de suerte, juguetón, euforia, libertad del individuo, inesperado, ilusión, desacuerdo con el universo, fiestas, ideas nuevas, extrovertido."
+        ],
+        "inverted": [
+          "Se han tomado o son inminentes las decisiones equivocadas. Pasiones y obsesiones, indecisión, irracionalidad, apatía, complicaciones. Decisiones equivocadas, caída, abandono, inmovilización. Locura. Desborde psíquico y/o emocional. Viaje obstaculizado.",
+          "Obsesiones, indecisión, irracionalidad, apatía, complicaciones. Decisiones equivocadas, caída, abandono, inmovilización. Locura. Desborde psíquico y/o emocional. Viaje obstaculizado."
+        ]
+      },
+      "de": {
+        "name": "Der Narr",
+        "normal": [
+          "Freiheit, Suche nach neuen Erfahrungen und Spontaneität. Es symbolisiert den Beginn eines neuen Zyklus, das Vertrauen in den Prozess und den Mut, mit dem man sich auf eine unbekannte Reise begibt.",
+          "Vielseitig, reaktionsschnell, enthusiastisch, spontan, jung geblieben, unberechenbar, Neuling, untypisch/anders, erfinderisch, experimentierfreudig, risikofreudig, revolutionär, innovativ, aufgeschlossen, fröhlich, drastisch, Glücksfaktor, verspielt, Euphorie, Freiheit des Einzelnen , unerwartet, Illusion, Uneinigkeit mit dem Universum, Partys, neue Ideen, extrovertiert."
+        ],
+        "inverted": [
+          "Es wurden falsche Entscheidungen getroffen oder stehen kurz bevor. Leidenschaften und Obsessionen, Unentschlossenheit, Irrationalität, Apathie, Komplikationen. Falsche Entscheidungen, Sturz, Verlassenheit, Immobilisierung. Verrücktheit. Psychischer und/oder emotionaler Überfluss. Hinderliche Fahrt.",
+          "Obsessionen, Unentschlossenheit, Irrationalität, Apathie, Komplikationen. Falsche Entscheidungen, Sturz, Verlassenheit, Immobilisierung. Verrücktheit. Psychischer und/oder emotionaler Überfluss. Hinderliche Fahrt."
+        ]
+      },
+      "fr": {
+        "name": "Le Mat",
+        "normal": [
+          "La liberté, la recherche de nouvelles expériences et la spontanéité. Il symbolise le début d'un nouveau cycle, la confiance dans le processus et le courage avec lequel on se lance dans un voyage inconnu.",
+          "Polyvalent, réactif, enthousiaste, spontané, jeune de cœur, imprévisible, novice, atypique/différent, inventif, expérimental, preneur de risques, révolutionnaire, innovant, ouvert d'esprit, joyeux, drastique, facteur chance, ludique, euphorique, liberté de l'individu, inattendu, illusion, désaccord avec l'univers, fêtes, nouvelles idées, extraverti."
+        ],
+        "inverted": [
+          "De mauvaises décisions ont été prises ou sont imminentes. Passions et obsessions, indécision, irrationalité, apathie, complications. Mauvaises décisions, chute, abandon, immobilisation. Folie. Débordement psychique et/ou émotionnel. Voyage obstrué.",
+          "Obsessions, indécision, irrationalité, apathie, complications. Mauvaises décisions, chute, abandon, immobilisation. Folie. Débordement psychique et/ou émotionnel. Voyage obstrué."
+        ]
+      },
+      "ru": {
+        "name": "Дурак",
+        "normal": [
+          "Свобода, поиск новых впечатлений и спонтанность. Он символизирует начало нового цикла, доверие к процессу и смелость, с которой вы отправляетесь в неизведанное путешествие.",
+          "Vielseitig, reaktionsschnell, энтузиаст, spontan, jung geblieben, unberechenbar, Neuling, untypisch/anders, erfinderisch, Experimentierfreudig, risikofreudig, Revolutionär, innovativ, aufgeschlossen, fröhlich, drastisch, Glücksfaktor, verspielt, Euphorie, Freiheit des Einzeln ru , бородавка, Иллюзия, Uneinigkeit mit dem Universum, Вечеринки, новые идеи, экстраверты."
+        ],
+        "inverted": [
+          "Были приняты или неизбежны неправильные решения. Страсти и навязчивые идеи, нерешительность, иррациональность, апатия, осложнения. Неправильные решения, падение, заброшенность, обездвиживание. Сумасшествие. Психологическое и/или эмоциональное переполнение. Затрудненная поездка.",
+          "Навязчивые идеи, нерешительность, иррациональность, апатия, осложнения. Неправильные решения, падение, заброшенность, обездвиживание. Сумасшествие. Психологическое и/или эмоциональное переполнение. Затрудненная поездка."
+        ]
+      }
+    }
+  },
+  {
+    "id": 1,
+    "number": 1,
+    "type": "Arcane",
+    "translations": {
+      "en": {
+        "name": "The Magician",
+        "normal": [
+          "Creative and personal power. Doing what needs to be done, Being fully engaged in what you do. Applying the strength of your will. Putting aside distractions. Focusing on a goal.",
+          "Autonomy, emancipation from all prejudice. Eloquence, skill, ability, finesse, diplomacy. Lawyer, orator, diplomat or politician."
+        ],
+        "inverted": [
+          "It represents a refusal to commit. You are looking for an easy way out. It indicates weakness.",
+          "Unscrupulous, opportunist, schemer, liar, scoundrel, swindler, charlatan. Indecision, ineptitude, weak will, delay, insecurity."
+        ]
+      },
+      "es": {
+        "name": "El Mago",
+        "normal": [
+          "Poder creativo y personal. Haciendo lo que se necesita hacer, Estar totalmente comprometido en lo que hace. Aplicando la fuerza de su voluntad. Apartando las distracciones. Enfocándose en una meta",
+          "Autonomía, emancipación de todo prejuicio. Elocuencia, destreza, habilidad, finura, diplomacia. Abogado, orador, diplomático o político."
+        ],
+        "inverted": [
+          "Representa el rechazo al compromiso. Estás buscando una forma fácil de escapar. Indica debilidad.",
+          "Sin escrúpulos, arribista, intrigante, embustero, pillo, estafador, charlatán. Indecisión, ineptitud, voluntad débil, retraso, inseguridad."
+        ]
+      },
+      "de": {
+        "name": "Der Zauberer",
+        "normal": [
+          "Kreative und persönliche Kraft. Tun, was getan werden muss, sich voll und ganz dem widmen, was man tut. Wenden Sie die Kraft Ihres Willens an. Ablenkungen wegräumen. Sich auf ein Ziel konzentrieren",
+          "Autonomie, Emanzipation von allen Vorurteilen. Beredsamkeit, Geschicklichkeit, Geschicklichkeit, Finesse, Diplomatie. Anwalt, Redner, Diplomat oder Politiker."
+        ],
+        "inverted": [
+          "Es stellt die Ablehnung des Engagements dar. Sie suchen nach einem einfachen Weg zu entkommen. Zeigt Schwäche an.",
+          "Skrupellos, Karrierist, Intrigant, Lügner, Schurke, Betrüger, Scharlatan. Unentschlossenheit, Unfähigkeit, schwacher Wille, Verzögerung, Unsicherheit."
+        ]
+      },
+      "fr": {
+        "name": "Le Bateleur",
+        "normal": [
+          "Pouvoir créatif et personnel. Faire ce qui doit être fait, Être totalement engagé dans ce que vous faites. Appliquer la force de votre volonté. Mettre de côté les distractions. Se concentrer sur un objectif",
+          "Autonomie, émancipation de tous préjugés. Éloquence, habileté, habileté, finesse, diplomatie. Avocat, conférencier, diplomate ou homme politique."
+        ],
+        "inverted": [
+          "Cela représente le rejet de l’engagement. Vous cherchez un moyen facile de vous échapper. Indique une faiblesse.",
+          "Sans scrupules, carriériste, intrigant, menteur, scélérat, escroc, charlatan. Indécision, incompétence, volonté faible, retard, insécurité."
+        ]
+      },
+      "ru": {
+        "name": "Волшебник",
+        "normal": [
+          "Творческая и личная сила. Делать то, что необходимо, быть полностью преданным тому, что делаешь. Применяя силу своей воли. Устранение отвлекающих факторов. Сосредоточенность на цели",
+          "Автономия, эмансипация от всех предрассудков. Красноречие, умение, умение, изящество, дипломатия. Юрист, оратор, дипломат или политик."
+        ],
+        "inverted": [
+          "Это означает отказ от обязательств. Вы ищете простой способ сбежать. Указывает на слабость.",
+          "Недобросовестный, карьерист, интриган, лжец, негодяй, мошенник, шарлатан. Нерешительность, неумелость, слабая воля, промедление, неуверенность."
+        ]
+      }
+    }
+  },
+  {
+    "id": 2,
+    "number": 2,
+    "type": "Arcane",
+    "translations": {
+      "en": {
+        "name": "The Hight Priestess",
+        "normal": [
+          "Good judgment and a powerful intuition. Connection to the spiritual world. Allowing events to continue without intervention.",
+          "Patience, silence, discretion, reserve, meditation, modesty, resignation and piety. A well-considered decision. Secret, hidden."
+        ],
+        "inverted": [
+          "Indicates inability to control spirituality, selfishness and superficiality.",
+          "Dissimulation, hidden intentions, resentment, laziness, intolerance, fanaticism. It becomes heavy and passive, it is like a burden. Delay, tension and clumsiness in relationships. Hasty decision."
+        ]
+      },
+      "es": {
+        "name": "La Sacerdotisa",
+        "normal": [
+          "Buen juicio y una intuición poderosa. conexión con el mundo espiritual. Permitiendo que los eventos continúen sin intervención.",
+          "Paciencia, silencio, discreción, reserva, meditación, modestia, resignación y piedad. Decisión meditada. Secreto, escondido."
+        ],
+        "inverted": [
+          "Indica incapacidad para controlar la espiritualidad, egoísmo y superficialidad.",
+          "Disimulo, intenciones ocultas, rencor, pereza, intolerancia, fanatismo. Se vuelve pesada y pasiva, es como una carga. Retraso, tensión y torpeza en las relaciones. Decisión inmeditada."
+        ]
+      },
+      "de": {
+        "name": "Die Priesterin",
+        "normal": [
+          "Gutes Urteilsvermögen und starke Intuition. Verbindung mit der spirituellen Welt. Ermöglichen, dass Veranstaltungen ohne Eingreifen fortgesetzt werden.",
+          "Geduld, Schweigen, Diskretion, Zurückhaltung, Meditation, Bescheidenheit, Resignation und Frömmigkeit. Nachdenkliche Entscheidung. Geheimnisvoll, verborgen."
+        ],
+        "inverted": [
+          "Es weist auf die Unfähigkeit hin, Spiritualität, Egoismus und Oberflächlichkeit zu kontrollieren.",
+          "Verstellung, versteckte Absichten, Groll, Faulheit, Intoleranz, Fanatismus. Es wird schwer und passiv, es ist wie eine Last. Verzögerung, Spannung und Unbeholfenheit in Beziehungen. Sofortige Entscheidung.."
+        ]
+      },
+      "fr": {
+        "name": "La Papesse",
+        "normal": [
+          "Bon jugement et intuition puissante. connexion avec le monde spirituel. Permettre aux événements de se poursuivre sans intervention.",
+          "Patience, silence, discrétion, réserve, méditation, modestie, résignation et piété. Décision réfléchie. Secret, caché."
+        ],
+        "inverted": [
+          "Cela indique une incapacité à contrôler la spiritualité, l’égoïsme et la superficialité.",
+          "Dissimulation, intentions cachées, ressentiment, paresse, intolérance, fanatisme. Cela devient lourd et passif, c'est comme un fardeau. Retard, tension et maladresse dans les relations. Décision immédiate.."
+        ]
+      },
+      "ru": {
+        "name": "Жрица",
+        "normal": [
+          "Здравый смысл и мощная интуиция. связь с духовным миром. Разрешение событиям продолжаться без вмешательства.",
+          "Терпение, молчание, осмотрительность, сдержанность, размышление, скромность, смирение и благочестие. Продуманное решение. Тайное, скрытое."
+        ],
+        "inverted": [
+          "Это указывает на неспособность контролировать духовность, эгоизм и поверхностность.",
+          "Притворство, скрытые намерения, обидчивость, лень, нетерпимость, фанатизм. Оно становится тяжелым и пассивным, оно похоже на бремя. Задержка, напряжение и неловкость в отношениях. Немедленное решение.."
+        ]
+      }
+    }
+  },
+  {
+    "id": 3,
+    "number": 3,
+    "type": "Arcane",
+    "translations": {
+      "en": {
+        "name": "The Empress",
+        "normal": [
+          "It means fertility, abundance and maternal love. It symbolizes creativity, creative success and beauty.",
+          "Empathy, understanding, intelligence, instruction. Charm, affability, elegance, distinction. Courtesy, abundance, wealth. Marriage, fertility, sweetness."
+        ],
+        "inverted": [
+          "It represents infertility, unhappiness and anxiety.",
+          "Affectation, posturing, frivolity, coquetry, vanity. Disdain, presumption. Unnecessary luxury. Sensitive to flattery. Lack of refinement. Arguments on all levels. Sterility."
+        ]
+      },
+      "es": {
+        "name": "La Emperatriz",
+        "normal": [
+          "Significa fertilidad, abundancia y amor maternal. Simboliza la creatividad, el éxito creativo y la belleza.",
+          "Empatía, Comprensión, inteligencia, instrucción. Encanto, afabilidad, elegancia, distinción. Cortesía, abundancia, riqueza. Matrimonio, fecundidad, dulzura."
+        ],
+        "inverted": [
+          "Representa infertilidad, infelicidad y ansiedad.",
+          "Afectación, pose, frivolidad, coquetería, vanidad. Desdén, presunción. Lujo innecesario. Sensible a los halagos. Falta de refinamiento. Discusiones en todos los planos. Esterilidad."
+        ]
+      },
+      "de": {
+        "name": "Die Kaiserin",
+        "normal": [
+          "Es bedeutet Fruchtbarkeit, Fülle und mütterliche Liebe. Es symbolisiert Kreativität, kreativen Erfolg und Schönheit.",
+          "Empathie, Verständnis, Intelligenz, Anleitung. Charme, Freundlichkeit, Eleganz, Vornehmheit. Höflichkeit, Fülle, Reichtum. Ehe, Fruchtbarkeit, Süße."
+        ],
+        "inverted": [
+          "Es steht für Unfruchtbarkeit, Unglück und Angst.",
+          "Zuneigung, Pose, Frivolität, Koketterie, Eitelkeit. Verachtung, Anmaßung. Unnötiger Luxus. Empfindlich gegenüber Schmeicheleien. Mangel an Raffinesse. Diskussionen auf allen Ebenen. Sterilität."
+        ]
+      },
+      "fr": {
+        "name": "L'Impératrice",
+        "normal": [
+          "Cela signifie fertilité, abondance et amour maternel. Il symbolise la créativité, la réussite créative et la beauté.",
+          "Empathie, compréhension, intelligence, instruction. Charme, affabilité, élégance, distinction. Courtoisie, abondance, richesse. Mariage, fécondité, douceur."
+        ],
+        "inverted": [
+          "Cela représente l’infertilité, le malheur et l’anxiété.",
+          "Affection, pose, frivolité, coquetterie, vanité. Dédain, présomption. Un luxe inutile. Sensible à la flatterie. Manque de raffinement. Des débats à tous les niveaux. Stérilité."
+        ]
+      },
+      "ru": {
+        "name": "Императрица",
+        "normal": [
+          "Это означает плодородие, изобилие и материнскую любовь. Он символизирует творчество, творческий успех и красоту.",
+          "Эмпатия, Понимание, интеллект, обучение. Очарование, приветливость, элегантность, изысканность. Вежливость, изобилие, богатство. Брак, плодородие, сладость."
+        ],
+        "inverted": [
+          "Он символизирует бесплодие, несчастье и тревогу.",
+          "Ласковость, поза, легкомыслие, кокетство, тщеславие. Презрение, презрение. Ненужная роскошь. Чувствителен к лести. Отсутствие доработки. Обсуждения на всех уровнях. Стерильность."
+        ]
+      }
+    }
+  },
+  {
+    "id": 4,
+    "number": 4,
+    "type": "Arcane",
+    "translations": {
+      "en": {
+        "name": "The Emperor",
+        "normal": [
+          "It represents stability, worldly power and control of one's ego. It can indicate confrontations with the law or with someone in a position of power. It is also associated with the promise of victory.",
+          "Power, will, energy, certainty, constancy, firmness, rigor, accuracy, fairness and positivism. Achievement. Powerful protector."
+        ],
+        "inverted": [
+          "It is a warning that someone who has power over others cannot be trusted. It indicates a lack of control, petty emotions and failure due to an inability to concentrate.",
+          "Stubbornness, lack of idealism. Obstinate adversary. Fall, loss of property."
+        ]
+      },
+      "es": {
+        "name": "El Emperador",
+        "normal": [
+          "Representa la estabilidad, el poder terrenal y el control del propio ego. Puede indicar enfrentamientos con la ley o con alguien en una posición de poder. También se le relaciona con la promesa de una victoria.",
+          "Poder, voluntad, energía, certeza, constancia, firmeza, rigor, exactitud, equidad y positivismo. Realización. Protector poderoso."
+        ],
+        "inverted": [
+          "Es una advertencia de que no se puede confiar en alguien que ostenta poder sobre el otro. Indica falta de control, emociones mezquinas y fracaso por la incapacidad de concentrarse.",
+          "Testarudez, falta de idealismo. Adversario obstinado. Caída, pérdida de los bienes."
+        ]
+      },
+      "de": {
+        "name": "Der Kaiser",
+        "normal": [
+          "Es steht für Stabilität, irdische Macht und Kontrolle über das eigene Ego. Es kann auf Konflikte mit dem Gesetz oder jemandem in einer Machtposition hinweisen. Es hängt auch mit dem Versprechen des Sieges zusammen.",
+          "Kraft, Wille, Energie, Gewissheit, Ausdauer, Festigkeit, Strenge, Genauigkeit, Gerechtigkeit und Positivität. Realisierung. Leistungsstarker Beschützer."
+        ],
+        "inverted": [
+          "Es ist eine Warnung, dass man jemandem nicht vertrauen kann, der Macht über einen anderen hat. Es weist auf mangelnde Kontrolle, kleinliche Emotionen und Versagen aufgrund der mangelnden Konzentrationsfähigkeit hin.",
+          "Sturheit, Mangel an Idealismus. Hartnäckiger Gegner. Sturz, Sachverlust."
+        ]
+      },
+      "fr": {
+        "name": "L'Empereur",
+        "normal": [
+          "Il représente la stabilité, le pouvoir terrestre et le contrôle de son propre ego. Cela peut indiquer des démêlés avec la loi ou avec une personne en position de pouvoir. C’est aussi lié à la promesse de victoire.",
+          "Puissance, volonté, énergie, certitude, persévérance, fermeté, rigueur, précision, équité et positivité. Réalisation. Protecteur puissant."
+        ],
+        "inverted": [
+          "C’est un avertissement selon lequel vous ne pouvez pas faire confiance à quelqu’un qui a du pouvoir sur un autre. Cela indique un manque de contrôle, des émotions mesquines et un échec dû à l'incapacité de se concentrer.",
+          "Entêtement, manque d'idéalisme. Adversaire têtu. Chute, perte de propriété."
+        ]
+      },
+      "ru": {
+        "name": "Император",
+        "normal": [
+          "Он олицетворяет стабильность, земную власть и контроль над собственным эго. Это может указывать на конфликты с законом или с кем-то, находящимся у власти. Это также связано с обещанием победы.",
+          "Сила, воля, энергия, уверенность, настойчивость, твердость, строгость, точность, справедливость и позитивность. Реализация. Мощный защитник."
+        ],
+        "inverted": [
+          "Это предупреждение о том, что нельзя доверять тому, кто имеет власть над другим. Это указывает на отсутствие контроля, мелкие эмоции и неудачи из-за неспособности сконцентрироваться.",
+          "Упрямство, отсутствие идеализма. Упрямый противник. Падение, потеря имущества."
+        ]
+      }
+    }
+  },
+  {
+    "id": 5,
+    "number": 5,
+    "type": "Arcane",
+    "translations": {
+      "en": {
+        "name": "The Hierophant",
+        "normal": [
+          "It means spirituality, tradition and knowledge. It represents memory, spiritual guidance and connection with the divine. Learn to listen.",
+          "Wisdom, perseverance, teachings, equitable advice, generosity and indulgence, meekness."
+        ],
+        "inverted": [
+          "Vulnerability, stupid generosity and dissatisfaction. It is related to the rejection of doctrine. In extreme cases, it can indicate credulity.",
+          "Judgmental boss, overly critical, narrow-minded moralist, authoritarian professor, limited theorist, advisor devoid of practical sense."
+        ]
+      },
+      "es": {
+        "name": "El Papa",
+        "normal": [
+          "Significa espiritualidad, tradición y conocimiento. Representa la memoria, la guía espiritual y la conexión con lo divino. Aprenda a escuchar.",
+          "Sabiduría, perseverancia, enseñanzas, consejos equitativos, generosidad e indulgencia, mansedumbre."
+        ],
+        "inverted": [
+          "Vulnerabilidad, la generosidad estúpida y la disconformidad. Se le relaciona con el rechazo hacia la doctrina. En caso extremo, puede indicar credulidad.",
+          "Jefe sentencioso, excesivamente crítico, moralista estrecho de miras, profesor autoritario, teórico limitado, consejero desprovisto de sentido práctico."
+        ]
+      },
+      "de": {
+        "name": "Der Hohepriester",
+        "normal": [
+          "Es bedeutet Spiritualität, Tradition und Wissen. Es steht für Erinnerung, spirituelle Führung und Verbindung mit dem Göttlichen. Lerne zuzuhören.",
+          "Weisheit, Beharrlichkeit, Lehren, gerechter Rat, Großzügigkeit und Nachsicht, Sanftmut."
+        ],
+        "inverted": [
+          "Verletzlichkeit, dumme Großzügigkeit und Nichtkonformität. Es hängt mit der Ablehnung der Lehre zusammen. Im Extremfall kann es auf Leichtgläubigkeit hinweisen.",
+          "Sentiöser Chef, überkritischer, engstirniger Moralist, autoritärer Professor, begrenzter Theoretiker, Berater ohne praktischen Sinn."
+        ]
+      },
+      "fr": {
+        "name": "Le Pape",
+        "normal": [
+          "Cela signifie spiritualité, tradition et connaissance. Il représente la mémoire, la direction spirituelle et la connexion avec le divin. Apprenez à écouter.",
+          "Sagesse, persévérance, enseignements, conseils équitables, générosité et indulgence, douceur."
+        ],
+        "inverted": [
+          "Vulnérabilité, générosité stupide et non-conformité. C’est lié au rejet de la doctrine. Dans des cas extrêmes, cela peut indiquer une crédulité.",
+          "Patron sentimental, excessivement critique, moraliste borné, professeur autoritaire, théoricien limité, conseiller manquant de sens pratique."
+        ]
+      },
+      "ru": {
+        "name": "Первосвященник",
+        "normal": [
+          "Это означает духовность, традиции и знания. Он символизирует память, духовное руководство и связь с божественным. Научитесь слушать.",
+          "Мудрость, настойчивость, учение, справедливый совет, щедрость и снисходительность, кротость."
+        ],
+        "inverted": [
+          "Уязвимость, глупая щедрость и несоответствие. Это связано с отказом от доктрины. В крайних случаях это может указывать на доверчивость.",
+          "Сентенциозный начальник, чрезмерно критичный, ограниченный моралист, авторитарный профессор, ограниченный теоретик, лишенный практического смысла советник."
+        ]
+      }
+    }
+  },
+  {
+    "id": 6,
+    "number": 6,
+    "type": "Arcane",
+    "translations": {
+      "en": {
+        "name": "The Lovers",
+        "normal": [
+          "Harmony, love, trust, honor, joy and fulfillment of desires. It can indicate the beginning of a new relationship or a new phase in an existing one.",
+          "Choice or decision. Union, marriage, love, the union of opposites, attraction, balance, openness to inspiration. Tests passed."
+        ],
+        "inverted": [
+          "It indicates inconstancy and lack of confidence.",
+          "Disorder, failure, divorce, unhappy love and setbacks of all kinds."
+        ]
+      },
+      "es": {
+        "name": "Los Enamorados",
+        "normal": [
+          "Armonía, amor, confianza, honor, gozo y satisfacción de los deseos. Puede indicar el inicio de una nueva relación o el de una nueva fase en una ya existente.",
+          "Elección o decisión. Unión, matrimonio, amor, la unión de los opuestos, atracción, balance, apertura a la inspiración. Pruebas superadas."
+        ],
+        "inverted": [
+          "Señala inconstancia y falta de confianza.",
+          "Desorden, fracaso, divorcio, amor desgraciado y contrariedades de todo tipo."
+        ]
+      },
+      "de": {
+        "name": "Die Liebenden",
+        "normal": [
+          "Harmonie, Liebe, Vertrauen, Ehre, Freude und Befriedigung von Wünschen. Es kann den Beginn einer neuen Beziehung oder eine neue Phase einer bestehenden Beziehung anzeigen.",
+          "Wahl oder Entscheidung. Vereinigung, Ehe, Liebe, Vereinigung der Gegensätze, Anziehung, Ausgeglichenheit, Offenheit für Inspiration. Prüfungen bestanden."
+        ],
+        "inverted": [
+          "Es signalisiert Unbeständigkeit und mangelndes Vertrauen.",
+          "Unordnung, Scheitern, Scheidung, unglückliche Liebe und Rückschläge aller Art."
+        ]
+      },
+      "fr": {
+        "name": "Les amoureux",
+        "normal": [
+          "Harmonie, amour, confiance, honneur, joie et satisfaction des désirs. Cela peut indiquer le début d’une nouvelle relation ou une nouvelle phase dans une relation existante.",
+          "Choix ou décision. Union, mariage, amour, union des contraires, attirance, équilibre, ouverture à l'inspiration. Tests réussis."
+        ],
+        "inverted": [
+          "Cela signale une inconstance et un manque de confiance.",
+          "Désordre, échec, divorce, amour malheureux et déboires en tout genre."
+        ]
+      },
+      "ru": {
+        "name": "Влюбленные",
+        "normal": [
+          "Гармония, любовь, доверие, честь, радость и удовлетворение желаний. Это может указывать на начало новых отношений или новый этап в существующих.",
+          "Выбор или решение. Союз, брак, любовь, союз противоположностей, притяжение, равновесие, открытость вдохновению. Пройдены испытания."
+        ],
+        "inverted": [
+          "Это сигнализирует о непостоянстве и неуверенности в себе.",
+          "Разлад, неудача, развод, несчастная любовь и неудачи всех видов."
+        ]
+      }
+    }
+  },
+  {
+    "id": 7,
+    "number": 7,
+    "type": "Arcane",
+    "translations": {
+      "en": {
+        "name": "The Charriot",
+        "normal": [
+          "It indicates conflicts and turbulence. It can indicate the beginning of a journey or voyage, as well as an inner struggle to maintain a balance between physical and mental powers. It is also related to the search for truth and harmony.",
+          "Triumph, victory, overcoming obstacles, hope, conquest. Unexpected good news. Great self-control, Great physical and mental strength. Speed. Journey."
+        ],
+        "inverted": [
+          "Indicates failure or defeat.",
+          "General disorder. Illness. Dangerous loss of control. Danger of a violent accident. Bad news. Fatigue. Lack of tact. Bad behavior. Feverish activity and restlessness."
+        ]
+      },
+      "es": {
+        "name": "El carro",
+        "normal": [
+          "Señala conflictos y turbulencias. Puede indicar el comienzo de un viaje o travesía, así como una lucha interior por mantener en equilibrio poderes físicos y mentales. También se le relaciona con la búsqueda de la verdad y la armonía.",
+          "Triunfo, victoria, superación de obstáculos, esperanza, conquista. Buena noticia inesperada. Gran autocontrol, Gran fuerza física y mental. Velocidad. Viaje."
+        ],
+        "inverted": [
+          "Indica fracaso o derrota.",
+          "Desorden generalizado. Enfermedad. Peligroso descontrol. Peligro de un accidente violento. Malas noticias. Fatiga. Falta de tacto. Mala conducta. Actividad afiebrada y sin reposo."
+        ]
+      },
+      "de": {
+        "name": "Der Wagen",
+        "normal": [
+          "Es signalisiert Konflikte und Turbulenzen. Es kann den Beginn einer Reise oder eines Weges anzeigen, aber auch einen inneren Kampf, die körperlichen und geistigen Kräfte im Gleichgewicht zu halten. Es hängt auch mit der Suche nach Wahrheit und Harmonie zusammen.",
+          "Triumph, Sieg, Überwindung von Hindernissen, Hoffnung, Eroberung. Unerwartet gute Nachrichten. Große Selbstbeherrschung, große körperliche und geistige Stärke. Geschwindigkeit. Reise."
+        ],
+        "inverted": [
+          "Zeigt einen Misserfolg oder eine Niederlage an.",
+          "Allgemeine Störung. Krankheit. Gefährlicher Mangel an Kontrolle. Gefahr eines heftigen Unfalls. Schlechte Nachrichten. Ermüdung. Mangelndes Taktgefühl. Fehlverhalten. Fieberhafte Aktivität und keine Ruhe."
+        ]
+      },
+      "fr": {
+        "name": "Le Chariot",
+        "normal": [
+          "Cela signale des conflits et des turbulences. Cela peut indiquer le début d'un voyage ou d'un voyage, ainsi qu'une lutte interne pour maintenir l'équilibre des forces physiques et mentales. Elle est également liée à la recherche de vérité et d’harmonie.",
+          "Triomphe, victoire, dépassement des obstacles, espoir, conquête. Une bonne nouvelle inattendue. Grande maîtrise de soi, Grande force physique et mentale. Vitesse. Voyage."
+        ],
+        "inverted": [
+          "Indique un échec ou une défaite.",
+          "Désordre général. Maladie. Manque de contrôle dangereux. Risque d'accident violent. Mauvaise nouvelle. Fatigue. Manque de tact. Inconduite. Activité fébrile et sans repos."
+        ]
+      },
+      "ru": {
+        "name": "Колесница",
+        "normal": [
+          "Это сигнализирует о конфликтах и ​​турбулентности. Он может указывать на начало путешествия или путешествия, а также на внутреннюю борьбу за сохранение баланса физических и умственных сил. Это также связано с поиском истины и гармонии.",
+          "Триумф, победа, преодоление препятствий, надежда, завоевание. Неожиданная хорошая новость. Великое самообладание, Большая физическая и умственная сила. Скорость. Путешествие."
+        ],
+        "inverted": [
+          "Указывает на неудачу или поражение.",
+          "Общий беспорядок. Болезнь. Опасное отсутствие контроля. Опасность насильственного несчастного случая. Плохие новости. Усталость. Отсутствие такта. Неправомерное поведение. Лихорадочная деятельность и без отдыха."
+        ]
+      }
+    }
+  },
+  {
+    "id": 3,
+    "number": 3,
+    "type": "Arcane",
+    "translations": {
+      "en": {
+        "name": "",
+        "normal": [
+          "",
+          ""
+        ],
+        "inverted": [
+          "",
+          ""
+        ]
+      },
+      "es": {
+        "name": "",
+        "normal": [
+          "",
+          ""
+        ],
+        "inverted": [
+          "",
+          ""
+        ]
+      },
+      "de": {
+        "name": "",
+        "normal": [
+          "",
+          ""
+        ],
+        "inverted": [
+          "",
+          ""
+        ]
+      },
+      "fr": {
+        "name": "",
+        "normal": [
+          "",
+          ""
+        ],
+        "inverted": [
+          "",
+          ""
+        ]
+      },
+      "ru": {
+        "name": "",
+        "normal": [
+          "",
+          ""
+        ],
+        "inverted": [
+          "",
+          ""
+        ]
+      }
+    }
+  },
+  {
+    "id": 3,
+    "number": 3,
+    "type": "Arcane",
+    "translations": {
+      "en": {
+        "name": "",
+        "normal": [
+          "",
+          ""
+        ],
+        "inverted": [
+          "",
+          ""
+        ]
+      },
+      "es": {
+        "name": "",
+        "normal": [
+          "",
+          ""
+        ],
+        "inverted": [
+          "",
+          ""
+        ]
+      },
+      "de": {
+        "name": "",
+        "normal": [
+          "",
+          ""
+        ],
+        "inverted": [
+          "",
+          ""
+        ]
+      },
+      "fr": {
+        "name": "",
+        "normal": [
+          "",
+          ""
+        ],
+        "inverted": [
+          "",
+          ""
+        ]
+      },
+      "ru": {
+        "name": "",
+        "normal": [
+          "",
+          ""
+        ],
+        "inverted": [
+          "",
+          ""
+        ]
+      }
+    }
+  },
+
+  {
+    "id": 3,
+    "number": 3,
+    "type": "Arcane",
+    "translations": {
+      "en": {
+        "name": "",
+        "normal": [
+          "",
+          ""
+        ],
+        "inverted": [
+          "",
+          ""
+        ]
+      },
+      "es": {
+        "name": "",
+        "normal": [
+          "",
+          ""
+        ],
+        "inverted": [
+          "",
+          ""
+        ]
+      },
+      "de": {
+        "name": "",
+        "normal": [
+          "",
+          ""
+        ],
+        "inverted": [
+          "",
+          ""
+        ]
+      },
+      "fr": {
+        "name": "",
+        "normal": [
+          "",
+          ""
+        ],
+        "inverted": [
+          "",
+          ""
+        ]
+      },
+      "ru": {
+        "name": "",
+        "normal": [
+          "",
+          ""
+        ],
+        "inverted": [
+          "",
+          ""
+        ]
+      }
+    }
+  },
+
+
+  {
+    "id": "A8",
+    "type": "Arcane",
+    "names": [
+      "Justice",
+      "La Justicia"
+    ],
+    "normal": "equidad, equilibrio, honor, imparcialidad y buenas intenciones. También puede relacionarse con alguien que es bondadoso y que aprecia la consideración de los demás.",
+    "inverted": "Indica prejuicios, falsas acusaciones, abuso e intolerancia.",
+    "nor_keys": "Justicia, armonía, equidad, integridad, regla de conducta, firme propósito, acción de juzgar, moderación en todas las cosas. Indepenencia de espíritu. Para mantener el balance ciertas cosas deben ser sacrificadas.",
+    "inv_keys": "Fanatismo, injusticia, severidad en el juicio, abuso, acusaciones falsas. Inseguridad. Marañas legales. Inseguridad. Falta de un apropiado balance."
+  },
+  {
+    "id": "A9",
+    "type": "Arcane",
+    "names": [
+      "The Hermit",
+      "El Ermitaño",
+      "El Peregrino"
+    ],
+    "normal": "advierte sobre la necesidad de cuidar las propias acciones, para asegurarse de que sean significativas antes de que sea demasiado tarde. También exige alerta y circunspección.",
+    "inverted": "señala impulsividad, apresuramiento estúpido y fracaso como consecuencia por la falta de atención.",
+    "nor_keys": "Prudencia, sabiduría, paciencia, silencio, avance espiritual, inspiración divina, circunspección. Retiro del mundo, soledad. Peregrinaje. Puede ser un maestro. La realización de un balance y progresar.",
+    "inv_keys": "Inmadurez, vicios, oscuridad, testarudez, traición, engaño. Misantropía, misoginia, celibato. Persona excesivamente tímida e insociable. Enemigos ocultos. Prudencia que sobra o que falta."
+  },
+  {
+    "id": "A10",
+    "type": "Arcane",
+    "names": [
+      "Wheel of Fortune",
+      "La Rueda de la Fortuna"
+    ],
+    "normal": "Significa cambio, destino y oportunidades. Aproveche la oportunidad que ofrece. Si el resultado es bueno o malo depende de las cartas más cercanas en la tirada.",
+    "inverted": "indica cambio en la fortuna, mala suerte reiterada por la incapacidad de aprender de la experiencia.",
+    "nor_keys": "Cambio, evolución, éxito, buena fortuna, destino. Felicidad, abundancia. Nuevas condiciones. Abundancia, crecimiento.",
+    "inv_keys": "La transformación se efectuará dificultosamente pero se hará de todos modos. Progreso retardado, Retroceso."
+  },
+  {
+    "id": "A11",
+    "type": "Arcane",
+    "names": [
+      "The Stregnth",
+      "La Fuerza",
+      "Sublimación"
+    ],
+    "normal": "el triunfo de la mente sobre la materia y la fuerza física. Indica determinación y heroísmo.",
+    "inverted": "señala mezquindad, impotencia y abuso de poder.",
+    "nor_keys": "Poder, energía, gran amor. El espíritu que domina la materia. Acción, coraje, éxito. Poderosa voluntad y gran fuerza física.",
+    "inv_keys": "Discordia, ruina. Debilidad, testarudez, abuso de poder. Impaciencia, temeridad, grosería, insensibilidad. dureza, crueldad, furor."
+  },
+  {
+    "id": "A12",
+    "type": "Arcane",
+    "names": [
+      "The Hanged Man"
+    ],
+    "normal": "significa entrega, renuncia y suspensión. representa sufrimiento y vergüenza, pérdida de ego, autoestima y riqueza material. Es el aviso de un periodo en el limbo entre acontecimientos importantes. También puede señalar la suspensión de toda acción, la transición y el cambio de camino. Se la relaciona con el sacrificio y el arrepentimiento.",
+    "inverted": "señala un sacrificio inútil, así como la incapacidad de dar lo que se necesita. Significa egoísmo.",
+    "nor_keys": "Fortaleza, sabiduría. Limitaciones auto impuestas. Iniciación, prueba. Redención a través del sacrificio, pérdida. Poder profético. Decisiones suspendidas. Elección que requiere contemplación.",
+    "inv_keys": "Arrogancia, egotismo, resistencia a las influencias espirituales. Materialismo. Esfuerzo desperdiciado. Falsa profecía. Fracaso. Falta de límites, falta de franqueza, carencia de sacrificio."
+  },
+  {
+    "id": "A13",
+    "type": "Arcane",
+    "names": [
+      "No Name",
+      "The Death"
+    ],
+    "normal": "significa cambio, transformación y renacimiento. No representa muerte literal. Es más bien la señal del final de una etapa y el comienzo de otra. Con ella debemos saber que no todo está perdido, quedan otras muchas cartas en la baraja.",
+    "inverted": "simboliza miedo paralizante al cambio.",
+    "nor_keys": "Transformación completa. Muerta y renacimiento. El fin de algo. Evolución desde un estado a otro superior. Cambio provechoso.",
+    "inv_keys": "Estancamiento, muerte, petrificación. Enfermedad incurable. Matrimonio roto. Falta de oportunidades, esperanza deshecha."
+  },
+  {
+    "id": "A14",
+    "type": "Arcane",
+    "names": [
+      "Temperance",
+      "La Templanza"
+    ],
+    "normal": "Significa armonía, equilibrio y moderación. se relaciona con la crianza y la salud. Indica autocontrol sin negación, moderación y equilibrio en todo. Algo se está preparando. ",
+    "inverted": "señala falta de armonía y conflicto de intereses.",
+    "nor_keys": "paciencia, moderación, adaptación, compostura, reflexión.",
+    "inv_keys": "Desorden, conflicto, mala combinación, peleas. Posibilidad de naufragio. Desarreglos."
+  },
+  {
+    "id": "A15",
+    "type": "Arcane",
+    "names": [
+      "The Devil",
+      "El Diablo"
+    ],
+    "normal": "Significa Tentación o adicción, búsqueda agresiva de posesiones terrenales y anhelo extremo de dinero y poder. Indica falta de principio y falta de humor salvo a expensas de otros. También señala violencia y desastre.",
+    "inverted": "es la liberación de las cadenas que atan. Señala divorcio y superación de obstáculos.",
+    "nor_keys": "seducción, impulso ciego, tentación, obsesión. Desviación sexual. Un estado mental confusional. Las pasiones carnales descontroladas.",
+    "inv_keys": "Carta dañina, fatalidad, mal uso de la fuerza. Debilidad, ceguera, desorden. Efectos maléficos. La patética condición humana que prefiere la ilusión a la verdad."
+  },
+  {
+    "id": "A16",
+    "type": "Arcane",
+    "names": [
+      "The Tower",
+      "La Torre"
+    ],
+    "normal": "cambios repentinos sin otra alternativa, catástrofes inminentes y desmoronamiento de viejas creencias. También indica adversidades, miserias y trastornos financieros, así como pérdida de relaciones.",
+    "inverted": "es la subyugación ininterrumpida, el estancamiento en la ruina y la incapacidad de cambiar. Representa el encarcelamiento.",
+    "nor_keys": "Tener planes interrumpidos, Atravesar una crisis, Ser humillado, Mala fortuna",
+    "inv_keys": "Confusión completa. Ganar la libertad a un gran costo. Falsas acusaciones, opresión."
+  },
+  {
+    "id": "A17",
+    "type": "Arcane",
+    "names": [
+      "The Star"
+    ],
+    "normal": "significa esperanza, inspiración e iluminación. representa optimismo y fe. Esta carta es muy auspiciosa, e indica que todo está en el equilibrio adecuado. Los resultados son favorables.",
+    "inverted": "indica decepción, desequilibrio y pesimismo.",
+    "nor_keys": "Esperanza, ayuda inesperada, perspicacia y claridad de visión, inspiración, flexibilidad. Un gran amor será dado y recibido. Buena salud.",
+    "inv_keys": "Arrogancia, pesimismo, testarudez. enfermedad, error de juicio. Impotencia psíquica, reestructuración, privación y abandono."
+  },
+  {
+    "id": "A18",
+    "type": "Arcane",
+    "names": [
+      "The Moon"
+    ],
+    "normal": "Representa aspectos emocionales, los sueños y la intuición. indica emergencia del inconsciente, descanso, respiro y meditación. Solicita paciencia en la anticipación.",
+    "inverted": "",
+    "nor_keys": "Liberar a los demonios internos. umbral de un importante cambio, camino difícil y oscuro, desarrollo de poderes psíquicos. Navegación, experimentación, trabajo penoso.",
+    "inv_keys": "Peligros no vistos, enemigos ocultos, alucinación, autoengaño, histeria, desorientación. Inestabilidad, embustes, trampas, falso saber, carácter neurótico. Escándalo, secreto que se hace público, chantajista."
+  },
+  {
+    "id": "A19",
+    "type": "Arcane",
+    "names": [
+      "The Sun"
+    ],
+    "normal": "significa vitalidad, energía y alegría. el estado ideal de todas las cosas, incluyendo la salud. Indica armonía perfecta y unidad, así como equilibrio entre lo masculino y lo femenino. También representa un amor que cada vez es más profundo, fama, placer y satisfacción.",
+    "inverted": "indica soledad, un futuro nublado y una relación infeliz.",
+    "nor_keys": "Gloria. Felicidad material. Matrimonio o relación feliz, colaboración. Exito. Placer, energía, motivación, inspiración.",
+    "inv_keys": "Molestias, disimulos, arrogancia, vanidad. Compromiso o trabajo perdido. Tanteo en la oscuridad, desorientación. Deseo de figurar"
+  },
+  {
+    "id": "A20",
+    "type": "Arcane",
+    "names": [
+      "The Judgement"
+    ],
+    "normal": "significa renovación, resurrección y evaluación. expiación, responsabilidad, rejuvenecimiento y sanación.",
+    "inverted": "representa indecisión, vacío espiritual y adicción.",
+    "nor_keys": "Cambio radical, resurección a una vida nueva. Trabajo (o vida) bien hecha. Voluntad para iniciar algo nuevo. Buen juicio y discernimiento. Poder creativo e influencia sobre la familia y la carrera laboral. Capacidad de perdonar. Despertar. Dictámen judiciale favorable.",
+    "inv_keys": "Vacilación espiritual, debilidad, juicio o decisión equivocada. Enfermedad, separación. Dictamen juidicial adverso. Error sobre sí mismo y sobre los otros. Decisión postergada."
+  },
+  {
+    "id": "A21",
+    "type": "Arcane",
+    "names": [
+      "The World"
+    ],
+    "normal": "una carta muy auspiciosa. Representa la conclusión perfecta, la navegación sin obstáculos y la felicidad interior.",
+    "inverted": "representa la falta de visión, el fracaso en terminar lo empezado y la decepción.",
+    "nor_keys": "Suceso garantizado. Recompensas recibidas. Viaje, emigración (dentro del mismo continente), cambio de lugar de residencia. Compra o venta de tierras.",
+    "inv_keys": "Obstáculos, estancamiento, estorbos. Necesidad de trabajar muy duro para alcanzar el éxito."
+  },
+  {
+    "id": "S1",
+    "type": "Swords",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 2,
+    "type": "Swords",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 3,
+    "type": "Swords",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 4,
+    "type": "Swords",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 5,
+    "type": "Swords",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 6,
+    "type": "Swords",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 7,
+    "type": "Swords",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 8,
+    "type": "Swords",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 9,
+    "type": "Swords",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 10,
+    "type": "Swords",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 11,
+    "type": "Swords",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 12,
+    "type": "Swords",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 13,
+    "type": "Swords",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 14,
+    "type": "Swords",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": ""
+  },
+  {
+    "id": 1,
+    "type": "Cups",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 2,
+    "type": "Cups",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 3,
+    "type": "Cups",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 4,
+    "type": "Cups",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 5,
+    "type": "Cups",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 6,
+    "type": "Cups",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 7,
+    "type": "Cups",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 8,
+    "type": "Cups",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 9,
+    "type": "Cups",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 10,
+    "type": "Cups",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 11,
+    "type": "Cups",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 12,
+    "type": "Cups",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 13,
+    "type": "Cups",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 14,
+    "type": "Cups",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": ""
+  },
+  {
+    "id": 1,
+    "type": "Pentacles",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 2,
+    "type": "Pentacles",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 3,
+    "type": "Pentacles",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 4,
+    "type": "Pentacles",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 5,
+    "type": "Pentacles",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 6,
+    "type": "Pentacles",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 7,
+    "type": "Pentacles",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 8,
+    "type": "Pentacles",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 9,
+    "type": "Pentacles",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 10,
+    "type": "Pentacles",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 11,
+    "type": "Pentacles",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 12,
+    "type": "Pentacles",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 13,
+    "type": "Pentacles",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 14,
+    "type": "Pentacles",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": ""
+  },
+  {
+    "id": 1,
+    "type": "Wands",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 2,
+    "type": "Wands",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 3,
+    "type": "Wands",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 4,
+    "type": "Wands",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 5,
+    "type": "Wands",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 6,
+    "type": "Wands",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 7,
+    "type": "Wands",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 8,
+    "type": "Wands",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 9,
+    "type": "Wands",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 10,
+    "type": "Wands",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 11,
+    "type": "Wands",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 12,
+    "type": "Wands",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 13,
+    "type": "Wands",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": "",
+    "inv_keys": ""
+  },
+  {
+    "id": 14,
+    "type": "Wands",
+    "names": [
+      ""
+    ],
+    "normal": "",
+    "inverted": "",
+    "nor_keys": ""
+  }
+]
