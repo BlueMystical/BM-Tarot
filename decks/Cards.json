@@ -597,64 +597,61 @@
      "id":9,
      "number":9,
      "type":"Arcane",
-     "Points":[
-        10,
-        -10
-     ],
+     "Points":[ 10, -10 ],
      "translations":{
         "en":{
-           "name":"",
+           "name":"The Hermit",
            "normal":[
-              "",
-              ""
+              "It warns of the need to take care of one's actions, to ensure that they are meaningful before it is too late. It also calls for alertness and circumspection.",
+              "Prudence, wisdom, patience, silence, spiritual advancement, divine inspiration, circumspection. Withdrawal from the world, solitude. Pilgrimage. Can be a teacher. Taking stock and progress."
            ],
            "inverted":[
-              "",
-              ""
+              "It indicates impulsiveness, stupid haste and failure as a consequence of lack of attention.",
+              "Immaturity, vices, darkness, stubbornness, betrayal, deceit. Misanthropy, misogyny, celibacy. Excessively shy and unsociable person. Hidden enemies. Prudence that is either too much or too little."
            ]
         },
         "es":{
-           "name":"",
+           "name":"El Ermitaño",
            "normal":[
-              "",
-              ""
+              "Advierte sobre la necesidad de cuidar las propias acciones, para asegurarse de que sean significativas antes de que sea demasiado tarde. También exige alerta y circunspección.",
+              "Prudencia, sabiduría, paciencia, silencio, avance espiritual, inspiración divina, circunspección. Retiro del mundo, soledad. Peregrinaje. Puede ser un maestro. La realización de un balance y progresar."
            ],
            "inverted":[
-              "",
-              ""
+              "Señala impulsividad, apresuramiento estúpido y fracaso como consecuencia por la falta de atención.",
+              "Inmadurez, vicios, oscuridad, testarudez, traición, engaño. Misantropía, misoginia, celibato. Persona excesivamente tímida e insociable. Enemigos ocultos. Prudencia que sobra o que falta."
            ]
         },
         "de":{
-           "name":"",
+           "name":"Der Einsiedler",
            "normal":[
-              "",
-              ""
+              "Es warnt vor der Notwendigkeit, auf die eigenen Handlungen zu achten, um sicherzustellen, dass sie sinnvoll sind, bevor es zu spät ist. Es erfordert auch Wachsamkeit und Umsicht.",
+              "Besonnenheit, Weisheit, Geduld, Stille, spiritueller Fortschritt, göttliche Inspiration, Umsicht. Rückzug aus der Welt, Einsamkeit. Wallfahrt. Er kann ein Lehrer sein. Bilanz ziehen und Fortschritte machen."
            ],
            "inverted":[
-              "",
-              ""
+              "Es weist auf Impulsivität, dumme Eile und Versagen als Folge mangelnder Aufmerksamkeit hin.",
+              "Unreife, Laster, Dunkelheit, Sturheit, Verrat, Täuschung. Menschenfeindlichkeit, Frauenfeindlichkeit, Zölibat. Übermäßig schüchterner und ungeselliger Mensch. Versteckte Feinde. Besonnenheit, die übrig bleibt oder fehlt."
            ]
         },
         "fr":{
-           "name":"",
+           "name":"L'Ermite",
            "normal":[
-              "",
-              ""
+              "Il met en garde contre la nécessité de soigner ses actes, de s'assurer qu'ils aient un sens avant qu'il ne soit trop tard. Cela demande également de la vigilance et de la circonspection.",
+              "Prudence, sagesse, patience, silence, avancement spirituel, inspiration divine, circonspection. Retrait du monde, solitude. Pèlerinage. Il peut être enseignant. Faire le point et progresser."
            ],
            "inverted":[
-              "",
-              ""
+              "Cela indique une impulsivité, une précipitation stupide et un échec résultant d'un manque d'attention.",
+              "Immaturité, vices, ténèbres, entêtement, trahison, tromperie. Misanthropie, misogynie, célibat. Personne excessivement timide et peu sociable. Ennemis cachés. Prudence qui reste ou manque."
            ]
         },
         "ru":{
-           "name":"",
+           "name":"Отшельник",
            "normal":[
-              "",
-              ""
+              "Он предупреждает о необходимости следить за своими действиями, чтобы убедиться в их значимости, пока не стало слишком поздно. Это также требует бдительности и осмотрительности.",
+              "Благоразумие, мудрость, терпение, молчание, духовное продвижение, божественное вдохновение, осмотрительность. Уход от мира, одиночество. Паломничество. Он может быть учителем. Подводим итоги и добиваемся прогресса."
            ],
            "inverted":[
-              "",
-              ""
+              "Он указывает на импульсивность, глупую поспешность и неудачи как следствие недостатка внимания.",
+              "Незрелость, пороки, тьма, упрямство, предательство, обман. Мизантропия, женоненавистничество, безбрачие. Чрезмерно застенчивый и необщительный человек. Скрытые враги. Благоразумие, которое осталось или отсутствует."
            ]
         }
      }
@@ -663,10 +660,259 @@
      "id":10,
      "number":10,
      "type":"Arcane",
-     "Points":[
-        10,
-        -10
-     ],
+     "Points":[ 10, -10 ],
+     "translations":{
+        "en":{
+           "name":"Wheel of Fortune",
+           "normal":[
+              "It means change, destiny and opportunities. Take advantage of the opportunity it offers. Whether the outcome is good or bad depends on the nearest cards in the reading.",
+              "Change, evolution, success, good fortune, destiny. Happiness, abundance. New conditions. Abundance, growth."
+           ],
+           "inverted":[
+              "It indicates a change in fortune, repeated bad luck due to the inability to learn from experience.",
+              "The transformation will be difficult but will be done anyway. Delayed progress, regression."
+           ]
+        },
+        "es":{
+           "name":"La Rueda de la Fortuna",
+           "normal":[
+              "Significa cambio, destino y oportunidades. Aproveche la oportunidad que ofrece. Si el resultado es bueno o malo depende de las cartas más cercanas en la tirada.",
+              "Cambio, evolución, éxito, buena fortuna, destino. Felicidad, abundancia. Nuevas condiciones. Abundancia, crecimiento."
+           ],
+           "inverted":[
+              "Indica cambio en la fortuna, mala suerte reiterada por la incapacidad de aprender de la experiencia.",
+              "La transformación se efectuará dificultosamente pero se hará de todos modos. Progreso retardado, Retroceso."
+           ]
+        },
+        "de":{
+           "name":"Das Glücksrad",
+           "normal":[
+              "Es bedeutet Veränderung, Schicksal und Chancen. Nutzen Sie die Chance, die es bietet. Ob das Ergebnis gut oder schlecht ist, hängt von den nächstgelegenen Karten im Spread ab.",
+              "Veränderung, Entwicklung, Erfolg, Glück, Schicksal. Glück, Fülle. Neue Bedingungen. Fülle, Wachstum."
+           ],
+           "inverted":[
+              "Zeigt eine Veränderung des Schicksals an, wiederholtes Pech aufgrund der Unfähigkeit, aus Erfahrung zu lernen.",
+              "Die Transformation wird mühsam durchgeführt werden, aber sie wird trotzdem durchgeführt. Verzögerter Fortschritt, Rückschlag."
+           ]
+        },
+        "fr":{
+           "name":"La Roue de la Fortune",
+           "normal":[
+              "Cela signifie changement, destin et opportunités. Profitez de l’opportunité qu’il offre. Que le résultat soit bon ou mauvais dépend des cartes les plus proches dans le spread.",
+              "Changement, évolution, succès, bonne fortune, destin. Bonheur, abondance. Nouvelles conditions. Abondance, croissance."
+           ],
+           "inverted":[
+              "Indique un changement de fortune, une malchance répétée due à l'incapacité d'apprendre de l'expérience.",
+              "La transformation s’effectuera difficilement mais elle se fera quand même. Progrès retardé, Recul."
+           ]
+        },
+        "ru":{
+           "name":"Колесо Фортуны",
+           "normal":[
+              "Это означает перемены, судьбу и возможности. Воспользуйтесь возможностью, которую он предлагает. Хороший или плохой результат зависит от ближайших карт в раскладе.",
+              "Изменение, эволюция, успех, удача, судьба. Счастье, изобилие. Новые условия. Изобилие, рост."
+           ],
+           "inverted":[
+              "Указывает на перемены в судьбе, повторяющиеся неудачи из-за неспособности учиться на опыте.",
+              "Преобразование будет осуществлено с трудом, но оно все равно будет сделано. Задержка прогресса, неудача."
+           ]
+        }
+     }
+  },
+  {
+     "id":11,
+     "number":11,
+     "type":"Arcane",
+     "Points":[ 10, -10 ],
+     "translations":{
+        "en":{
+           "name":"The Stregnth",
+           "normal":[
+              "The triumph of the mind over matter and physical strength. It indicates determination and heroism.",
+              "Power, energy, great love. The spirit that dominates matter. Action, courage, success. Powerful will and great physical strength."
+           ],
+           "inverted":[
+              "It indicates pettiness, impotence and abuse of power.",
+              "Discord, ruin. Weakness, stubbornness, abuse of power. Impatience, rashness, rudeness, insensitivity. Hardness, cruelty, fury."
+           ]
+        },
+        "es":{
+           "name":"La Fuerza",
+           "normal":[
+              "El triunfo de la mente sobre la materia y la fuerza física. Indica determinación y heroísmo.",
+              "Poder, energía, gran amor. El espíritu que domina la materia. Acción, coraje, éxito. Poderosa voluntad y gran fuerza física."
+           ],
+           "inverted":[
+              "Señala mezquindad, impotencia y abuso de poder.",
+              "Discordia, ruina. Debilidad, testarudez, abuso de poder. Impaciencia, temeridad, grosería, insensibilidad. dureza, crueldad, furor."
+           ]
+        },
+        "de":{
+           "name":"Die Macht",
+           "normal":[
+              "Der Triumph des Geistes über Materie und körperliche Stärke. Zeigt Entschlossenheit und Heldentum an.",
+              "Kraft, Energie, große Liebe. Der Geist, der die Materie beherrscht. Tatendrang, Mut, Erfolg. Starker Wille und große körperliche Stärke."
+           ],
+           "inverted":[
+              "Es signalisiert Kleinlichkeit, Ohnmacht und Machtmissbrauch.",
+              "Zwietracht, Ruine. Schwäche, Sturheit, Machtmissbrauch. Ungeduld, Rücksichtslosigkeit, Unhöflichkeit, Unempfindlichkeit. Härte, Grausamkeit, Wut."
+           ]
+        },
+        "fr":{
+           "name":"La Force",
+           "normal":[
+              "Le triomphe de l'esprit sur la matière et la force physique. Indique la détermination et l’héroïsme.",
+              "Puissance, énergie, grand amour. L'esprit qui domine la matière. Action, courage, réussite. Volonté puissante et grande force physique."
+           ],
+           "inverted":[
+              "Cela signale la mesquinerie, l’impuissance et l’abus de pouvoir.",
+              "Discorde, ruine. Faiblesse, entêtement, abus de pouvoir. Impatience, imprudence, impolitesse, insensibilité. dureté, cruauté, fureur."
+           ]
+        },
+        "ru":{
+           "name":"Сила",
+           "normal":[
+              "Триумф разума над материей и физической силой. Указывает на решительность и героизм.",
+              "Сила, энергия, великая любовь. Дух, господствующий над материей. Действие, смелость, успех. Мощная воля и огромная физическая сила."
+           ],
+           "inverted":[
+              "Это сигнализирует о мелочности, бессилии и злоупотреблении властью.",
+              "Разлад, разорение. Слабость, упрямство, злоупотребление властью. Нетерпеливость, безрассудство, грубость, бесчувственность. резкость, жестокость, ярость."
+           ]
+        }
+     }
+  },
+  {
+     "id":12,
+     "number":12,
+     "type":"Arcane",
+     "Points":[ -10, -10 ],
+     "translations":{
+        "en":{
+           "name":"The Hanged Man",
+           "normal":[
+              "It means surrender, renunciation and suspension. It represents suffering and shame, loss of ego, self-esteem and material wealth. It is the warning of a period in limbo between important events. It can also indicate the suspension of all action, transition and change of path. It is related to sacrifice and repentance.",
+              "Strength, wisdom. Self-imposed limitations. Initiation, testing. Redemption through sacrifice, loss. Prophetic power. Suspended decisions. Choice requiring contemplation."
+           ],
+           "inverted":[
+              "It indicates a useless sacrifice, as well as the inability to give what is needed. It means selfishness.",
+              "Arrogance, egotism, resistance to spiritual influences. Materialism. Wasted effort. False prophecy. Failure. Lack of boundaries, lack of openness, lack of sacrifice."
+           ]
+        },
+        "es":{
+           "name":"El Colgado",
+           "normal":[
+              "Significa entrega, renuncia y suspensión. representa sufrimiento y vergüenza, pérdida de ego, autoestima y riqueza material. Es el aviso de un periodo en el limbo entre acontecimientos importantes. También puede señalar la suspensión de toda acción, la transición y el cambio de camino. Se la relaciona con el sacrificio y el arrepentimiento.",
+              "Fortaleza, sabiduría. Limitaciones auto impuestas. Iniciación, prueba. Redención a través del sacrificio, pérdida. Poder profético. Decisiones suspendidas. Elección que requiere contemplación."
+           ],
+           "inverted":[
+              "Señala un sacrificio inútil, así como la incapacidad de dar lo que se necesita. Significa egoísmo.",
+              "Arrogancia, egotismo, resistencia a las influencias espirituales. Materialismo. Esfuerzo desperdiciado. Falsa profecía. Fracaso. Falta de límites, falta de franqueza, carencia de sacrificio."
+           ]
+        },
+        "de":{
+           "name":"Der Gehängte",
+           "normal":[
+              "Es bedeutet Kapitulation, Rücktritt und Suspendierung. Es steht für Leid und Scham, Verlust des Egos, des Selbstwertgefühls und des materiellen Reichtums. Es ist die Warnung vor einer Schwebephase zwischen wichtigen Ereignissen. Es kann auch die Aussetzung aller Maßnahmen, den Übergang und die Änderung des Weges signalisieren. Es hängt mit Opfer und Reue zusammen.",
+              "Stärke, Weisheit. Selbst auferlegte Einschränkungen. Einleitung, Test. Erlösung durch Opfer, Verlust. prophetische Kraft. Ausgesetzte Entscheidungen. Eine Wahl, die Nachdenken erfordert."
+           ],
+           "inverted":[
+              "Es signalisiert ein nutzloses Opfer sowie die Unfähigkeit, das Notwendige zu geben. Es bedeutet Egoismus.",
+              "Arroganz, Egoismus, Widerstand gegen spirituelle Einflüsse. Materialismus. Verschwendete Mühe. Falsche Prophezeiung. Versagen. Mangel an Grenzen, Mangel an Offenheit, Mangel an Opferbereitschaft."
+           ]
+        },
+        "fr":{
+           "name":"Le Pendu",
+           "normal":[
+              "Cela signifie reddition, démission et suspension. Cela représente la souffrance et la honte, la perte de l’ego, de l’estime de soi et de la richesse matérielle. C'est l'avertissement d'une période de flou entre des événements importants. Cela peut aussi signaler la suspension de toute action, la transition et le changement de voie. C’est lié au sacrifice et au repentir.",
+              "Force, sagesse. Limitations auto-imposées. Initiation, épreuve. Rédemption par le sacrifice, la perte. pouvoir prophétique. Décisions suspendues. Un choix qui demande réflexion."
+           ],
+           "inverted":[
+              "Cela signale un sacrifice inutile, ainsi que l’incapacité de donner ce qui est nécessaire. Cela signifie l'égoïsme.",
+              "Arrogance, égoïsme, résistance aux influences spirituelles. Matérialisme. Effort inutile. Fausse prophétie. Échec. Manque de limites, manque de franchise, manque de sacrifice."
+           ]
+        },
+        "ru":{
+           "name":"Повешенный",
+           "normal":[
+              "Это означает капитуляцию, отставку и отстранение от должности. Он символизирует страдания и стыд, потерю эго, самоуважения и материального богатства. Это предупреждение о периоде неопределенности между важными событиями. Это также может сигнализировать о приостановке всех действий, переходе и изменении пути. Это связано с жертвой и покаянием.",
+              "Сила, мудрость. Самостоятельные ограничения. Инициация, испытание. Искупление через жертву, утрату. пророческая сила. Приостановленные решения. Выбор, который требует обдумывания."
+           ],
+           "inverted":[
+              "Это сигнализирует о бесполезной жертве, а также о неспособности дать необходимое. Это означает эгоизм.",
+              "Высокомерие, эгоизм, сопротивление духовным влияниям. Материализм. Напрасные усилия. Ложное пророчество. Отказ. Отсутствие ограничений, отсутствие откровенности, отсутствие жертвенности."
+           ]
+        }
+     }
+  },
+  {
+     "id":13,
+     "number":13,
+     "type":"Arcane",
+     "Points":[ 10, -10 ],
+     "translations":{
+        "en":{
+           "name":"Nameless - The Grim Reaper",
+           "normal":[
+              "It means change, transformation and rebirth. It does not represent literal death. It is rather the sign of the end of one stage and the beginning of another. With it we should know that not all is lost, there are many other cards in the deck.",
+              "Complete transformation. Death and rebirth. The end of something. Evolution from one state to a higher one. Beneficial change."
+           ],
+           "inverted":[
+              "It symbolizes paralyzing fear of change.",
+              "Stagnation, death, petrification. Incurable disease. Broken marriage. Lack of opportunities, shattered hope."
+           ]
+        },
+        "es":{
+           "name":"Sin Nombre - La Parca",
+           "normal":[
+              "Significa cambio, transformación y renacimiento. No representa muerte literal. Es más bien la señal del final de una etapa y el comienzo de otra. Con ella debemos saber que no todo está perdido, quedan otras muchas cartas en la baraja.",
+              "Transformación completa. Muerte y renacimiento. El fin de algo. Evolución desde un estado a otro superior. Cambio provechoso."
+           ],
+           "inverted":[
+              "Simboliza miedo paralizante al cambio.",
+              "Estancamiento, muerte, petrificación. Enfermedad incurable. Matrimonio roto. Falta de oportunidades, esperanza deshecha."
+           ]
+        },
+        "de":{
+           "name":"Namenlos – Der Sensenmann",
+           "normal":[
+              "Es bedeutet Veränderung, Transformation und Wiedergeburt. Es stellt keinen buchstäblichen Tod dar. Es ist vielmehr das Signal für das Ende einer Phase und den Beginn einer anderen. Damit müssen wir wissen, dass nicht alles verloren ist, es gibt noch viele andere Karten im Deck.",
+              "Komplette Transformation. Tod und Wiedergeburt. Das Ende von etwas. Entwicklung von einem Zustand zu einem höheren. Wohltuende Veränderung."
+           ],
+           "inverted":[
+              "Es symbolisiert die lähmende Angst vor Veränderung.",
+              "Stagnation, Tod, Versteinerung. Unheilbare Krankheit. Zerbrochene Ehe. Mangelnde Möglichkeiten, zerbrochene Hoffnung."
+           ]
+        },
+        "fr":{
+           "name":"Sans nom - La Faucheuse",
+           "normal":[
+              "Cela signifie changement, transformation et renaissance. Cela ne représente pas la mort littérale. C'est plutôt le signal de la fin d'une étape et du début d'une autre. Avec lui, il faut savoir que tout n'est pas perdu, il y a bien d'autres cartes dans le jeu.",
+              "Transformation complète. Mort et renaissance. La fin de quelque chose. Evolution d'un état à un état supérieur. Changement bénéfique."
+           ],
+           "inverted":[
+              "Il symbolise la peur paralysante du changement.",
+              "Stagnation, mort, pétrification. Maladie incurable. Mariage brisé. Manque d'opportunités, espoir brisé."
+           ]
+        },
+        "ru":{
+           "name":"Безымянный - Мрачный Жнец",
+           "normal":[
+              "Это означает изменение, трансформацию и возрождение. Это не означает буквальной смерти. Это скорее сигнал окончания одного этапа и начала другого. При этом мы должны знать, что не все потеряно, в колоде есть много других карт.",
+              "Полная трансформация. Смерть и возрождение. Конец чего-либо. Эволюция от одного состояния к более высокому. Выгодные изменения."
+           ],
+           "inverted":[
+              "Он символизирует парализующий страх перемен.",
+              "Застой, смерть, окаменение. Неизлечимая болезнь. Разрушенный брак. Отсутствие возможностей, разбитая надежда."
+           ]
+        }
+     }
+  },
+  {
+     "id":14,
+     "number":14,
+     "type":"Arcane",
+     "Points":[ 10, -10 ],
      "translations":{
         "en":{
            "name":"",

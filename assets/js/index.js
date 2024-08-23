@@ -84,10 +84,19 @@ CardInfo.addEventListener('show.bs.modal', function (event) {
 Iniciar();
 function Iniciar() {
     try {
-        UserLang = NVL(getCookie("UserLang"), 'en'); //console.log(UserLang);
-        UserDeck = NVL(getCookie("UserDeck"), 'Marsella');
-        CardCount= NVL(getCookie("CardCount"), 6);
+        // 1. Get the User Choices from the Cookies, use default values if unset/expired
+        UserLang = NVL(getCookie("UserLang"), 'en'); 
+        UserDeck = NVL(getCookie("UserDeck"), 'Rider');
+        CardCount= NVL(getCookie("CardCount"), 3);
 
+        $.getJSON('decks/available-decks.json?version=1', function (data) {
+            var ListVar = $("#cboUserDeck");
+            ListVar.empty();
+            data.forEach(function(deck) {
+                var opt = $("<option>" + deck.desc + "</option>").attr("value", deck.name );
+                ListVar.append(opt);
+            });
+        });
         $.getJSON('assets/ui_translations.json?version=1', function (data) {
             LANG = data;
             TranslateUI(UserLang);
@@ -148,7 +157,7 @@ function ShuffleCards() {
         // 1. Get random IDs for the cards chosen:
         const randomCards = [];
         for (let i = 1; i <= CardCount; i++) {
-            randomCards.push(getRandomUnique(0, 8, randomCards)); //TODO: reemplazar el 8 x el total de cartas
+            randomCards.push(getRandomUnique(0, 13, randomCards)); //TODO: reemplazar el 8 x el total de cartas
         }
 
         // 2. Get the Actual cards from the chosen IDs:
