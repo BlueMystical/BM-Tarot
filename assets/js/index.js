@@ -4,6 +4,7 @@ var CardCount = 6;      //<- How many Cards should we draw
 var LANG = null;        //<- UI Translations
 var MyDeck = null;      //<- Data of all cards
 var MyCards = [];       //<- Random Cards currently chosen
+var FlippedCards = false; //<- true if cards are flipped over
 
 $('#cboLanguage').on('change', function () {
     UserLang = $(this).val(); //<- Valor Seleccionado
@@ -22,12 +23,12 @@ $('#cboCardCount').on('change', function () {
 });
 
 $(document).on("click", "#cmdDrawCards", function (evt) {
-    console.log('Boton cmdDrawCards');
+   // console.log('Boton cmdDrawCards');
     ShuffleCards();
 }); 
 $(document).on("click", "#cmdFlipCards", function (evt) {
-    console.log('Boton cmdFlipCards');
-
+    //console.log('Boton cmdFlipCards');
+    FlipCards();
 });
 
 /* ****  EVENTOS DE LAS CARTAS  */
@@ -59,7 +60,7 @@ CardInfo.addEventListener('show.bs.modal', function (event) {
         const CardData = JSON.parse(jsonData); console.log(CardData);
 
         var modalTitle = CardInfo.querySelector('.modal-title');
-            modalTitle.textContent = CardData.name;
+            modalTitle.textContent = CardData.name + ' [' + CardData.id + ']';
 
         const myImage = document.getElementById("imgCardFull");
               myImage.setAttribute('src', 'decks/'+ UserDeck +'/'+ CardData.id +'.png'); //<- usar la baraja indicada x el usuario
@@ -87,11 +88,11 @@ function Iniciar() {
         UserDeck = NVL(getCookie("UserDeck"), 'Marsella');
         CardCount= NVL(getCookie("CardCount"), 6);
 
-        $.getJSON('assets/ui_translations.json', function (data) {
+        $.getJSON('assets/ui_translations.json?version=1', function (data) {
             LANG = data;
             TranslateUI(UserLang);
         });
-        $.getJSON('decks/Cards.json', function (data) {
+        $.getJSON('decks/Cards.json?version=1', function (data) {
             MyDeck = data;
             ShuffleCards();
         });
@@ -138,7 +139,11 @@ function ShuffleCards() {
             if (!hasClass(myCard, "invisible")) {
                 myCard.className += " invisible";
             }
+            $("#Card-0" + index + "-img").attr("src", "decks/"+ UserDeck +"/background.png"  );  
+            $("#Card-0" + index + "-img").attr("style", "width:350px");
         }
+        FlippedCards = false;
+        HideAlert();
 
         // 1. Get random IDs for the cards chosen:
         const randomCards = [];
@@ -154,6 +159,7 @@ function ShuffleCards() {
                     MyCard.id = MyDeck[number].type + '-' + MyDeck[number].id; //<- Name for the Picture
                     MyCard.number = MyDeck[number].number;
                     MyCard.is_inverted = getRandom(0, 12) < 5; //<- 40% chance of being inverted
+                    MyCard.points = MyCard.is_inverted ? MyDeck[number].Points[1] : MyDeck[number].Points[0];
                     MyCards.push(MyCard);
                 } catch { }
             });
@@ -164,7 +170,7 @@ function ShuffleCards() {
         for (let index = 1; index <= MyCards.length; index++) {
             //Add the Data to each card
             $("#Card-0" + index).attr("data-bs-info", JSON.stringify(MyCards[index - 1]));  
-            $("#Card-0" + index + "-img").attr("src", "decks/"+ UserDeck +"/background.jpg"  );  
+            $("#Card-0" + index + "-img").attr("src", "decks/"+ UserDeck +"/background.png"  );  
             
             //Make the Card Visible again
             const myCard = document.getElementById('Card-0'+ index +'-div');
@@ -172,12 +178,124 @@ function ShuffleCards() {
         }
     }
 }
+
 function FlipCards() {
+    /* This turns the cards over alternately on each call */
     try {
-        
-    } catch (error) {
-        
+        if (FlippedCards == true) {           
+            // Turn the cards over so that the back side is showing.
+            for (let index = 1; index <= 9; index++) {
+                try {                    
+                    $("#Card-0" + index + "-img").attr("src", "decks/"+ UserDeck +"/background.png"  );  
+                    $("#Card-0" + index + "-img").attr("style", "width:350px");
+                } catch {}
+            }
+            FlippedCards = false;   
+            HideAlert();         
+        } else {
+            // Turn the cards over so that the front side is showing.
+            var DeckPoints = [];
+            for (let index = 1; index <= 9; index++) {
+                try {
+                    const data = JSON.parse($("#Card-0" + index).attr('data-bs-info')); //<- Extract info from data-bs-* attributes
+                    DeckPoints.push(data.points);
+
+                    const myImage = document.getElementById("Card-0" + index + "-img");
+                          myImage.setAttribute('src', 'decks/'+ UserDeck +'/'+ data.id +'.png');
+                          myImage.setAttribute("style", "width:160px");
+
+                    if (data.is_inverted) {     // Only if the class hasnt been already set                    
+                        if (!hasClass(myImage, "inverted-image")) {
+                            myImage.className += " inverted-image"; // Carta Invertida:
+                        }
+                    } else {
+                        // Carta Normal:
+                        myImage.className = myImage.className.replace(" inverted-image", "");
+                    }                     
+                } catch {}                
+            }
+            FlippedCards = true;
+            ShowAlert(SumarPuntos(DeckPoints));            
+        }
+    } catch {}
+}
+
+function ShowAlert(points = 0) {
+    console.log(points);
+    
+    const myCard = document.getElementById('Alert-Div');
+    var Messages = "";
+                
+    if (CardCount == 3) {
+        if (points >= 30) {
+            myCard.className = "alert alert-success";
+            Messages = (LANG.translations.find((element) => element.key === 'GreenMsg').lang[UserLang]).split('|');            
+        } else if (points >= 20) {
+            myCard.className = "alert alert-info";
+            Messages = (LANG.translations.find((element) => element.key === 'BlueMsg').lang[UserLang]).split('|');  
+        } else if (points >= 10) {
+            myCard.className = "alert alert-warning";
+            Messages = (LANG.translations.find((element) => element.key === 'YellowMsg').lang[UserLang]).split('|');  
+        } else {
+            myCard.className = "alert alert-danger";
+            Messages = (LANG.translations.find((element) => element.key === 'RedMsg').lang[UserLang]).split('|');  
+        }        
     }
+    if (CardCount == 6) {
+        if (points >= 60) {
+            myCard.className = "alert alert-success";
+            Messages = (LANG.translations.find((element) => element.key === 'GreenMsg').lang[UserLang]).split('|');            
+        } else if (points >= 30) {
+            myCard.className = "alert alert-info";
+            Messages = (LANG.translations.find((element) => element.key === 'BlueMsg').lang[UserLang]).split('|');  
+        } else if (points >= 10) {
+            myCard.className = "alert alert-warning";
+            Messages = (LANG.translations.find((element) => element.key === 'YellowMsg').lang[UserLang]).split('|');  
+        } else {
+            myCard.className = "alert alert-danger";
+            Messages = (LANG.translations.find((element) => element.key === 'RedMsg').lang[UserLang]).split('|');  
+        }  
+    }
+    if (CardCount == 9) {
+        if (points >= 90) {
+            myCard.className = "alert alert-success";
+            Messages = (LANG.translations.find((element) => element.key === 'GreenMsg').lang[UserLang]).split('|');            
+        } else if (points >= 60) {
+            myCard.className = "alert alert-info";
+            Messages = (LANG.translations.find((element) => element.key === 'BlueMsg').lang[UserLang]).split('|');  
+        } else if (points >= 20) {
+            myCard.className = "alert alert-warning";
+            Messages = (LANG.translations.find((element) => element.key === 'YellowMsg').lang[UserLang]).split('|');  
+        } else {
+            myCard.className = "alert alert-danger";
+            Messages = (LANG.translations.find((element) => element.key === 'RedMsg').lang[UserLang]).split('|');  
+        }  
+    }
+
+    console.log(Messages);
+
+    $("#Alert-Title").html(Messages[0]);
+    $("#Alert-Msg").html(Messages[1]);
+}
+function HideAlert() {
+    const myCard = document.getElementById('Alert-Div');
+    myCard.className = "alert invisible";
+}
+function SumarPuntos(DeckPoints) {
+    var Positives = 0;
+    var Negatives = 0;
+    console.log(DeckPoints);
+
+    if (DeckPoints != null && DeckPoints.length > 0) {
+        DeckPoints.forEach(point => {
+            if (point > 0) {
+                Positives += point;
+            } else {
+                Negatives += Math.abs(point);
+            }
+        });
+    }
+    return Positives - Negatives;
 }
 
 function setCookie(cname, cvalue, exdays) {

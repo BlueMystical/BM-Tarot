@@ -122,6 +122,66 @@
             }
         },
         {
+            "key": "GreenMsg",
+            "lang": {
+                "en": "Success is guaranteed! | The cards say that fortune is smiling on you today, so take advantage of it!",
+                "es": "¡Éxito asegurado! | Las cartas dicen que hoy la fortuna te sonríe, ¡aprovéchala!",
+                "de": "Garantierter Erfolg! | Die Karten besagen, dass Ihnen heute das Glück winkt, nutzen Sie es!",
+                "ru": "Гарантированный успех! | Карты говорят, что сегодня вам улыбнется удача, воспользуйтесь этим!",
+                "fr": "Succès garanti ! | Les cartes disent que la fortune vous sourit aujourd'hui, profitez-en !"
+            }
+        },
+        {
+            "key": "BlueMsg",
+            "lang": {
+                "en": "Success! |You have a good chance of achieving it, but there are some obstacles to overcome. Keep trying!",
+                "es": "¡Éxito! |Tienes muchas posibilidades de lograrlo pero hay algunos obstáculos que superar. ¡Esfuerzate!",
+                "de": "Erfolg! | Sie haben gute Chancen, es zu erreichen, aber es müssen noch einige Hürden überwunden werden. Gib dir Mühe!",
+                "ru": "Успех! | У вас есть хорошие шансы добиться этого, но есть некоторые препятствия, которые необходимо преодолеть. Старайтесь!",
+                "fr": "Succès! | Vous avez de bonnes chances d’y parvenir mais il y a quelques obstacles à surmonter. Essayez fort !"
+            }
+        },
+        {
+            "key": "YellowMsg",
+            "lang": {
+                "en": "No luck! |Fortune is not smiling on you today, but there is still hope, keep trying!",
+                "es": "¡Poca suerte! |La fortuna no te sonríe hoy, pero aún hay esperanza, si te esfuerzas!",
+                "de": "Kein Glück! |Das Glück lächelt dir heute nicht zu, aber es gibt immer noch Hoffnung, versuche es weiter!",
+                "ru": "Не повезло! |Фортуна сегодня вам не улыбается, но надежда еще есть, продолжайте пытаться!",
+                "fr": "Pas de chance ! |La fortune ne vous sourit pas aujourd'hui, mais il y a encore de l'espoir, continuez d'essayer !"
+            }
+        },
+        {
+            "key": "RedMsg",
+            "lang": {
+                "en": "Disastrous failure! You hit a wall this time, go home and try again tomorrow.",
+                "es": "Fracazo Estrepitoso!|Esta vez te estrellaste contra una pared en este asunto, vete a casa e intentalo mañana.",
+                "de": "Katastrophaler Misserfolg! Wenn Sie dieses Mal an eine Wand stoßen, gehen Sie nach Hause und probieren Sie es morgen aus.",
+                "ru": "Катастрофический провал! На этот раз вы уперлись в стену, идите домой и попробуйте это завтра.",
+                "fr": "Échec désastreux ! Cette fois, vous vous heurtez à un mur, rentrez chez vous et essayez-le demain."
+            }
+        },
+        {
+            "key": "",
+            "lang": {
+                "en": "",
+                "es": "",
+                "de": "",
+                "ru": "",
+                "fr": ""
+            }
+        },
+        {
+            "key": "",
+            "lang": {
+                "en": "",
+                "es": "",
+                "de": "",
+                "ru": "",
+                "fr": ""
+            }
+        },
+        {
             "key": "",
             "lang": {
                 "en": "",

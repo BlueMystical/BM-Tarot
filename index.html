@@ -10,6 +10,11 @@
   <meta name="description" content="">
   <meta name="author" content="Blue Mystic - blue.mystic.play@gmail.com">
   <meta name="generator" content="Bootstrap v5.3">
+
+  <!-- Tags for Social Media -->
+  <meta property="og:title" content="BM's Tarot" />
+  <meta property="og:type" content="media.images" />
+  <meta property="og:image" content="assets/background_05.jpg" />
   
   <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" />
   <meta expires="Sat, 26 Jul 1997 05:00:00 GMT" />
@@ -253,60 +258,69 @@
       </div>
     </section>
 
+
+
     <div class="album py-5 bg-body-tertiary">
-      <div class="container">
+
+      <!-- An alert Message telling the user what cards have to say -->
+      <div id="Alert-Div" class="alert invisible" role="alert">
+        <h4 id="Alert-Title" class="alert-heading">Well done!</h4>
+        <p id="Alert-Msg">.</p>
+      </div>
+
+      <div class="container d-flex">
         <!-- First Row, 3 Cards-->
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 align-items-center ">
           <div class="col">
-            <div id="Card-01-div" class="card shadow-sm visible">
+            <div id="Card-01-div" class="card shadow-sm align-items-center visible ">
               <a id="Card-01" href="#" data-bs-toggle="modal" data-bs-target="#CardInfo" data-bs-info='{"id": 1, "name": "Carta 01"}'>
-                <img id="Card-01-img" src="decks/background_01.jpg" alt="card" style="width:420px"></a>
+                <img id="Card-01-img" src="decks/background_01.jpg" alt="card"  style="width:420px"></a>
             </div>
           </div>
           <div class="col">
-            <div id="Card-02-div" class="card shadow-sm visible" >
+            <div id="Card-02-div" class="card shadow-sm align-items-center visible" >
               <a id="Card-02" href="#" data-bs-toggle="modal" data-bs-target="#CardInfo" data-bs-info=""><img id="Card-02-img" src="decks/background_01.jpg" alt="card" style="width:420px"></a>
             </div>
           </div>
           <div class="col">
-            <div id="Card-03-div" class="card shadow-sm visible">
+            <div id="Card-03-div" class="card shadow-sm align-items-center visible">
               <a id="Card-03" href="#" data-bs-toggle="modal" data-bs-target="#CardInfo" data-bs-info=""><img id="Card-03-img" src="decks/background_01.jpg" alt="card" style="width:420px"></a>
             </div>
           </div>
           <!--Second Row, 3 cards-->
           <div class="col">
-            <div id="Card-04-div" class="card shadow-sm invisible">
+            <div id="Card-04-div" class="card shadow-sm align-items-center invisible">
               <a id="Card-04" href="#" data-bs-toggle="modal" data-bs-target="#CardInfo" data-bs-info=""><img id="Card-04-img" src="decks/background_01.jpg" alt="card" style="width:420px"></a>
             </div>
           </div>
           <div class="col">
-            <div id="Card-05-div" class="card shadow-sm invisible">
+            <div id="Card-05-div" class="card shadow-sm align-items-center invisible">
               <a id="Card-05" href="#" data-bs-toggle="modal" data-bs-target="#CardInfo" data-bs-info=""><img id="Card-05-img" src="decks/background_01.jpg" alt="card" style="width:420px"></a>
             </div>
           </div>
           <div class="col">
-            <div id="Card-06-div" class="card shadow-sm invisible">
+            <div id="Card-06-div" class="card shadow-sm align-items-center invisible">
               <a id="Card-06" href="#" data-bs-toggle="modal" data-bs-target="#CardInfo" data-bs-info=""><img id="Card-06-img" src="decks/background_01.jpg" alt="card" style="width:420px"></a>
             </div>
           </div>
           <!--Third Row, 3 cards-->
           <div class="col">
-            <div id="Card-07-div" class="card shadow-sm invisible">
+            <div id="Card-07-div" class="card shadow-sm align-items-center invisible">
               <a id="Card-07" href="#" data-bs-toggle="modal" data-bs-target="#CardInfo" data-bs-info=""><img id="Card-07-img" src="decks/background_01.jpg" alt="card" style="width:420px"></a>
             </div>
           </div>
           <div class="col">
-            <div id="Card-08-div" class="card shadow-sm invisible">
+            <div id="Card-08-div" class="card shadow-sm align-items-center invisible">
               <a id="Card-08" href="#" data-bs-toggle="modal" data-bs-target="#CardInfo" data-bs-info=""><img id="Card-08-img" src="decks/background_01.jpg" alt="card" style="width:420px"></a>
             </div>
           </div>
           <div class="col">
-            <div id="Card-09-div" class="card shadow-sm invisible">
+            <div id="Card-09-div" class="card shadow-sm align-items-center invisible">
               <a id="Card-09" href="#" data-bs-toggle="modal" data-bs-target="#CardInfo" data-bs-info=""><img id="Card-09-img" src="decks/background_01.jpg" alt="card" style="width:420px"></a>
             </div>
           </div>
         </div>
-      </div>
+      </div>      
     </div>
 
     <!-- a Popup Window to show the selected Card -->
@@ -334,6 +348,7 @@
     </div>
 
 
+
   </main>
 
   <footer class="text-body-secondary py-5">
@@ -341,9 +356,8 @@
       <p class="float-end mb-1">
         <a href="#">Back to top</a>
       </p>
-      <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-      <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a
-          href="../getting-started/introduction/">getting started guide</a>.</p>
+      <p class="mb-1">Blue Mystic's Tarot</p>
+      <p class="mb-0">Powered by  <a href="https://getbootstrap.com/">Bootstrap</a>.</p>
     </div>
   </footer>
   <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
