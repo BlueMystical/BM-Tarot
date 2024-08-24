@@ -157,7 +157,7 @@ function ShuffleCards() {
         // 1. Get random IDs for the cards chosen:
         const randomCards = [];
         for (let i = 1; i <= CardCount; i++) {
-            randomCards.push(getRandomUnique(0, 13, randomCards)); //TODO: reemplazar el 8 x el total de cartas
+            randomCards.push(getRandomUnique(0, 21, randomCards)); //TODO: reemplazar el 8 x el total de cartas 78
         }
 
         // 2. Get the Actual cards from the chosen IDs:
@@ -165,7 +165,7 @@ function ShuffleCards() {
             randomCards.forEach(number => {
                 try {
                     var MyCard = MyDeck[number].translations[UserLang]; //<- Translated to the selected language
-                    MyCard.id = MyDeck[number].type + '-' + MyDeck[number].id; //<- Name for the Picture
+                    MyCard.id = MyDeck[number].type + '-' + MyDeck[number].number; //<- Name for the Picture
                     MyCard.number = MyDeck[number].number;
                     MyCard.is_inverted = getRandom(0, 12) < 5; //<- 40% chance of being inverted
                     MyCard.points = MyCard.is_inverted ? MyDeck[number].Points[1] : MyDeck[number].Points[0];

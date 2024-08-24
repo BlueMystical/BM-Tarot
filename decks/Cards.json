@@ -1,12 +1,9 @@
 ﻿[
   {
      "id":0,
-     "number":0,
+     "number":"0",
      "type":"Arcane",
-     "Points":[
-        10,
-        -10
-     ],
+     "Points":[ 10, -10 ],
      "translations":{
         "en":{
            "name":"The Fool",
@@ -67,12 +64,9 @@
   },
   {
      "id":1,
-     "number":1,
+     "number":"1",
      "type":"Arcane",
-     "Points":[
-        10,
-        -5
-     ],
+     "Points":[ 10, -5 ],
      "translations":{
         "en":{
            "name":"The Magician",
@@ -133,12 +127,9 @@
   },
   {
      "id":2,
-     "number":2,
+     "number":"2",
      "type":"Arcane",
-     "Points":[
-        10,
-        -10
-     ],
+     "Points":[ 10, -10 ],
      "translations":{
         "en":{
            "name":"The Hight Priestess",
@@ -199,12 +190,9 @@
   },
   {
      "id":3,
-     "number":3,
+     "number":"3",
      "type":"Arcane",
-     "Points":[
-        10,
-        -10
-     ],
+     "Points":[ 10, -10 ],
      "translations":{
         "en":{
            "name":"The Empress",
@@ -265,12 +253,9 @@
   },
   {
      "id":4,
-     "number":4,
+     "number":"4",
      "type":"Arcane",
-     "Points":[
-        10,
-        -10
-     ],
+     "Points":[ 10, -10 ],
      "translations":{
         "en":{
            "name":"The Emperor",
@@ -331,12 +316,9 @@
   },
   {
      "id":5,
-     "number":5,
+     "number":"5",
      "type":"Arcane",
-     "Points":[
-        10,
-        -10
-     ],
+     "Points":[ 10, -10 ],
      "translations":{
         "en":{
            "name":"The Hierophant",
@@ -397,12 +379,9 @@
   },
   {
      "id":6,
-     "number":6,
+     "number":"6",
      "type":"Arcane",
-     "Points":[
-        10,
-        -10
-     ],
+     "Points":[ 10, -10 ],
      "translations":{
         "en":{
            "name":"The Lovers",
@@ -463,12 +442,9 @@
   },
   {
      "id":7,
-     "number":7,
+     "number":"7",
      "type":"Arcane",
-     "Points":[
-        10,
-        -20
-     ],
+     "Points":[ 10, -20 ],
      "translations":{
         "en":{
            "name":"The Charriot",
@@ -529,12 +505,9 @@
   },
   {
      "id":8,
-     "number":8,
+     "number":"8",
      "type":"Arcane",
-     "Points":[
-        10,
-        -5
-     ],
+     "Points":[ 10, -5 ],
      "translations":{
         "en":{
            "name":"The Justice",
@@ -595,7 +568,7 @@
   },
   {
      "id":9,
-     "number":9,
+     "number":"9",
      "type":"Arcane",
      "Points":[ 10, -10 ],
      "translations":{
@@ -658,7 +631,7 @@
   },
   {
      "id":10,
-     "number":10,
+     "number":"10",
      "type":"Arcane",
      "Points":[ 10, -10 ],
      "translations":{
@@ -721,12 +694,12 @@
   },
   {
      "id":11,
-     "number":11,
+     "number":"11",
      "type":"Arcane",
      "Points":[ 10, -10 ],
      "translations":{
         "en":{
-           "name":"The Stregnth",
+           "name":"The Strength",
            "normal":[
               "The triumph of the mind over matter and physical strength. It indicates determination and heroism.",
               "Power, energy, great love. The spirit that dominates matter. Action, courage, success. Powerful will and great physical strength."
@@ -784,7 +757,7 @@
   },
   {
      "id":12,
-     "number":12,
+     "number":"12",
      "type":"Arcane",
      "Points":[ -10, -10 ],
      "translations":{
@@ -847,7 +820,7 @@
   },
   {
      "id":13,
-     "number":13,
+     "number":"13",
      "type":"Arcane",
      "Points":[ 10, -10 ],
      "translations":{
@@ -910,8 +883,514 @@
   },
   {
      "id":14,
-     "number":14,
+     "number":"14",
      "type":"Arcane",
+     "Points":[ 10, -10 ],
+     "translations":{
+        "en":{
+           "name":"Temperance",
+           "normal":[
+              "It means harmony, balance and moderation. It is related to parenting and health. It indicates self-control without denial, moderation and balance in everything. Something is brewing.",
+              "Patience, moderation, adaptation, composure, reflection."
+           ],
+           "inverted":[
+              "It indicates a lack of harmony and conflict of interests.",
+              "Disorder, conflict, bad combination, fights. Possibility of shipwreck. Disarray."
+           ]
+        },
+        "es":{
+           "name":"La Templanza",
+           "normal":[
+              "Significa armonía, equilibrio y moderación. se relaciona con la crianza y la salud. Indica autocontrol sin negación, moderación y equilibrio en todo. Algo se está preparando.",
+              "Paciencia, moderación, adaptación, compostura, reflexión."
+           ],
+           "inverted":[
+              "Señala falta de armonía y conflicto de intereses.",
+              "Desorden, conflicto, mala combinación, peleas. Posibilidad de naufragio. Desarreglos."
+           ]
+        },
+        "de":{
+           "name":"Mäßigkeit",
+           "normal":[
+              "Es bedeutet Harmonie, Ausgeglichenheit und Mäßigung. Es hängt mit Erziehung und Gesundheit zusammen. Zeigt Selbstbeherrschung ohne Verleugnung, Mäßigung und Ausgeglichenheit in allem an. Etwas bereitet sich vor.",
+              "Geduld, Moderation, Anpassung, Gelassenheit, Reflexion."
+           ],
+           "inverted":[
+              "Es weist auf mangelnde Harmonie und Interessenkonflikte hin.",
+              "Unordnung, Konflikt, schlechte Kombination, Kämpfe. Möglichkeit eines Schiffbruchs. Störungen."
+           ]
+        },
+        "fr":{
+           "name":"Tempérance",
+           "normal":[
+              "Cela signifie harmonie, équilibre et modération. C’est lié à la parentalité et à la santé. Indique la maîtrise de soi sans déni, la modération et l'équilibre en tout. Quelque chose se prépare.",
+              "Patience, modération, adaptation, sang-froid, réflexion."
+           ],
+           "inverted":[
+              "Cela indique un manque d’harmonie et un conflit d’intérêts.",
+              "Désordre, conflit, mauvaise combinaison, bagarres. Possibilité de naufrage. Troubles."
+           ]
+        },
+        "ru":{
+           "name":"Умеренность",
+           "normal":[
+              "Это означает гармонию, баланс и умеренность. Это связано с воспитанием детей и здоровьем. Указывает на самоконтроль без отрицания, умеренность и баланс во всем. Что-то готовится.",
+              "Терпение, умеренность, адаптация, самообладание, размышление."
+           ],
+           "inverted":[
+              "Это указывает на отсутствие гармонии и конфликт интересов.",
+              "Беспорядок, конфликт, неудачное сочетание, драки. Вероятность кораблекрушения. Расстройства."
+           ]
+        }
+     }
+  },
+  {
+     "id":15,
+     "number":"15",
+     "type":"Arcane",
+     "Points":[ 0, -20 ],
+     "translations":{
+        "en":{
+           "name":"The Devil",
+           "normal":[
+              "It means temptation or addiction, aggressive pursuit of earthly possessions and extreme longing for money and power. It indicates lack of principle and lack of humor except at the expense of others. It also indicates violence and disaster.",
+              "Seduction, blind impulse, temptation, obsession. Sexual deviation. A confused state of mind. Uncontrolled carnal passions."
+           ],
+           "inverted":[
+              "It is the liberation from the chains that bind. It indicates divorce and overcoming obstacles.",
+              "Harmful card, fatality, misuse of force. Weakness, blindness, disorder. Evil effects. The pathetic human condition that prefers illusion to truth."
+           ]
+        },
+        "es":{
+           "name":"El Diablo",
+           "normal":[
+              "Significa Tentación o adicción, búsqueda agresiva de posesiones terrenales y anhelo extremo de dinero y poder. Indica falta de principio y falta de humor salvo a expensas de otros. También señala violencia y desastre.",
+              "Seducción, impulso ciego, tentación, obsesión. Desviación sexual. Un estado mental confusional. Las pasiones carnales descontroladas."
+           ],
+           "inverted":[
+              "Es la liberación de las cadenas que atan. Señala divorcio y superación de obstáculos.",
+              "Carta dañina, fatalidad, mal uso de la fuerza. Debilidad, ceguera, desorden. Efectos maléficos. La patética condición humana que prefiere la ilusión a la verdad."
+           ]
+        },
+        "de":{
+           "name":"Der Teufel",
+           "normal":[
+              "Es bedeutet Versuchung oder Sucht, aggressives Streben nach irdischen Besitztümern und extremes Verlangen nach Geld und Macht. Zeigt einen Mangel an Prinzipien und Humor an, außer auf Kosten anderer. Es weist auch auf Gewalt und Katastrophen hin.",
+              "Verführung, blinder Impuls, Versuchung, Besessenheit. Sexuelle Abweichung. Ein verwirrter Geisteszustand. Unkontrollierte fleischliche Leidenschaften."
+           ],
+           "inverted":[
+              "Es ist die Befreiung von den Ketten, die fesseln. Signalisiert Scheidung und die Überwindung von Hindernissen.",
+              "Schädlicher Brief, Todesfall, Gewaltmissbrauch. Schwäche, Blindheit, Unordnung. Böse Wirkungen. Der erbärmliche menschliche Zustand, der die Illusion der Wahrheit vorzieht."
+           ]
+        },
+        "fr":{
+           "name":"Le diable",
+           "normal":[
+              "Cela signifie tentation ou dépendance, poursuite agressive des possessions terrestres et désir extrême d’argent et de pouvoir. Indique un manque de principes et un manque d'humour, sauf aux dépens des autres. Cela souligne également la violence et le désastre.",
+              "Séduction, pulsion aveugle, tentation, obsession. Déviation sexuelle. Un état d'esprit confus. Passions charnelles incontrôlées."
+           ],
+           "inverted":[
+              "C'est la libération des chaînes qui lient. Signale le divorce et le dépassement des obstacles.",
+              "Lettre nuisible, fatalité, abus de force. Faiblesse, cécité, désordre. Effets maléfiques. La condition humaine pathétique qui préfère l’illusion à la vérité."
+           ]
+        },
+        "ru":{
+           "name":"Дьявол",
+           "normal":[
+              "Это означает искушение или зависимость, агрессивное стремление к земным благам и крайнее стремление к деньгам и власти. Указывает на отсутствие принципов и юмора, за исключением случаев, когда речь идет о других. Это также указывает на насилие и катастрофу.",
+              "Соблазнение, слепой порыв, искушение, одержимость. Сексуальное отклонение. Растерянное состояние ума. Неконтролируемые плотские страсти."
+           ],
+           "inverted":[
+              "Это освобождение от сковывающих цепей. Сигнализирует о разводе и преодолении препятствий.",
+              "Вредное письмо, фатальность, злоупотребление силой. Слабость, слепота, расстройство. Вредные эффекты. Жалкое человеческое состояние, которое предпочитает иллюзии истине."
+           ]
+        }
+     }
+  },
+  {
+     "id":16,
+     "number":"16",
+     "type":"Arcane",
+     "Points":[ -10, -10 ],
+     "translations":{
+        "en":{
+           "name":"The Tower",
+           "normal":[
+              "Sudden changes with no other alternative, impending catastrophes and the collapse of old beliefs. It also indicates adversity, misery and financial upheaval, as well as loss of relationships.",
+              "Having plans interrupted, Going through a crisis, Being humiliated, Bad luck."
+           ],
+           "inverted":[
+              "It is the uninterrupted subjugation, the stagnation in ruin and the inability to change. It represents imprisonment.",
+              "Complete confusion. Freedom won at great cost. False accusations, oppression."
+           ]
+        },
+        "es":{
+           "name":"La Torre",
+           "normal":[
+              "Cambios repentinos sin otra alternativa, catástrofes inminentes y desmoronamiento de viejas creencias. También indica adversidades, miserias y trastornos financieros, así como pérdida de relaciones.",
+              "Tener planes interrumpidos, Atravesar una crisis, Ser humillado, Mala fortuna."
+           ],
+           "inverted":[
+              "Es la subyugación ininterrumpida, el estancamiento en la ruina y la incapacidad de cambiar. Representa el encarcelamiento.",
+              "Confusión completa. Ganar la libertad a un gran costo. Falsas acusaciones, opresión."
+           ]
+        },
+        "de":{
+           "name":"Der Turm",
+           "normal":[
+              "Plötzliche Veränderungen ohne Alternative, drohende Katastrophen und der Zerfall alter Überzeugungen. Es weist auch auf Widrigkeiten, Elend und finanzielle Schwierigkeiten sowie auf den Verlust von Beziehungen hin.",
+              "Pläne unterbrochen werden, eine Krise durchleben, gedemütigt werden, Pech haben."
+           ],
+           "inverted":[
+              "Es ist ununterbrochene Unterwerfung, Stagnation im Ruin und die Unfähigkeit, sich zu ändern. Es stellt eine Gefangenschaft dar.",
+              "Völlige Verwirrung. Freiheit zu einem hohen Preis gewinnen. Falsche Anschuldigungen, Unterdrückung."
+           ]
+        },
+        "fr":{
+           "name":"La Tour",
+           "normal":[
+              "Des changements soudains sans alternative, des catastrophes imminentes et l’effondrement des vieilles croyances. Cela indique également l’adversité, la misère et les perturbations financières, ainsi que la perte de relations.",
+              "Avoir des projets interrompus, Traverser une crise, Être humilié, Malchance."
+           ],
+           "inverted":[
+              "C’est un asservissement ininterrompu, une stagnation dans la ruine et une incapacité à changer. Cela représente l’emprisonnement.",
+              "Confusion totale. Gagner la liberté à grand prix. Fausses accusations, oppression."
+           ]
+        },
+        "ru":{
+           "name":"Башня",
+           "normal":[
+              "Внезапные перемены без альтернативы, неминуемые катастрофы и крушение старых убеждений. Это также указывает на невзгоды, страдания и финансовые потрясения, а также на потерю отношений.",
+              "Прервав планы, Переживая кризис, Будучи униженным, Несчастным."
+           ],
+           "inverted":[
+              "Это непрерывное подчинение, застой в разрухе и неспособность измениться. Это представляет собой тюремное заключение.",
+              "Полная путаница. Получение свободы дорогой ценой. Ложные обвинения, притеснения."
+           ]
+        }
+     }
+  },
+  {
+     "id":17,
+     "number":"17",
+     "type":"Arcane",
+     "Points":[ 20, -10 ],
+     "translations":{
+        "en":{
+           "name":"The Star",
+           "normal":[
+              "It means hope, inspiration and enlightenment. It represents optimism and faith. This card is very auspicious, and indicates that everything is in the right balance. The results are favorable.",
+              "Hope, unexpected help, insight and clarity of vision, inspiration, flexibility. Great love will be given and received. Good health."
+           ],
+           "inverted":[
+              "It indicates disappointment, imbalance and pessimism.",
+              "Arrogance, pessimism, stubbornness. Illness, error of judgment. Psychic impotence, restructuring, deprivation and abandonment."
+           ]
+        },
+        "es":{
+           "name":"La Estrella",
+           "normal":[
+              "Significa esperanza, inspiración e iluminación. representa optimismo y fe. Esta carta es muy auspiciosa, e indica que todo está en el equilibrio adecuado. Los resultados son favorables.",
+              "Esperanza, ayuda inesperada, perspicacia y claridad de visión, inspiración, flexibilidad. Un gran amor será dado y recibido. Buena salud."
+           ],
+           "inverted":[
+              "Indica decepción, desequilibrio y pesimismo.",
+              "Arrogancia, pesimismo, testarudez. enfermedad, error de juicio. Impotencia psíquica, reestructuración, privación y abandono."
+           ]
+        },
+        "de":{
+           "name":"Der Stern",
+           "normal":[
+              "Es bedeutet Hoffnung, Inspiration und Erleuchtung. steht für Optimismus und Glauben. Diese Karte ist sehr glückverheißend und zeigt an, dass alles im richtigen Gleichgewicht ist. Die Ergebnisse sind günstig.",
+              "Hoffnung, unerwartete Hilfe, Einsicht und Klarheit der Vision, Inspiration, Flexibilität. Große Liebe wird gegeben und empfangen. Gute Gesundheit."
+           ],
+           "inverted":[
+              "Zeigt Enttäuschung, Ungleichgewicht und Pessimismus an.",
+              "Arroganz, Pessimismus, Sturheit. Krankheit, Fehleinschätzung. Psychische Impotenz, Umstrukturierung, Entbehrung und Verlassenheit."
+           ]
+        },
+        "fr":{
+           "name":"L'étoile",
+           "normal":[
+              "Cela signifie espoir, inspiration et illumination. représente l'optimisme et la foi. Cette carte est de très bon augure et indique que tout est dans le bon équilibre. Les résultats sont favorables.",
+              "Espoir, aide inattendue, perspicacité et clarté de vision, inspiration, flexibilité. Un grand amour sera donné et reçu. Bonne santé."
+           ],
+           "inverted":[
+              "Indique la déception, le déséquilibre et le pessimisme.",
+              "Arrogance, pessimisme, entêtement. maladie, erreur de jugement. Impuissance psychologique, restructuration, privation et abandon."
+           ]
+        },
+        "ru":{
+           "name":"Звезда",
+           "normal":[
+              "Это означает надежду, вдохновение и просветление. символизирует оптимизм и веру. Эта карта очень благоприятна и указывает на то, что все находится в правильном балансе. Результаты благоприятные.",
+              "Надежда, неожиданная помощь, проницательность и ясность видения, вдохновение, гибкость. Будет дана и получена большая любовь. Доброго здоровья."
+           ],
+           "inverted":[
+              "Указывает на разочарование, неуравновешенность и пессимизм.",
+              "Высокомерие, пессимизм, упрямство. болезнь, ошибка суждения. Психологическая импотенция, перестройка, депривация и заброшенность."
+           ]
+        }
+     }
+  },
+  {
+     "id":18,
+     "number":"18",
+     "type":"Arcane",
+     "Points":[ 5, -10 ],
+     "translations":{
+        "en":{
+           "name":"The Moon",
+           "normal":[
+              "It represents emotional aspects, dreams and intuition. It indicates emergence of the unconscious, rest, respite and meditation. It asks for patience in anticipation.",
+              "Releasing inner demons. Threshold of major change, difficult and dark path, development of psychic powers. Navigation, experimentation, hard work."
+           ],
+           "inverted":[
+              "Unseen dangers, hidden enemies, hallucination, self-deception, hysteria, disorientation. Instability, lies, traps, false knowledge, neurotic character. Scandal, secret made public, blackmailer.",
+              "It means impatience."
+           ]
+        },
+        "es":{
+           "name":"La Luna",
+           "normal":[
+              "Representa aspectos emocionales, los sueños y la intuición. indica emergencia del inconsciente, descanso, respiro y meditación. Solicita paciencia en la anticipación.",
+              "Liberar a los demonios internos. umbral de un importante cambio, camino difícil y oscuro, desarrollo de poderes psíquicos. Navegación, experimentación, trabajo penoso."
+           ],
+           "inverted":[
+              "Peligros no vistos, enemigos ocultos, alucinación, autoengaño, histeria, desorientación. Inestabilidad, embustes, trampas, falso saber, carácter neurótico. Escándalo, secreto que se hace público, chantajista.",
+              "Significa impaciencia."
+           ]
+        },
+        "de":{
+           "name":"Der Mond",
+           "normal":[
+              "Es repräsentiert emotionale Aspekte, Träume und Intuition. Zeigt das Auftauchen des Unbewussten, Ruhe, Atempause und Meditation an. Bitten Sie im Vorfeld um Geduld.",
+              "Befreie die inneren Dämonen. Schwelle einer wichtigen Veränderung, schwieriger und dunkler Weg, Entwicklung übersinnlicher Kräfte. Navigation, Experimentieren, Plackerei."
+           ],
+           "inverted":[
+              "Unsichtbare Gefahren, versteckte Feinde, Halluzinationen, Selbsttäuschung, Hysterie, Orientierungslosigkeit. Instabilität, Lügen, Fallen, falsches Wissen, neurotischer Charakter. Skandal, öffentlich gemachtes Geheimnis, Erpresser.",
+              "Es bedeutet Ungeduld."
+           ]
+        },
+        "fr":{
+           "name":"La Lune",
+           "normal":[
+              "Il représente les aspects émotionnels, les rêves et l'intuition. indique l'émergence de l'inconscient, le repos, le répit et la méditation. Demandez de la patience par anticipation.",
+              "Libérez les démons intérieurs. seuil d'un changement important, chemin difficile et sombre, développement des pouvoirs psychiques. Navigation, expérimentation, corvée."
+           ],
+           "inverted":[
+              "Dangers invisibles, ennemis cachés, hallucinations, auto-tromperie, hystérie, désorientation. Instabilité, mensonges, pièges, fausses connaissances, caractère névrotique. Scandale, secret rendu public, maître chanteur.",
+              "Cela signifie de l'impatience."
+           ]
+        },
+        "ru":{
+           "name":"Луна",
+           "normal":[
+              "Он представляет эмоциональные аспекты, мечты и интуицию. указывает на появление бессознательного, отдых, передышку и медитацию. Попросите терпения в ожидании.",
+              "Освободите внутренних демонов. порог важных перемен, трудный и темный путь, развитие экстрасенсорных способностей. Навигация, эксперименты, тяжелая работа."
+           ],
+           "inverted":[
+              "Невидимые опасности, скрытые враги, галлюцинации, самообман, истерия, дезориентация. Нестабильность, ложь, ловушки, ложные знания, невротический характер. Скандал, тайна обнародованная, шантажист.",
+              "Это означает нетерпение."
+           ]
+        }
+     }
+  },
+  {
+     "id":19,
+     "number":"19",
+     "type":"Arcane",
+     "Points":[ 20, -10 ],
+     "translations":{
+        "en":{
+           "name":"The Sun",
+           "normal":[
+              "It means vitality, energy and joy. The ideal state of all things, including health. It indicates perfect harmony and unity, as well as balance. It also represents a love that is ever deeper, fame, pleasure and satisfaction.",
+              "Glory. Material happiness. Happy marriage or relationship, collaboration. Success. Pleasure, energy, motivation, inspiration."
+           ],
+           "inverted":[
+              "It indicates loneliness, a cloudy future and an unhappy relationship.",
+              "Annoyance, dissimulation, arrogance, vanity. Lost commitment or work. Groping in the dark, disorientation. Desire to stand out."
+           ]
+        },
+        "es":{
+           "name":"El Sol",
+           "normal":[
+              "Significa vitalidad, energía y alegría. el estado ideal de todas las cosas, incluyendo la salud. Indica armonía perfecta y unidad, así como equilibrio. También representa un amor que cada vez es más profundo, fama, placer y satisfacción.",
+              "Gloria. Felicidad material. Matrimonio o relación feliz, colaboración. Exito. Placer, energía, motivación, inspiración."
+           ],
+           "inverted":[
+              "Indica soledad, un futuro nublado y una relación infeliz.",
+              "Molestias, disimulos, arrogancia, vanidad. Compromiso o trabajo perdido. Tanteo en la oscuridad, desorientación. Deseo de figurar."
+           ]
+        },
+        "de":{
+           "name":"Die Sonne",
+           "normal":[
+              "Es bedeutet Vitalität, Energie und Freude. der ideale Zustand aller Dinge, einschließlich der Gesundheit. Zeigt perfekte Harmonie und Einheit sowie Ausgeglichenheit an. Es repräsentiert auch eine immer tiefer werdende Liebe, Ruhm, Vergnügen und Zufriedenheit.",
+              "Ruhm. Materielles Glück. Glückliche Ehe oder Beziehung, Zusammenarbeit. Erfolg. Freude, Energie, Motivation, Inspiration."
+           ],
+           "inverted":[
+              "Zeigt Einsamkeit, eine trübe Zukunft und eine unglückliche Beziehung an.",
+              "Ärgernisse, Verstellung, Arroganz, Eitelkeit. Engagement oder verlorene Arbeit. Im Dunkeln tappen, Orientierungslosigkeit. Wunsch zu erscheinen."
+           ]
+        },
+        "fr":{
+           "name":"Le Soleil",
+           "normal":[
+              "Cela signifie vitalité, énergie et joie. l'état idéal de toutes choses, y compris de la santé. Indique une harmonie et une unité parfaites, ainsi que l’équilibre. Il représente aussi un amour qui devient de plus en plus profond, la renommée, le plaisir et la satisfaction.",
+              "Gloire. Le bonheur matériel. Mariage ou relation heureux, collaboration. Succès. Plaisir, énergie, motivation, inspiration."
+           ],
+           "inverted":[
+              "Indique la solitude, un avenir nuageux et une relation malheureuse.",
+              "Désagréments, dissimulations, arrogance, vanité. Engagement ou perte de travail. Tâtonner dans le noir, désorientation. Désir de paraître."
+           ]
+        },
+        "ru":{
+           "name":"Солнце",
+           "normal":[
+              "Это означает жизненную силу, энергию и радость. идеальное состояние всех вещей, включая здоровье. Указывает на совершенную гармонию и единство, а также на баланс. Он также представляет собой любовь, которая становится все глубже, славу, удовольствие и удовлетворение.",
+              "Слава. Материальное счастье. Счастливый брак или отношения, сотрудничество. Успех. Удовольствие, энергия, мотивация, вдохновение."
+           ],
+           "inverted":[
+              "Указывает на одиночество, пасмурное будущее и несчастливые отношения.",
+              "Раздражительность, лицемерие, высокомерие, тщеславие. Приверженность или потеря работы. Блуждание в темноте, дезориентация. Желание показаться."
+           ]
+        }
+     }
+  },
+  {
+     "id":20,
+     "number":"20",
+     "type":"Arcane",
+     "Points":[ 10, -10 ],
+     "translations":{
+        "en":{
+           "name":"The Judgement",
+           "normal":[
+              "It means renewal, resurrection, and evaluation. atonement, accountability, rejuvenation, and healing.",
+              "Radical change, resurrection to a new life. Work (or life) well done. Good judgment and discernment. Creative power and influence over family and career. Ability to forgive. Awakening. Favorable court ruling."
+           ],
+           "inverted":[
+              "It represents indecision, spiritual emptiness and addiction.",
+              "Spiritual hesitation, weakness, wrong judgment or decision. Illness, separation. Adverse judicial opinion. Error about oneself and others. Delayed decision."
+           ]
+        },
+        "es":{
+           "name":"El Juicio",
+           "normal":[
+              "Significa renovación, resurrección y evaluación. expiación, responsabilidad, rejuvenecimiento y sanación.",
+              "Cambio radical, resurección a una vida nueva. Trabajo (o vida) bien hecha. Buen juicio y discernimiento. Poder creativo e influencia sobre la familia y la carrera laboral. Capacidad de perdonar. Despertar. Dictámen judiciale favorable."
+           ],
+           "inverted":[
+              "Representa indecisión, vacío espiritual y adicción.",
+              "Vacilación espiritual, debilidad, juicio o decisión equivocada. Enfermedad, separación. Dictamen juidicial adverso. Error sobre sí mismo y sobre los otros. Decisión postergada."
+           ]
+        },
+        "de":{
+           "name":"Das Urteil",
+           "normal":[
+              "Es bedeutet Erneuerung, Auferstehung und Bewertung. Sühne, Verantwortung, Verjüngung und Heilung.",
+              "Radikaler Wandel, Auferstehung zu einem neuen Leben. Arbeit (oder Leben) gut gemacht. Gutes Urteilsvermögen und Urteilsvermögen. Gestaltungskraft und Einfluss auf Familie und Beruf. Fähigkeit zu vergeben. Aufwachen. Positive richterliche Meinung."
+           ],
+           "inverted":[
+              "Es steht für Unentschlossenheit, spirituelle Leere und Sucht.",
+              "Spirituelles Zögern, Schwäche, falsches Urteil oder falsche Entscheidung. Krankheit, Trennung. Ablehnende richterliche Meinung. Fehler über sich selbst und über andere. Entscheidung verschoben."
+           ]
+        },
+        "fr":{
+           "name":"Le jugement",
+           "normal":[
+              "Cela signifie renouveau, résurrection et évaluation. expiation, responsabilité, rajeunissement et guérison.",
+              "Changement radical, résurrection à une nouvelle vie. Travail (ou vie) bien fait. Bon jugement et discernement. Pouvoir créatif et influence sur la famille et la carrière. Capacité à pardonner. Réveillez-vous. Avis judiciaire favorable."
+           ],
+           "inverted":[
+              "Cela représente l’indécision, le vide spirituel et la dépendance.",
+              "Hésitation spirituelle, faiblesse, mauvais jugement ou décision. Maladie, séparation. Avis judiciaire défavorable. Erreur sur soi et sur les autres. Décision reportée."
+           ]
+        },
+        "ru":{
+           "name":"Решение",
+           "normal":[
+              "Это означает обновление, воскрешение и оценку. искупление, ответственность, омоложение и исцеление.",
+              "Радикальные перемены, возрождение к новой жизни. Работа (или жизнь) сделана хорошо. Здравое суждение и проницательность. Творческая сила и влияние на семью и карьеру. Умение прощать. Проснуться. Благоприятное судебное заключение."
+           ],
+           "inverted":[
+              "Он символизирует нерешительность, духовную пустоту и зависимость.",
+              "Духовные колебания, слабость, неправильное суждение или решение. Болезнь, разлука. Неблагоприятное судебное заключение. Заблуждение о себе и о других. Решение отложено."
+           ]
+        }
+     }
+  },
+  {
+     "id":21,
+     "number":"21",
+     "type":"Arcane",
+     "Points":[ 20, -10 ],
+     "translations":{
+        "en":{
+           "name":"The World",
+           "normal":[
+              "A very auspicious card. It represents perfect conclusion, smooth sailing and inner happiness.",
+              "Guaranteed event. Rewards received. Travel, migration (within the same continent), change of place of residence. Purchase or sale of land."
+           ],
+           "inverted":[
+              "It represents lack of vision, failure to finish what was started, and disappointment.",
+              "Obstacles, stagnation, hindrances. Need to work very hard to achieve success."
+           ]
+        },
+        "es":{
+           "name":"El Mundo",
+           "normal":[
+              "Una carta muy auspiciosa. Representa la conclusión perfecta, la navegación sin obstáculos y la felicidad interior.",
+              "Suceso garantizado. Recompensas recibidas. Viaje, migración (dentro del mismo continente), cambio de lugar de residencia. Compra o venta de tierras."
+           ],
+           "inverted":[
+              "Representa la falta de visión, el fracaso en terminar lo empezado y la decepción.",
+              "Obstáculos, estancamiento, estorbos. Necesidad de trabajar muy duro para alcanzar el éxito."
+           ]
+        },
+        "de":{
+           "name":"Die Welt",
+           "normal":[
+              "Eine sehr glückverheißende Karte. Es stellt den perfekten Abschluss, reibungslosen Ablauf und inneres Glück dar.",
+              "Garantierter Erfolg. Belohnungen erhalten. Reisen, Migration (innerhalb desselben Kontinents), Wohnortwechsel. Kauf oder Verkauf von Grundstücken."
+           ],
+           "inverted":[
+              "Es steht für mangelnde Vision, Unfähigkeit, das Begonnene zu Ende zu bringen, und Enttäuschung.",
+              "Hindernisse, Stagnation, Hindernisse. Man muss sehr hart arbeiten, um Erfolg zu haben."
+           ]
+        },
+        "fr":{
+           "name":"Le monde",
+           "normal":[
+              "Une carte de très bon augure. Il représente la conclusion parfaite, la navigation en douceur et le bonheur intérieur.",
+              "Succès garanti. Récompenses reçues. Voyage, migration (au sein d'un même continent), changement de lieu de résidence. Achat ou vente de terrain."
+           ],
+           "inverted":[
+              "Cela représente le manque de vision, l’incapacité de terminer ce qui a été commencé et la déception.",
+              "Obstacles, stagnation, entraves. Il faut travailler très dur pour réussir."
+           ]
+        },
+        "ru":{
+           "name":"Мир",
+           "normal":[
+              "Очень благоприятная карта. Он представляет собой идеальное завершение, плавное плавание и внутреннее счастье.",
+              "Гарантированный успех. Награды получены. Путешествие, миграция (в пределах одного континента), смена места жительства. Покупка или продажа земли."
+           ],
+           "inverted":[
+              "Это символизирует отсутствие видения, неспособность завершить начатое и разочарование.",
+              "Препятствия, застой, помехи. Нужно очень много работать, чтобы добиться успеха."
+           ]
+        }
+     }
+  },
+
+
+  {
+     "id":22,
+     "number":"1",
+     "type":"Swords",
      "Points":[ 10, -10 ],
      "translations":{
         "en":{
@@ -970,5 +1449,68 @@
            ]
         }
      }
-  }
+  },
+  {
+   "id":23,
+   "number":"2",
+   "type":"Swords",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+}
 ]
