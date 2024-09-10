@@ -32,6 +32,10 @@
   <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css" >
 
   <style>
+    .main-container {
+        background-image: url('assets/card-back_01.jpg');
+    }
+
     .bd-placeholder-img {
       font-size: 1.125rem;
       text-anchor: middle;
@@ -248,6 +252,7 @@
   </header>
 
   <main>
+    
     <section class="py-2 text-center container">
       <div class="row py-lg-3">
         <div class="col-lg-6 col-md-8 mx-auto">
@@ -264,9 +269,7 @@
       </div>
     </section>
 
-
-
-    <div class="album py-5 bg-body-tertiary">
+    <div class="album py-5 bg-body-tertiary main-container">
 
       <!-- An alert Message telling the user what cards have to say -->
       <div id="Alert-Div" class="alert invisible" role="alert">
@@ -274,7 +277,7 @@
         <p id="Alert-Msg">.</p>
       </div>
 
-      <div class="container d-flex">
+      <div class="container d-flex ">
         <!-- First Row, 3 Cards-->
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 align-items-center ">
           <div class="col">

@@ -167,13 +167,18 @@ function ShuffleCards() {
                     var MyCard = MyDeck[number].translations[UserLang]; //<- Translated to the selected language
                     MyCard.id = MyDeck[number].type + '-' + MyDeck[number].number; //<- Name for the Picture
                     MyCard.number = MyDeck[number].number;
-                    MyCard.is_inverted = getRandom(0, 12) < 5; //<- 40% chance of being inverted
+                    const invChance = getRandom(1, 100);
+                    MyCard.is_inverted = invChance <= 30; //<- 30% chance of being inverted
                     MyCard.points = MyCard.is_inverted ? MyDeck[number].Points[1] : MyDeck[number].Points[0];
                     MyCards.push(MyCard);
-                } catch { }
+
+                    console.log(MyCard.id + ', Inverted: ' + MyCard.is_inverted + ' (' + invChance + '%), ' +  MyCard.points + ' Points.');               
+                } catch (error) {
+                    console.log(error);
+                }
             });
         }
-        console.log(MyCards);
+        //console.log(MyCards);
 
         // 3. Add the cards to the deck
         for (let index = 1; index <= MyCards.length; index++) {
@@ -230,7 +235,7 @@ function FlipCards() {
 }
 
 function ShowAlert(points = 0) {
-    console.log(points);
+    console.log('Points: ' + points);
     
     const myCard = document.getElementById('Alert-Div');
     var Messages = "";
@@ -281,7 +286,7 @@ function ShowAlert(points = 0) {
         }  
     }
 
-    console.log(Messages);
+    //console.log(Messages);
 
     $("#Alert-Title").html(Messages[0]);
     $("#Alert-Msg").html(Messages[1]);
@@ -293,7 +298,7 @@ function HideAlert() {
 function SumarPuntos(DeckPoints) {
     var Positives = 0;
     var Negatives = 0;
-    console.log(DeckPoints);
+    //console.log(DeckPoints);
 
     if (DeckPoints != null && DeckPoints.length > 0) {
         DeckPoints.forEach(point => {

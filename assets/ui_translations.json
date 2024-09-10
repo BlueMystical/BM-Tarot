@@ -144,11 +144,11 @@
         {
             "key": "YellowMsg",
             "lang": {
-                "en": "No luck! |Fortune is not smiling on you today, but there is still hope, keep trying!",
-                "es": "¡Poca suerte! |La fortuna no te sonríe hoy, pero aún hay esperanza, si te esfuerzas!",
-                "de": "Kein Glück! |Das Glück lächelt dir heute nicht zu, aber es gibt immer noch Hoffnung, versuche es weiter!",
-                "ru": "Не повезло! |Фортуна сегодня вам не улыбается, но надежда еще есть, продолжайте пытаться!",
-                "fr": "Pas de chance ! |La fortune ne vous sourit pas aujourd'hui, mais il y a encore de l'espoir, continuez d'essayer !"
+                "en": "It is possible, but...|It can certainly be done, but there will be obstacles to overcome.",
+                "es": "Es Posible, pero..|Ciertamente se puede hacer, pero habrá obstaculos que superar.",
+                "de": "Es ist möglich, aber...|Es ist sicherlich machbar, aber es werden Hindernisse zu überwinden sein.",
+                "ru": "Это возможно, но...|Это, конечно, можно сделать, но придется преодолеть препятствия.",
+                "fr": "C'est possible, mais...|Cela peut certainement être fait, mais il y aura des obstacles à surmonter."
             }
         },
         {
