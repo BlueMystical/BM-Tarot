@@ -25,6 +25,7 @@ $('#cboCardCount').on('change', function () {
 $(document).on("click", "#cmdDrawCards", function (evt) {
    // console.log('Boton cmdDrawCards');
     ShuffleCards();
+    FlipCards();
 }); 
 $(document).on("click", "#cmdFlipCards", function (evt) {
     //console.log('Boton cmdFlipCards');
@@ -143,13 +144,13 @@ function ShuffleCards() {
         MyCards = [];
 
         // Hide all Cards
-        for (let index = 1; index <= 9; index++) {
+        for (let index = 1; index <= 6; index++) {
             const myCard = document.getElementById('Card-0'+ index +'-div');
             if (!hasClass(myCard, "invisible")) {
                 myCard.className += " invisible";
             }
             $("#Card-0" + index + "-img").attr("src", "decks/"+ UserDeck +"/background.png"  );  
-            $("#Card-0" + index + "-img").attr("style", "width:350px");
+            $("#Card-0" + index + "-img").attr("style", "width:200px");
         }
         FlippedCards = false;
         HideAlert();
@@ -157,7 +158,7 @@ function ShuffleCards() {
         // 1. Get random IDs for the cards chosen:
         const randomCards = [];
         for (let i = 1; i <= CardCount; i++) {
-            randomCards.push(getRandomUnique(0, 21, randomCards)); //TODO: reemplazar el 8 x el total de cartas 78
+            randomCards.push(getRandomUnique(0, 77, randomCards)); //total de cartas: 78 (77+0)
         }
 
         // 2. Get the Actual cards from the chosen IDs:
@@ -165,9 +166,11 @@ function ShuffleCards() {
             randomCards.forEach(number => {
                 try {
                     var MyCard = MyDeck[number].translations[UserLang]; //<- Translated to the selected language
-                    MyCard.id = MyDeck[number].type + '-' + MyDeck[number].number; //<- Name for the Picture
-                    MyCard.number = MyDeck[number].number;
+                        MyCard.id = MyDeck[number].type + '-' + MyDeck[number].number; //<- Name for the Picture
+                        MyCard.number = MyDeck[number].number;
+
                     const invChance = getRandom(1, 100);
+
                     MyCard.is_inverted = invChance <= 30; //<- 30% chance of being inverted
                     MyCard.points = MyCard.is_inverted ? MyDeck[number].Points[1] : MyDeck[number].Points[0];
                     MyCards.push(MyCard);
@@ -181,14 +184,34 @@ function ShuffleCards() {
         //console.log(MyCards);
 
         // 3. Add the cards to the deck
-        for (let index = 1; index <= MyCards.length; index++) {
-            //Add the Data to each card
-            $("#Card-0" + index).attr("data-bs-info", JSON.stringify(MyCards[index - 1]));  
-            $("#Card-0" + index + "-img").attr("src", "decks/"+ UserDeck +"/background.png"  );  
-            
-            //Make the Card Visible again
-            const myCard = document.getElementById('Card-0'+ index +'-div');
-                  myCard.className = myCard.className.replace(" invisible", "");
+        if (CardCount == 3) {
+            console.log("3 cartas!");
+            for (let index = 1; index <= 3; index++) {
+                //Add the Data to each card
+                $("#Card-0" + index).attr("data-bs-info", JSON.stringify(MyCards[index - 1]));  
+                $("#Card-0" + index + "-img").attr("src", "decks/"+ UserDeck +"/background.png"  );  
+                $("#Card-0" + index + "-img").attr("alt", MyCards[index - 1].id  ); 
+                console.log(MyCards[index - 1]);
+                
+                //Make the Card Visible again
+                const myCard = document.getElementById('Card-0'+ index +'-div');
+                    myCard.className = myCard.className.replace(" invisible", "");
+            }
+        }
+        if (CardCount == 5) {
+            console.log("5 cartas!");
+            for (let index = 1; index <= 5; index++) {
+                const i = index <= 1 ? index : index + 1;
+                //Add the Data to each card
+                $("#Card-0" + i).attr("data-bs-info", JSON.stringify(MyCards[index - 1]));  
+                $("#Card-0" + i + "-img").attr("src", "decks/"+ UserDeck +"/background.png"  );  
+                $("#Card-0" + i + "-img").attr("alt", MyCards[index - 1].id  ); 
+                console.log(MyCards[index - 1]);
+
+                //Make the Card Visible again
+                const myCard = document.getElementById('Card-0'+ i +'-div');
+                myCard.className = myCard.className.replace(" invisible", "");
+            }
         }
     }
 }
@@ -216,7 +239,7 @@ function FlipCards() {
 
                     const myImage = document.getElementById("Card-0" + index + "-img");
                           myImage.setAttribute('src', 'decks/'+ UserDeck +'/'+ data.id +'.png');
-                          myImage.setAttribute("style", "width:160px");
+                          myImage.setAttribute("style", "width:180px; opacity:1.0;");
 
                     if (data.is_inverted) {     // Only if the class hasnt been already set                    
                         if (!hasClass(myImage, "inverted-image")) {
@@ -255,11 +278,11 @@ function ShowAlert(points = 0) {
             Messages = (LANG.translations.find((element) => element.key === 'RedMsg').lang[UserLang]).split('|');  
         }        
     }
-    if (CardCount == 6) {
-        if (points >= 60) {
+    if (CardCount == 5) {
+        if (points >= 50) {
             myCard.className = "alert alert-success";
             Messages = (LANG.translations.find((element) => element.key === 'GreenMsg').lang[UserLang]).split('|');            
-        } else if (points >= 30) {
+        } else if (points >= 25) {
             myCard.className = "alert alert-info";
             Messages = (LANG.translations.find((element) => element.key === 'BlueMsg').lang[UserLang]).split('|');  
         } else if (points >= 10) {
@@ -341,7 +364,11 @@ function NVL(value, defaultValue) {
 }
 
 function hasClass(element, className) {
-    return element.className.split(" ").indexOf(className) !== -1;
+    var _ret = false;
+    try {
+        _ret = element.className.split(" ").indexOf(className) !== -1;
+    } catch {}
+    return _ret;
 }
 function getRandom(min, max) {
     const floatRandom = Math.random();

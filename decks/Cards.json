@@ -1394,58 +1394,58 @@
      "Points":[ 10, -10 ],
      "translations":{
         "en":{
-           "name":"",
+           "name":"Ace of Spades",
            "normal":[
-              "",
-              ""
+              "It is an indicator of new beginnings, opportunities and potential. Triumph achieved despite problems. Intense activity.",
+              "Air, Determination, Excalibur, Intelligence, Swiftness, Insightful, Penetration, Wind, Victory."
            ],
            "inverted":[
-              "",
-              ""
+              "Disaster or conquest followed by disaster. Great loss. Violent death. Infertility.",
+              "Self-limiting thoughts, inability to think clearly, communication problems, overly analytical, cannot concentrate."
            ]
         },
         "es":{
-           "name":"",
+           "name":"As de Espadas",
            "normal":[
-              "",
-              ""
+              "Es un indicador de nuevos comienzos, oportunidades y potencial. Triunfo logrado a pesar de los problemas. Actividad intensa.",
+              "Aire, Determinación, Excalibur, inteligencia, rapidez, perspicaz, penetración, viento, victoria."
            ],
            "inverted":[
-              "",
-              ""
+              "Desastre o conquista seguida por un desastre. Gran pérdida. Muerte violenta. Infertilidad.",
+              "Pensamientos autolimitados, incapacidad para pensar con claridad, problemas de comunicación, demasiado analítico, no puede concentrarse."
            ]
         },
         "de":{
-           "name":"",
+           "name":"Ass der Schwerter",
            "normal":[
-              "",
-              ""
+              "Es ist ein Indikator für Neuanfänge, Chancen und Potenziale. Trotz der Probleme gelang der Triumph. Intensive Aktivität.",
+              "Luft, Entschlossenheit, Excalibur, Intelligenz, Geschwindigkeit, Einsicht, Durchdringung, Wind, Sieg."
            ],
            "inverted":[
-              "",
-              ""
+              "Katastrophe oder Eroberung, gefolgt von einer Katastrophe. Großer Verlust. Gewaltsamer Tod. Unfruchtbarkeit.",
+              "Selbstlimitierende Gedanken, Unfähigkeit, klar zu denken, Kommunikationsprobleme, übermäßige Analyse, Konzentrationsschwäche."
            ]
         },
         "fr":{
-           "name":"",
+           "name":"As d'épée",
            "normal":[
-              "",
-              ""
+              "C'est un indicateur de nouveaux départs, d'opportunités et de potentiel. Triomphe obtenu malgré les problèmes. Activité intense.",
+              "Air, Détermination, Excalibur, intelligence, vitesse, perspicacité, pénétration, vent, victoire."
            ],
            "inverted":[
-              "",
-              ""
+              "Catastrophe ou conquête suivie de catastrophe. Grosse perte. Mort violente. Infertilité.",
+              "Pensées auto-limitantes, incapacité à penser clairement, problèmes de communication, trop analytique, impossible de se concentrer."
            ]
         },
         "ru":{
-           "name":"",
+           "name":"Туз мечей",
            "normal":[
-              "",
-              ""
+              "Это индикатор новых начинаний, возможностей и потенциала. Триумф достигнут, несмотря на проблемы. Интенсивная деятельность.",
+              "Воздух, Решительность, Экскалибур, интеллект, скорость, проницательность, проникновение, ветер, победа."
            ],
            "inverted":[
-              "",
-              ""
+              "Катастрофа или завоевание, за которым следует катастрофа. Большая потеря. Насильственная смерть. Бесплодие.",
+              "Самоограничивающие мысли, неспособность ясно мыслить, проблемы с общением, чрезмерный аналитический подход, неспособность сосредоточиться."
            ]
         }
      }
@@ -1454,6 +1454,826 @@
    "id":23,
    "number":"2",
    "type":"Swords",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"Two of Swords",
+         "normal":[
+            "Peace. Balanced forces. Strength. Friendship. Symbolizes duality, balance and collaboration.",
+            "Seeing both sides of the coin, balance, crossroads, decisive point."
+         ],
+         "inverted":[
+            "Disloyalty. Changes, sometimes in the wrong direction. Fights.",
+            "Ignores feelings, he doesn't want to see."
+         ]
+      },
+      "es":{
+         "name":"Dos de Espadas",
+         "normal":[
+            "Paz. Fuerzas balanceadas. Fortaleza. Amistad. Simboliza dualidad, equilibrio y colaboración.",
+            "Ver ambas caras de la moneda, equilibrio, encrucijadas, punto decisivo."
+         ],
+         "inverted":[
+            "Deslealtad. Cambios, a veces en la dirección equivocada. Peleas.",
+            "Ignora los sentimientos, no desea ver."
+         ]
+      },
+      "de":{
+         "name":"Zwei Schwerter",
+         "normal":[
+            "Frieden. Ausgewogene Kräfte. Stärke. Freundschaft. Es symbolisiert Dualität, Gleichgewicht und Zusammenarbeit.",
+            "Sehen Sie beide Seiten der Medaille: Gleichgewicht, Scheideweg, Wendepunkt."
+         ],
+         "inverted":[
+            "Untreue. Veränderungen, manchmal in die falsche Richtung. Kämpfe.",
+            "Er ignoriert die Gefühle, die er nicht sehen will."
+         ]
+      },
+      "fr":{
+         "name":"Deux d'épées",
+         "normal":[
+            "Paix. Forces équilibrées. Force. Amitié. Il symbolise la dualité, l'équilibre et la collaboration.",
+            "Voir les deux faces de la médaille, l’équilibre, la croisée des chemins, le tournant."
+         ],
+         "inverted":[
+            "Déloyauté. Des changements, parfois dans le mauvais sens. Des combats.",
+            "Il ignore les sentiments, il ne veut pas voir."
+         ]
+      },
+      "ru":{
+         "name":"Двойка мечей",
+         "normal":[
+            "Мир. Сбалансированные силы. Сила. Дружба. Он символизирует двойственность, баланс и сотрудничество.",
+            "Увидьте обе стороны медали, баланс, перепутье, поворотный момент."
+         ],
+         "inverted":[
+            "Нелояльность. Изменения, иногда не в ту сторону. Бои.",
+            "Он игнорирует чувства, он не хочет видеть."
+         ]
+      }
+   }
+  },
+  {
+   "id":24,
+   "number":"3",
+   "type":"Swords",
+   "Points":[ -10, -10 ],
+   "translations":{
+      "en":{
+         "name":"Three of Swords",
+         "normal":[
+            "Personal, pain, deception, infidelity, sadness.",
+            "Pain. Separation, fights, tears. Delay, absence."
+         ],
+         "inverted":[
+            "Confusion, loss, error.",
+            "He hides to cry, pain in the heart, distressed."
+         ]
+      },
+      "es":{
+         "name":"Tres de Espadas",
+         "normal":[
+            "Personal, dolor, engaños, infidelidad, tristeza.",
+            "Pena. Separación, peleas, lágrimas. Retraso, ausencia."
+         ],
+         "inverted":[
+            "Confusión, pérdida, error.",
+            "Se oculta para llorar, dolor en el corazón, acongojado."
+         ]
+      },
+      "de":{
+         "name":"Drei der Schwerter",
+         "normal":[
+            "Persönlich, Schmerz, Täuschung, Untreue, Traurigkeit.",
+            "Trauer. Trennung, Streit, Tränen. Verzögerung, Abwesenheit."
+         ],
+         "inverted":[
+            "Verwirrung, Verlust, Irrtum.",
+            "Er versteckt sich, um zu weinen, Schmerz im Herzen, voller Angst."
+         ]
+      },
+      "fr":{
+         "name":"Trois d'épées",
+         "normal":[
+            "Personnel, douleur, tromperie, infidélité, tristesse.",
+            "Deuil. Séparation, bagarres, larmes. Retard, absence."
+         ],
+         "inverted":[
+            "Confusion, perte, erreur.",
+            "Il se cache pour pleurer, la douleur au cœur, angoissé."
+         ]
+      },
+      "ru":{
+         "name":"Тройка мечей",
+         "normal":[
+            "Личное, боль, обман, неверность, печаль.",
+            "Горе. Разлука, ссоры, слезы. Задержка, отсутствие."
+         ],
+         "inverted":[
+            "Путаница, потеря, ошибка.",
+            "Он прячется, чтобы плакать, боль в сердце, тоска."
+         ]
+      }
+   }
+  },
+  {
+   "id":25,
+   "number":"4",
+   "type":"Swords",
+   "Points":[ 10, 5 ],
+   "translations":{
+      "en":{
+         "name":"Four of Swords",
+         "normal":[
+            "Truce. Solitude, stagnation. Recovery of health after an illness. Exile. Withdrawal.",
+            "Liberation, calm, tranquility. Stability, reflection, peace."
+         ],
+         "inverted":[
+            "Renewed activity. Surprise. Caution and economy are recommended.",
+            "Stress, tired, distressed."
+         ]
+      },
+      "es":{
+         "name":"Cuatro de Espadas",
+         "normal":[
+            "Tregua. Soledad, estancamiento. Recuperación de la salud luego de una enfermedad. Exilio. Retirada.",
+            "Liberación, calma, tranquilidad. estabilidad, reflexión, paz."
+         ],
+         "inverted":[
+            "Actividad renovada. Sorpresa. Se recomienda prudencia y economía.",
+            "Estrés, cansado, angustiado."
+         ]
+      },
+      "de":{
+         "name":"Vier der Schwerter",
+         "normal":[
+            "Waffenstillstand. Einsamkeit, Stagnation. Wiederherstellung der Gesundheit nach einer Krankheit. Exil. Ruhestand.",
+            "Befreiung, Ruhe, Ruhe. Stabilität, Besinnung, Frieden."
+         ],
+         "inverted":[
+            "Erneute Aktivität. Überraschung. Besonnenheit und Sparsamkeit sind empfehlenswert.",
+            "Gestresst, müde, verzweifelt."
+         ]
+      },
+      "fr":{
+         "name":"Quatre d'épées",
+         "normal":[
+            "Trêve. Solitude, stagnation. Récupération de la santé après une maladie. Exil. Retraite.",
+            "Libération, calme, tranquillité. stabilité, réflexion, paix."
+         ],
+         "inverted":[
+            "Activité renouvelée. Surprise. Prudence et économie sont recommandées.",
+            "Stressé, fatigué, en détresse."
+         ]
+      },
+      "ru":{
+         "name":"Четверка мечей",
+         "normal":[
+            "Перемирие. Одиночество, застой. Восстановление здоровья после болезни. Изгнание. Выход на пенсию.",
+            "Освобождение, спокойствие, спокойствие. Стабильность, размышление, мир."
+         ],
+         "inverted":[
+            "Возобновление активности. Неожиданность. Рекомендуется осторожность и экономность.",
+            "Напряженный, уставший, расстроенный."
+         ]
+      }
+   }
+  },
+  {
+   "id":26,
+   "number":"5",
+   "type":"Swords",
+   "Points":[ -10, -10 ],
+   "translations":{
+      "en":{
+         "name":"Five of Swords",
+         "normal":[
+            "Defeat. Failure, loss. Lack of strength. Separation, lies, death.",
+            "It can warn of changes and challenges."
+         ],
+         "inverted":[
+            "Separation, pessimistic, rejection, lies, deception, tears, shame, selfishness",
+            "Danger of loss or defeat. Funeral. Weakness."
+         ]
+      },
+      "es":{
+         "name":"Cinco de Espadas",
+         "normal":[
+            "Derrota. Fracaso, pérdida. Falta de fuerza. Separación, mentiras, muerte.",
+            "Puede avisar de cambios y desafíos."
+         ],
+         "inverted":[
+            "Separación, pesimista, rechazo, mentiras, engaño, lágrimas, vergüenza, egoismo",
+            "Peligro de pérdida o derrota. Funeral. Debilidad."
+         ]
+      },
+      "de":{
+         "name":"Fünf der Schwerter",
+         "normal":[
+            "Niederlage. Scheitern, Verlust. Mangel an Kraft. Trennung, Lügen, Tod.",
+            "Es kann vor Veränderungen und Herausforderungen warnen."
+         ],
+         "inverted":[
+            "Trennung, Pessimismus, Ablehnung, Lügen, Täuschung, Tränen, Scham, Egoismus",
+            "Gefahr des Verlusts oder der Niederlage. Beerdigung. Schwäche."
+         ]
+      },
+      "fr":{
+         "name":"Cinq d'épées",
+         "normal":[
+            "Défaite. Échec, perte. Manque de force. Séparation, mensonges, mort.",
+            "Cela peut avertir des changements et des défis."
+         ],
+         "inverted":[
+            "Séparation, pessimisme, rejet, mensonges, tromperie, larmes, honte, égoïsme",
+            "Danger de perte ou de défaite. Funérailles. Faiblesse."
+         ]
+      },
+      "ru":{
+         "name":"Пятерка мечей",
+         "normal":[
+            "Поражение. Неудача, потеря. Отсутствие сил. Разлука, ложь, смерть.",
+            "Он может предупреждать об изменениях и проблемах."
+         ],
+         "inverted":[
+            "Разлука, пессимизм, неприятие, ложь, обман, слезы, стыд, эгоизм",
+            "Опасность потери или поражения. Похороны. Слабость."
+         ]
+      }
+   }
+  },
+  {
+   "id":27,
+   "number":"6",
+   "type":"Swords",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"Six of Swords",
+         "normal":[
+            "Science. Travel by water, revelation, study. Intelligent effort. Success after great anxiety.",
+            "It is a symbol of harmony, cooperation and reconciliation."
+         ],
+         "inverted":[
+            "Stagnation. Unfavorable outcome. Intellectual pride.",
+            "Static, non-searching thinking."
+         ]
+      },
+      "es":{
+         "name":"Seis de Espadas",
+         "normal":[
+            "Ciencia. Viaje por agua, revelación, estudio. Esfuerzo inteligente. Exito después de gran ansiedad.",
+            "Es un símbolo de armonía, cooperación y reconciliación."
+         ],
+         "inverted":[
+            "Estancamiento. Resultado desfavorable. Orgullo intelectual.",
+            "Pensamiento estático, no busca."
+         ]
+      },
+      "de":{
+         "name":"Sechs der Schwerter",
+         "normal":[
+            "Wissenschaft. Reise auf dem Wasser, Offenbarung, Studium. Intelligente Anstrengung. Erfolg nach großer Angst.",
+            "Es ist ein Symbol für Harmonie, Zusammenarbeit und Versöhnung."
+         ],
+         "inverted":[
+            "Stagnation. Ungünstiges Ergebnis. Intellektueller Stolz.",
+            "Statisches Denken, sucht nicht."
+         ]
+      },
+      "fr":{
+         "name":"Six d'épées",
+         "normal":[
+            "Science. Voyage sur l'eau, révélation, étude. Effort intelligent. Succès après une grande anxiété.",
+            "C'est un symbole d'harmonie, de coopération et de réconciliation."
+         ],
+         "inverted":[
+            "Stagnation. Résultat défavorable. Fierté intellectuelle.",
+            "La pensée statique ne cherche pas."
+         ]
+      },
+      "ru":{
+         "name":"Шестерка мечей",
+         "normal":[
+            "Наука. Путешествие по воде, откровение, исследование. Интеллектуальные усилия. Успех после большого беспокойства.",
+            "Это символ гармонии, сотрудничества и примирения."
+         ],
+         "inverted":[
+            "Застой. Неблагоприятный исход. Интеллектуальная гордость.",
+            "Статичное мышление, не ищет."
+         ]
+      }
+   }
+  },
+  {
+   "id":28,
+   "number":"7",
+   "type":"Swords",
+   "Points":[ 1, -10 ],
+   "translations":{
+      "en":{
+         "name":"Seven of Swords",
+         "normal":[
+"Futility. Partial or unpredictable outcome. Dreams, hesitation. Travel by land.",
+"Loneliness, fear, shame, lying or stealing, avoiding responsibility."
+         ],
+         "inverted":[
+"Fights, slander. Disappointment in the family or with a friend.",
+"Fear of facing the present, hidden dishonor, deceiving or being deceived."
+         ]
+      },
+      "es":{
+         "name":"Siete de Espadas",
+         "normal":[
+            "Futilidad. Resultado parcial o impredecible. Sueños, vacilación. Viaje por tierra.",
+            "Soledad, miedo, verguenza, mentira o robo, evitar responsabilidades."
+         ],
+         "inverted":[
+            "Peleas, calumnias. Decepción en la familia o con una amistad.",
+            "Miedo de enfrentar el presente, deshonra oculta, engañar o ser engañado."
+         ]
+      },
+      "de":{
+         "name":"Sieben der Schwerter",
+         "normal":[
+            "Vergeblichkeit. Teilweises oder unvorhersehbares Ergebnis. Träume, Zögern. Reisen auf dem Landweg.",
+            "Einsamkeit, Angst, Scham, Lügen oder Diebstahl, Vermeidung von Verantwortung."
+         ],
+         "inverted":[
+            "Streitigkeiten, Verleumdungen. Enttäuschung in der Familie oder mit einem Freund.",
+            "Angst, sich der Gegenwart zu stellen, versteckte Schande, zu täuschen oder getäuscht zu werden."
+         ]
+      },
+      "fr":{
+         "name":"Sept d'épées",
+         "normal":[
+"Futilité. Résultat partiel ou imprévisible. Rêves, hésitations. Voyage par voie terrestre.",
+ "La solitude, la peur, la honte, le mensonge ou le vol, éviter les responsabilités."
+         ],
+         "inverted":[
+"Combats, calomnies. Déception en famille ou avec un ami.",
+ "Peur d'affronter le présent, le déshonneur caché, de tromper ou d'être trompé."
+         ]
+      },
+      "ru":{
+         "name":"Семерка Мечей",
+         "normal":[
+            "Бесполезность. Частичный или непредсказуемый результат. Мечты, колебания. Путешествие по суше.",
+            "Одиночество, страх, стыд, ложь или воровство, избегание ответственности."
+         ],
+         "inverted":[
+            "Ссоры, клевета. Разочарование в семье или в друге.",
+            "Страх столкнуться с настоящим, скрытым бесчестием, обманом или быть обманутым."
+         ]
+      }
+   }
+  },
+  {
+   "id":29,
+   "number":"8",
+   "type":"Swords",
+   "Points":[ 1, 10 ],
+   "translations":{
+      "en":{
+         "name":"Eight of Swords",
+         "normal":[
+"Interference, restriction. Temporary illness or captivity. Indecision.",
+"Slavery, victim, impatient, stress, disconnection"
+         ],
+         "inverted":[
+"New beginnings. Freedom from the shackles of the past.",
+"Waiting for rescue."
+         ]
+      },
+      "es":{
+         "name":"Ocho de Espadas",
+         "normal":[
+            "Interferencia, restricción. Enfermedad temporal o cautiverio. Indecisión.",
+            "Esclavitud, víctima, impaciente, estrés, desconexión"
+         ],
+         "inverted":[
+            "Nuevos inicios. Libertad de las ataduras del pasado.",
+            "Esperar el rescate."
+         ]
+      },
+      "de":{
+         "name":"Acht der Schwerter",
+         "normal":[
+            "Einmischung, Einschränkung. Vorübergehende Krankheit oder Gefangenschaft. Unentschlossenheit.",
+            "Sklaverei, Opfer, Ungeduld, Stress, Trennung"
+         ],
+         "inverted":[
+            "Neuanfänge. Freiheit von den Fesseln der Vergangenheit.",
+            "Warte auf Rettung."
+         ]
+      },
+      "fr":{
+         "name":"Huit d'épées",
+         "normal":[
+"Interférence, restriction. Maladie temporaire ou captivité. Indécision.",
+ "Esclavage, victime, impatience, stress, déconnexion"
+         ],
+         "inverted":[
+"De nouveaux départs. Libéré des liens du passé.",
+ "Attendez les secours."
+         ]
+      },
+      "ru":{
+         "name":"Восьмерка Мечей",
+         "normal":[
+            "Вмешательство, ограничение. Временная болезнь или плен. Нерешительность.",
+            "Рабство, жертва, нетерпение, стресс, разобщенность"
+         ],
+         "inverted":[
+            "Новые начинания. Свобода от уз прошлого.",
+            "Ждите спасения"
+         ]
+      }
+   }
+  },
+  {
+   "id":30,
+   "number":"9",
+   "type":"Swords",
+   "Points":[ -20, 10 ],
+   "translations":{
+      "en":{
+         "name":"Nine of Swords",
+         "normal":[
+            "Cruelty, suffering, misery, illness, martyrdom. A heavy burden. It could be the death of a loved one.",
+            "Guilt, tied hands, things we have done wrong, depression, repression."
+         ],
+         "inverted":[
+            "Patience, faith, hope, altruism.",
+            "Recognize, externalize, isolation, admit, truth."
+         ]
+      },
+      "es":{
+         "name":"Nueve de Espadas",
+         "normal":[
+            "Crueldad, sufrimiento, miseria, enfermedad, martirio. Una pesada carga. Puede ser la muerte de un ser amado.",
+            "Culpa, manos atadas, cosas que hemos hecho mal, depresión, represión."
+         ],
+         "inverted":[
+            "Paciencia, fe, esperanza, altruismo.",
+            "Reconoce, exterioriza, aislamiento, admite, verdad."
+         ]
+      },
+      "de":{
+         "name":"Neun der Schwerter",
+         "normal":[
+            "Grausamkeit, Leid, Elend, Krankheit, Märtyrertum. Eine schwere Last. Es kann der Tod eines geliebten Menschen sein.",
+            "Schuldgefühle, gebundene Hände, Dinge, die wir falsch gemacht haben, Depression, Unterdrückung."
+         ],
+         "inverted":[
+            "Geduld, Glaube, Hoffnung, Altruismus.",
+            "Erkennen, externalisieren, isolieren, zugeben, Wahrheit."
+         ]
+      },
+      "fr":{
+         "name":"Neuf d'épées",
+         "normal":[
+            "Cruauté, souffrance, misère, maladie, martyre. Un lourd fardeau. Cela peut être la mort d'un être cher.",
+            "Culpabilité, mains liées, choses que nous avons mal faites, dépression, répression."
+         ],
+         "inverted":[
+            "Patience, foi, espoir, altruisme.",
+            "Reconnaître, extérioriser, isoler, admettre, vérité."
+         ]
+      },
+      "ru":{
+         "name":"Девятка Мечей",
+         "normal":[
+            "Жестокость, страдания, страдания, болезни, мученичество. Тяжелое бремя. Это может быть смерть близкого человека.",
+            "Вина, связанные руки, то, что мы сделали неправильно, депрессия, репрессии."
+         ],
+         "inverted":[
+            "Терпение, вера, надежда, альтруизм.",
+            "Признать, воплотить в жизнь, изоляцию, признать истину"
+         ]
+      }
+   }
+  },
+  {
+   "id":31,
+   "number":"10",
+   "type":"Swords",
+   "Points":[ -20, 10 ],
+   "translations":{
+      "en":{
+         "name":"Ten of Swords",
+         "normal":[
+            "Ruin. Total defeat. Death.",
+            "The end of an illusion."
+         ],
+         "inverted":[
+            "Temporary success. Improvement.",
+            "It is related to completion, closure and transformation."
+         ]
+      },
+      "es":{
+         "name":"Diez de Espadas",
+         "normal":[
+            "Ruina. Derrota Total. Muerte.",
+            "El final de una ilusión."
+         ],
+         "inverted":[
+            "Exito transitorio. Mejoría.",
+            "Se relaciona con la finalización, el cierre y la transformación."
+         ]
+      },
+      "de":{
+         "name":"Zehn der Schwerter",
+         "normal":[
+            "Ruin. Totale Niederlage. Tod.",
+            "Das Ende einer Illusion."
+         ],
+         "inverted":[
+            "Vorübergehender Erfolg. Verbesserung.",
+            "Es hängt mit Vollendung, Abschluss und Transformation zusammen."
+         ]
+      },
+      "fr":{
+         "name":"Dix d'épées",
+         "normal":[
+            "Ruine. Défaite totale. Mort.",
+            "La fin d'une illusion."
+         ],
+         "inverted":[
+            "Succès transitoire. Amélioration.",
+            "C'est lié à l'achèvement, à la clôture et à la transformation."
+         ]
+      },
+      "ru":{
+         "name":"Десятка Мечей",
+         "normal":[
+            "Руина. Полное поражение. Смерть.",
+            "Конец иллюзии"
+         ],
+         "inverted":[
+            "Преходящий успех. Улучшение.",
+            "Это связано с завершением, завершением и трансформацией"
+         ]
+      }
+   }
+  },
+  {
+   "id":32,
+   "number":"P",
+   "type":"Swords",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"Page of Swords",
+         "normal":[
+            "Young, logical and penetrating person. With great physical and mental skill. Espionage, messages.",
+            "Take a novel approach, be original, invent."
+         ],
+         "inverted":[
+            "Frivolous, vindictive, and devious. Indiscretion, impotence. Unexpected disturbance.",
+            "Poison in the blood, mental anguish, revenge, aversion."
+         ]
+      },
+      "es":{
+         "name":"Paje de Espadas",
+         "normal":[
+            "Persona joven, lógica y penetrante. Con mucha destreza física y mental. Espionaje, mensajes.",
+            "Adopte un enfoque novedoso, sea original, invente."
+         ],
+         "inverted":[
+            "Frívolo, vengativo y taimado. Indiscreción, impotencia. Perturbación inesperada.",
+            "Veneno en la sangre, angustia mental, venganza, aversión."
+         ]
+      },
+      "de":{
+         "name":"Seite der Schwerter",
+         "normal":[
+            "Junger, logischer und eindringlicher Mensch. Mit viel körperlicher und geistiger Geschicklichkeit. Spionage, Nachrichten.",
+            "Gehen Sie einen neuartigen Ansatz, seien Sie originell, erfinden Sie."
+         ],
+         "inverted":[
+            "Leider, rachsüchtig und hinterhältig. Indiskretion, Impotenz. Unerwartete Störung.",
+            "Gift im Blut, seelische Qual, Rache, Abneigung."
+         ]
+      },
+      "fr":{
+         "name":"Page des épées",
+         "normal":[
+            "Personne jeune, logique et pénétrante. Avec beaucoup de dextérité physique et mentale. Espionnage, messages.",
+            "Adoptez une approche nouvelle, soyez original, inventez."
+         ],
+         "inverted":[
+            "Frivole, vengeur et sournois. Indiscrétion, impuissance. Perturbation inattendue.",
+            "Poison dans le sang, angoisse mentale, vengeance, aversion."
+         ]
+      },
+      "ru":{
+         "name":"Паж Мечей",
+         "normal":[
+            "Молодой, логичный и проницательный человек. Обладает большой физической и умственной ловкостью. Шпионаж, сообщения.",
+            "Применяйте новый подход, будьте оригинальны, изобретайте"
+         ],
+         "inverted":[
+            "Легкомысленный, мстительный и коварный. Неосмотрительность, бессилие. Неожиданное беспокойство.",
+            "Яд в крови, душевные муки, месть, отвращение"
+         ]
+      }
+   }
+  },
+  {
+   "id":33,
+   "number":"J",
+   "type":"Swords",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"Knight of Swords",
+         "normal":[
+            "A young, bold, intelligent and spirited man. He can be somewhat dominant and unstable, but he has the best intentions.",
+            "He indicates movement, action and leadership."
+         ],
+         "inverted":[
+            "Ruthless, fanatic, extravagant, tyrannical and aggressive. Dangerous enemy.",
+            ""
+         ]
+      },
+      "es":{
+         "name":"Caballero de Espadas",
+         "normal":[
+            "Hombre joven, audaz, inteligente y animoso. Puede ser un tanto dominante e inestable, pero tiene las mejores intenciones.",
+            "Nos indica movimiento, acción y liderazgo."
+         ],
+         "inverted":[
+            "Despiadado, fanático, extravagante, tiránico y agresivo. Enemigo peligroso.",
+            ""
+         ]
+      },
+      "de":{
+         "name":"Ritter der Schwerter",
+         "normal":[
+            "Junger, mutiger, intelligenter und temperamentvoller Mann. Er kann ein bisschen dominant und instabil sein, aber er hat die besten Absichten.",
+            "Es zeigt Bewegung, Aktion und Führung an."
+         ],
+         "inverted":[
+            "Rücksichtslos, fanatisch, extravagant, tyrannisch und aggressiv. Gefährlicher Feind.",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"Chevalier des épées",
+         "normal":[
+            "Homme jeune, audacieux, intelligent et fougueux. Il peut être un peu dominateur et instable, mais il a les meilleures intentions.",
+            "Cela indique le mouvement, l'action et le leadership."
+         ],
+         "inverted":[
+            "Impitoyable, fanatique, extravagant, tyrannique et agressif. Ennemi dangereux.",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"Рыцарь Мечей",
+         "normal":[
+            "Молодой, смелый, умный и энергичный мужчина. Он может быть немного властным и нестабильным, но у него самые благие намерения",
+            "Это указывает на движение, действие и лидерство"
+         ],
+         "inverted":[
+            "Безжалостный, фанатичный, экстравагантный, тиранический и агрессивный. Опасный враг.",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":34,
+   "number":"Q",
+   "type":"Swords",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"Queen of Swords",
+         "normal":[
+            "An elegant but severe woman. She is perceptive and has very good judgment. This card also means deprivation and mourning.",
+            "Sincere and everyone likes her, everything at the table plays by her rules."
+         ],
+         "inverted":[
+            "Maliciously playful. Dangerous enemy. Jealous and intolerant.",
+            "Critical, vengeful, stubborn, cold, questioning, curious, distrustful."
+         ]
+      },
+      "es":{
+         "name":"Reina de Espadas",
+         "normal":[
+            "Una mujer elegante pero severa. Es perspicaz y tiene muy buen juicio. Esta carta también significa privación y duelo.",
+            "Sincera y a todo el mundo le gusta, todo en la mesa juega con sus reglas."
+         ],
+         "inverted":[
+            "Maliciosamente juguetona. Enemiga peligrosa. Celosa e intolerante.",
+            "Crítica, vengativa, obstinada, fría, interrogativa, curiosa, desconfiada."
+         ]
+      },
+      "de":{
+         "name":"Königin der Schwerter",
+         "normal":[
+            "Eine elegante, aber strenge Frau. Sie ist einsichtig und hat ein sehr gutes Urteilsvermögen. Diese Karte bedeutet auch Entbehrung und Trauer.",
+            "Aufrichtig und jeder mag es, alles am Tisch spielt nach seinen Regeln."
+         ],
+         "inverted":[
+            "Böswillig verspielt. Gefährlicher Feind. Eifersüchtig und intolerant.",
+            "Kritisch, rachsüchtig, stur, kalt, fragend, neugierig, misstrauisch."
+         ]
+      },
+      "fr":{
+         "name":"Reine des épées",
+         "normal":[
+            "Une femme élégante mais sévère. Elle est perspicace et a un très bon jugement. Cette carte signifie aussi privation et deuil.",
+            "Sincère et tout le monde aime ça, tout à table obéit à ses règles."
+         ],
+         "inverted":[
+            "Malicieusement ludique. Ennemi dangereux. Jaloux et intolérant.",
+            "Critique, vindicatif, têtu, froid, interrogatif, curieux, méfiant."
+         ]
+      },
+      "ru":{
+         "name":"Королева Мечей",
+         "normal":[
+            "Элегантная, но суровая женщина. Она проницательна и обладает очень здравым смыслом. Эта карта также означает лишения и траур",
+            "Искренне и всем нравится, за столом все играет по своим правилам"
+         ],
+         "inverted":[
+            "Злобно игривый. Опасный враг. Ревнивый и нетерпимый.",
+            "Критический, мстительный, упрямый, холодный, вопросительный, любопытный, недоверчивый"
+         ]
+      }
+   }
+  },
+  {
+   "id":35,
+   "number":"K",
+   "type":"Swords",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"King of Swords",
+         "normal":[
+            "This man can be a very powerful ally or a good advisor. He is intelligent, self-controlled and authoritative. He is modern and analytical. ",
+            "This card can also mean judgment."
+         ],
+         "inverted":[
+            "A deceitful and malicious man.",
+            "He can be a dangerous, violent and powerful enemy."
+         ]
+      },
+      "es":{
+         "name":"Rey de Espadas",
+         "normal":[
+            "Este hombre puede ser un muy poderoso aliado o un buen consejero. Es inteligente, autocontrolado y tiene autoridad. Es moderno y analítico. ",
+            "Esta carta también puede significar un juicio."
+         ],
+         "inverted":[
+            "Hombre engañoso y malicioso.",
+            "Puede ser un enemigo peligroso, violento y poderoso."
+         ]
+      },
+      "de":{
+         "name":"König der Schwerter",
+         "normal":[
+            "Dieser Mann kann ein sehr mächtiger Verbündeter oder ein guter Berater sein. Er ist intelligent, selbstbeherrscht und autoritär. Er ist modern und analytisch.",
+            "Dieser Brief kann auch ein Urteil bedeuten."
+         ],
+         "inverted":[
+            "Betrügerischer und bösartiger Mann.",
+            "Es kann ein gefährlicher, gewalttätiger und mächtiger Feind sein."
+         ]
+      },
+      "fr":{
+         "name":"Roi des épées",
+         "normal":[
+            "Cet homme peut être un allié très puissant ou un bon conseiller. Il est intelligent, maître de lui et autoritaire. Il est moderne et analytique.",
+            "Cette lettre peut aussi signifier un jugement."
+         ],
+         "inverted":[
+            "Homme trompeur et malveillant.",
+            "Cela peut être un ennemi dangereux, violent et puissant."
+         ]
+      },
+      "ru":{
+         "name":"Король Мечей",
+         "normal":[
+            "Этот человек может быть очень могущественным союзником или хорошим советчиком. Он умен, сдержан и авторитетен. Он современен и аналитичен",
+            "Это письмо также может означать осуждение"
+         ],
+         "inverted":[
+            "Лживый и злой человек.",
+            "Это может быть опасный, жестокий и могущественный враг"
+         ]
+      }
+   }
+  },
+
+  {
+   "id":36,
+   "number":"1",
+   "type":"Cups",
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
@@ -1512,5 +2332,2593 @@
          ]
       }
    }
-}
+  },
+  {
+   "id":37,
+   "number":"2",
+   "type":"Cups",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":38,
+   "number":"3",
+   "type":"Cups",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":39,
+   "number":"4",
+   "type":"Cups",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":40,
+   "number":"5",
+   "type":"Cups",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":41,
+   "number":"6",
+   "type":"Cups",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":42,
+   "number":"7",
+   "type":"Cups",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":43,
+   "number":"8",
+   "type":"Cups",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":44,
+   "number":"9",
+   "type":"Cups",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":45,
+   "number":"10",
+   "type":"Cups",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":46,
+   "number":"P",
+   "type":"Cups",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":47,
+   "number":"J",
+   "type":"Cups",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":48,
+   "number":"Q",
+   "type":"Cups",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":49,
+   "number":"K",
+   "type":"Cups",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+
+
+
+  {
+   "id":50,
+   "number":"1",
+   "type":"Pentacles",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":51,
+   "number":"2",
+   "type":"Pentacles",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":52,
+   "number":"3",
+   "type":"Pentacles",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":53,
+   "number":"4",
+   "type":"Pentacles",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":54,
+   "number":"5",
+   "type":"Pentacles",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":55,
+   "number":"6",
+   "type":"Pentacles",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":56,
+   "number":"7",
+   "type":"Pentacles",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":57,
+   "number":"8",
+   "type":"Pentacles",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":58,
+   "number":"9",
+   "type":"Pentacles",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":59,
+   "number":"10",
+   "type":"Pentacles",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":60,
+   "number":"P",
+   "type":"Pentacles",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":61,
+   "number":"J",
+   "type":"Pentacles",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":62,
+   "number":"Q",
+   "type":"Pentacles",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":63,
+   "number":"K",
+   "type":"Pentacles",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+
+
+  {
+   "id":64,
+   "number":"1",
+   "type":"Wands",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":65,
+   "number":"2",
+   "type":"Wands",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":66,
+   "number":"3",
+   "type":"Wands",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":67,
+   "number":"4",
+   "type":"Wands",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":68,
+   "number":"5",
+   "type":"Wands",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":69,
+   "number":"6",
+   "type":"Wands",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":70,
+   "number":"7",
+   "type":"Wands",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":71,
+   "number":"8",
+   "type":"Wands",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":72,
+   "number":"9",
+   "type":"Wands",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":73,
+   "number":"10",
+   "type":"Wands",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":74,
+   "number":"P",
+   "type":"Wands",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":75,
+   "number":"J",
+   "type":"Wands",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":76,
+   "number":"Q",
+   "type":"Wands",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  },
+  {
+   "id":77,
+   "number":"K",
+   "type":"Wands",
+   "Points":[ 10, -10 ],
+   "translations":{
+      "en":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "es":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "de":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "fr":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      },
+      "ru":{
+         "name":"",
+         "normal":[
+            "",
+            ""
+         ],
+         "inverted":[
+            "",
+            ""
+         ]
+      }
+   }
+  }
 ]

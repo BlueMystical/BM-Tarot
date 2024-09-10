@@ -154,11 +154,11 @@
         {
             "key": "RedMsg",
             "lang": {
-                "en": "Disastrous failure! You hit a wall this time, go home and try again tomorrow.",
+                "en": "Disastrous failure! | You hit a wall this time, go home and try again tomorrow.",
                 "es": "Fracazo Estrepitoso!|Esta vez te estrellaste contra una pared en este asunto, vete a casa e intentalo mañana.",
-                "de": "Katastrophaler Misserfolg! Wenn Sie dieses Mal an eine Wand stoßen, gehen Sie nach Hause und probieren Sie es morgen aus.",
-                "ru": "Катастрофический провал! На этот раз вы уперлись в стену, идите домой и попробуйте это завтра.",
-                "fr": "Échec désastreux ! Cette fois, vous vous heurtez à un mur, rentrez chez vous et essayez-le demain."
+                "de": "Katastrophaler Misserfolg!|Wenn Sie dieses Mal an eine Wand stoßen, gehen Sie nach Hause und probieren Sie es morgen aus.",
+                "ru": "Катастрофический провал!| На этот раз вы уперлись в стену, идите домой и попробуйте это завтра.",
+                "fr": "Échec désastreux !| Cette fois, vous vous heurtez à un mur, rentrez chez vous et essayez-le demain."
             }
         },
         {
