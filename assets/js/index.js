@@ -6,6 +6,17 @@ var MyDeck = null;      //<- Data of all cards
 var MyCards = [];       //<- Random Cards currently chosen
 var FlippedCards = false; //<- true if cards are flipped over
 
+const popOwner = document.getElementById('cmdDrawCards');
+var popMessg = new bootstrap.Popover(popOwner, {
+    animation: true,
+    placement: 'bottom',
+    trigger: 'focus',
+    template: '<div class="popover" role="tooltip"><div class="popover-arrow" ></div><h3 class="popover-header"></h3><div class="popover-body" ></div></div>',
+    customClass: '',
+    title: 'Title',
+    content: 'Message'
+});
+
 $('#cboLanguage').on('change', function () {
     UserLang = $(this).val(); //<- Valor Seleccionado
     setCookie("UserLang", UserLang, 7); //<- Remembers User's choice for 7 days
@@ -249,12 +260,59 @@ function FlipCards() {
                         // Carta Normal:
                         myImage.className = myImage.className.replace(" inverted-image", "");
                     }                     
-                } catch {}                
+                } catch {}
             }
             FlippedCards = true;
-            ShowAlert(SumarPuntos(DeckPoints));            
+            //ShowAlert(SumarPuntos(DeckPoints));     
+            ShowAlertEx(SumarPuntos(DeckPoints));    
         }
     } catch {}
+}
+
+function ShowAlertEx(points = 0) {
+
+    console.log('Points: ' + points);
+    var Messages = [];  
+    var className = '';   
+    
+    if (CardCount == 3) {
+        if (points >= 30) {
+            className = 'popBack-Green';
+            Messages = (LANG.translations.find((element) => element.key === 'GreenMsg').lang[UserLang]).split('|');            
+        } else if (points >= 15) {
+            className = 'popBack-Blue';
+            Messages = (LANG.translations.find((element) => element.key === 'BlueMsg').lang[UserLang]).split('|');  
+        } else if (points >= 10) {
+            className = 'popBack-Yellow';
+            Messages = (LANG.translations.find((element) => element.key === 'YellowMsg').lang[UserLang]).split('|');  
+        } else {
+            className = 'popBack-Red';
+            Messages = (LANG.translations.find((element) => element.key === 'RedMsg').lang[UserLang]).split('|');  
+        }
+    }
+    if (CardCount == 5) {
+        if (points >= 40) {
+            className = 'popBack-Green';
+            Messages = (LANG.translations.find((element) => element.key === 'GreenMsg').lang[UserLang]).split('|');            
+        } else if (points >= 25) {
+            className = 'popBack-Blue';
+            Messages = (LANG.translations.find((element) => element.key === 'BlueMsg').lang[UserLang]).split('|');  
+        } else if (points >= 10) {
+            className = 'popBack-Yellow';
+            Messages = (LANG.translations.find((element) => element.key === 'YellowMsg').lang[UserLang]).split('|');  
+        } else {
+            className = 'popBack-Red';
+            Messages = (LANG.translations.find((element) => element.key === 'RedMsg').lang[UserLang]).split('|');  
+        }  
+    }
+
+    popMessg._config.title = Messages[0];
+    popMessg._config.content = Messages[1];
+    popMessg._config.customClass = className;
+
+   // console.log(popMessg);
+    //popMessg.update();
+    popMessg.show();
 }
 
 function ShowAlert(points = 0) {
@@ -315,8 +373,9 @@ function ShowAlert(points = 0) {
     $("#Alert-Msg").html(Messages[1]);
 }
 function HideAlert() {
-    const myCard = document.getElementById('Alert-Div');
-    myCard.className = "alert invisible";
+    //const myCard = document.getElementById('Alert-Div');
+    //myCard.className = "alert invisible";
+    //popMessg.hide();
 }
 function SumarPuntos(DeckPoints) {
     var Positives = 0;

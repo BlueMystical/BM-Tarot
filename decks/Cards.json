@@ -2274,61 +2274,61 @@
    "id":36,
    "number":"1",
    "type":"Cups",
-   "Points":[ 10, -10 ],
+   "Points":[ 20, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Ace of Cups",
          "normal":[
-            "",
-            ""
+            "Harmony, fertility, happiness. Beginning of a great love.",
+            "Satisfaction, birth, abundance, translucency, direction, happiness, joy, vivified, kindness, peace, plenitude."
          ],
          "inverted":[
-            "",
-            ""
+            "Discord, false love, instability.",
+            "Artificial intoxication, relatively happy, emptiness, impurity."
          ]
       },
       "es":{
-         "name":"",
+         "name":"As de Copas",
          "normal":[
-            "",
-            ""
+            "Armonía, fertilidad, felicidad. Inicio de un gran amor.",
+            "Satisfacción, nacimiento, abundancia, translucidez, dirección, felicidad, alegría, vivificado, amabilidad, paz, plenitud."
          ],
          "inverted":[
-            "",
-            ""
+            "Discordia, falso amor, inestabilidad.",
+            "Embriaguez artificial, relativamente feliz, vacío, impureza."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Ass der Pokale",
          "normal":[
-            "",
-            ""
+            "Harmonie, Fruchtbarkeit, Glück. Beginn einer großen Liebe.",
+            "Zufriedenheit, Geburt, Fülle, Durchsichtigkeit, Richtung, Glück, Freude, belebt, Freundlichkeit, Frieden, Erfüllung."
          ],
          "inverted":[
-            "",
-            ""
+            "Zwietracht, falsche Liebe, Instabilität.",
+            "Künstlicher Rausch, relativ glücklich, Leere, Unreinheit."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"As de Coupe",
          "normal":[
-            "",
-            ""
+            "Harmonie, fertilité, bonheur. Début d'un grand amour.",
+            "Satisfaction, naissance, abondance, translucidité, direction, bonheur, joie, accélération, gentillesse, paix, épanouissement."
          ],
          "inverted":[
-            "",
-            ""
+            "Discorde, faux amour, instabilité.",
+            "Ivresse artificielle, relativement heureuse, vide, impureté."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Туз Кубков",
          "normal":[
-            "",
-            ""
+            "Гармония, плодородие, счастье. Начало большой любви.",
+            "Удовлетворение, рождение, изобилие, прозрачность, направление, счастье, радость, оживление, доброта, мир, удовлетворение"
          ],
          "inverted":[
-            "",
-            ""
+            "Раздор, ложная любовь, нестабильность.",
+            "Искусственное опьянение, относительное счастье, пустота, нечистота"
          ]
       }
    }
@@ -2337,61 +2337,61 @@
    "id":37,
    "number":"2",
    "type":"Cups",
-   "Points":[ 10, -10 ],
+   "Points":[ 20, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Two of Cups",
          "normal":[
-            "",
-            ""
+            "Love, harmony, warm friendship. Close relationship with a soul mate. Good card for business and love.",
+            "New friends, love, contact, harmony, renewal, affinity."
          ],
          "inverted":[
-            "",
-            ""
+            "Opposition, false love, nonsense, misunderstandings.",
+            "Trapped in a relationship, he cannot receive from others, he does not want to relate."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Dos de Copas",
          "normal":[
-            "",
-            ""
+            "Amor, armonía, cálida amistad. Relación estrecha con un alma gemela. Buena carta para los negocios y el amor.",
+            "Nuevos amigos, amor, contacto, armonía, renovación, afinidad."
          ],
          "inverted":[
-            "",
-            ""
+            "Oposición, falso amor, disparates, malentendidos.",
+            "Preso en una relación, no puede recibir de los demás, no quiere relacionarse."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Zwei Pokale",
          "normal":[
-            "",
-            ""
+            "Liebe, Harmonie, herzliche Freundschaft. Enge Beziehung zu einem Seelenverwandten. Gute Karte für Geschäft und Liebe.",
+            "Neue Freunde, Liebe, Kontakt, Harmonie, Erneuerung, Affinität."
          ],
          "inverted":[
-            "",
-            ""
+            "Opposition, falsche Liebe, Unsinn, Missverständnisse.",
+            "In einer Beziehung gefangen, kann er nichts von anderen empfangen, er möchte keine Beziehung aufbauen."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Deux de Coupes",
          "normal":[
-            "",
-            ""
+            "Amour, harmonie, amitié chaleureuse. Relation étroite avec l'âme sœur. Bonne carte pour les affaires et l'amour.",
+            "Nouveaux amis, amour, contact, harmonie, renouveau, affinité."
          ],
          "inverted":[
-            "",
-            ""
+            "Opposition, faux amour, absurdités, malentendus.",
+            "Prisonnier dans une relation, il ne peut pas recevoir des autres, il ne veut pas s'identifier."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Двойка Кубков",
          "normal":[
-            "",
-            ""
+            "Любовь, гармония, теплая дружба. Близкие отношения со второй половинкой. Хорошая карта для бизнеса и любви.",
+            "Новые друзья, любовь, контакт, гармония, обновление, близость"
          ],
          "inverted":[
-            "",
-            ""
+            "Противостояние, ложная любовь, ерунда, непонимание.",
+            "Заключенный в отношениях, он не может получать от других, не хочет общаться"
          ]
       }
    }
@@ -2403,58 +2403,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Three of Cups",
          "normal":[
-            "",
-            ""
+            "Abundance. Pleasure, hospitality, success. The good things in life.",
+            "Eating, drinking, marriage, meeting old friends."
          ],
          "inverted":[
-            "",
-            ""
+            "Excesses in eating, drinking or sensuality. Unbridled passion. Sex without love.",
+            "Unable to feel love, avoids old friends, does not enjoy the company of others."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Tres de Copas",
          "normal":[
-            "",
-            ""
+            "Abundancia. Placer, hospitalidad, éxito. Las buenas cosas de la vida.",
+            "Comer, beber, matrimonio, encuentro con viejos amigos."
          ],
          "inverted":[
-            "",
-            ""
+            "Excesos en el comer, el beber o la sensualidad. Pasión desenfrenada. Sexo sin amor.",
+            "Incapaz de sentir amor, evita a los viejos amigos, no disfruta de la compañía de los demás."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Drei Tassen",
          "normal":[
-            "",
-            ""
+            "Fülle. Vergnügen, Gastfreundschaft, Erfolg. Die guten Dinge im Leben.",
+            "Essen, trinken, heiraten, alte Freunde treffen."
          ],
          "inverted":[
-            "",
-            ""
+            "Exzesse beim Essen, Trinken oder der Sinnlichkeit. Ungezügelte Leidenschaft. Sex ohne Liebe.",
+            "Er kann keine Liebe empfinden, meidet alte Freunde und genießt die Gesellschaft anderer nicht."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Trois de Coupes",
          "normal":[
-            "",
-            ""
+            "Abondance. Plaisir, hospitalité, réussite. Les bonnes choses de la vie.",
+            "Manger, boire, se marier, rencontrer de vieux amis."
          ],
          "inverted":[
-            "",
-            ""
+            "Excès de nourriture, de boisson ou de sensualité. Passion débridée. Sexe sans amour.",
+            "Incapable de ressentir l'amour, il évite les vieux amis, n'apprécie pas la compagnie des autres."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Тройка Кубков",
          "normal":[
-            "",
-            ""
+            "Изобилие. Удовольствие, гостеприимство, успех. Хорошие вещи в жизни.",
+            "Еда, питье, брак, встречи со старыми друзьями"
          ],
          "inverted":[
-            "",
-            ""
+            "Излишества в еде, питье или чувственности. Необузданная страсть. Секс без любви.",
+            "Неспособный чувствовать любовь, он избегает старых друзей, не наслаждается обществом других"
          ]
       }
    }
@@ -2466,58 +2466,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Four of Cups",
          "normal":[
-            "",
-            ""
+            "Luxuries. Abandonment to desire. New ambition.",
+            "Accepts what is offered, Regrets past mistakes, something did not work, nostalgia, disappointment."
          ],
          "inverted":[
-            "",
-            ""
+            "Luxuries that do not bring happiness. Discontent with material success. Time to make a decisive change in life.",
+            "Withdrawal, waiting for things to happen on their own, withdrawal."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Cuatro de Copas",
          "normal":[
-            "",
-            ""
+            "Lujos. Abandono al deseo. Nueva ambición.",
+            "Acepta lo que le ofrecen, Lamentar errores pasados, algo no funciono, nostalgia, desilución."
          ],
          "inverted":[
-            "",
-            ""
+            "Lujos que no traen la felicidad. Descontento con el éxito material. Momento para hacer un cambio decisivo en la vida.",
+            "Se retrae, espera que las cosas ocurran por sí solas, retirada."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Vier Tassen",
          "normal":[
-            "",
-            ""
+            "Luxus. Sich dem Verlangen hingeben. Neuer Ehrgeiz.",
+            "Akzeptieren Sie, was sie anbieten, bereuen Sie vergangene Fehler, etwas hat nicht funktioniert, Nostalgie, Enttäuschung."
          ],
          "inverted":[
-            "",
-            ""
+            "Luxus, der kein Glück bringt. Unzufriedenheit mit materiellem Erfolg. Zeit für eine entscheidende Veränderung im Leben.",
+            "Er zieht sich zurück, wartet darauf, dass die Dinge von selbst passieren, zurückgezogen."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Quatre de Coupes",
          "normal":[
-            "",
-            ""
+            "Luxe. Abandon au désir. Nouvelle ambition.",
+            "Accepter ce qu'ils proposent, regretter les erreurs du passé, quelque chose qui n'a pas fonctionné, nostalgie, déception."
          ],
          "inverted":[
-            "",
-            ""
+            "Des luxes qui n'apportent pas le bonheur. Mécontentement face à la réussite matérielle. Il est temps de faire un changement décisif dans la vie.",
+            "Il se retire, attend que les choses arrivent d'elles-mêmes, en retrait."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Четверка Кубков",
          "normal":[
-            "",
-            ""
+            "Роскошь. Отказ от желаний. Новые амбиции.",
+            "Принимать то, что предлагают, сожалеть о прошлых ошибках, что-то не получилось, ностальгия, разочарование"
          ],
          "inverted":[
-            "",
-            ""
+            "Роскошь, не приносящая счастья. Недовольство материальным успехом. Время решительных перемен в жизни.",
+            "Он уходит, ждет, пока все произойдет само собой, замкнутый"
          ]
       }
    }
@@ -2526,61 +2526,61 @@
    "id":40,
    "number":"5",
    "type":"Cups",
-   "Points":[ 10, -10 ],
+   "Points":[ -10, 10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Five of Cups",
          "normal":[
-            "",
-            ""
+            "Disappointment. Unexpected misfortune. Partial loss. Lost friendship or love. Inheritance.",
+            "Loss, Mourning, Lament, Trusts others too much, affectionate, be more rational."
          ],
          "inverted":[
-            "",
-            ""
+            "New happiness. Return of an old love or friend. Alliance.",
+            "They want to turn back the clock, wishing to change what they could have done before."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Cinco de Copas",
          "normal":[
-            "",
-            ""
+            "Desengaño. Desgracia inesperada. Pérdida parcial. Amistad o amor perdido. Herencia.",
+            "Perdida, Duelo, Lamento, Confía demasiado en los demás, afectuoso, sea más racional."
          ],
          "inverted":[
-            "",
-            ""
+            "Felicidad nueva. Regreso de un viejo amor o un amigo. Alianza.",
+            "Desean retroceder el reloj, deseando cambiar lo que podría haber echo antes."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Fünf Pokale",
          "normal":[
-            "",
-            ""
+            "Enttäuschung. Unerwartetes Unglück. Teilverlust. Verlorene Freundschaft oder Liebe. Erbe.",
+            "Verloren, Trauer, Bedauern, anderen zu sehr vertrauen, liebevoll sein, rationaler sein."
          ],
          "inverted":[
-            "",
-            ""
+            "Neues Glück. Rückkehr einer alten Liebe oder eines Freundes. Allianz.",
+            "Sie wollen die Zeit zurückdrehen und das ändern, was sie vorher hätten tun können."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Cinq de Coupes",
          "normal":[
-            "",
-            ""
+            "Déception. Malheur inattendu. Perte partielle. Amitié ou amour perdu. Héritage.",
+            "Perdu, chagrin, regret, faites trop confiance aux autres, affectueux, soyez plus rationnel."
          ],
          "inverted":[
-            "",
-            ""
+            "Nouveau bonheur. Retour d'un ancien amour ou d'un ami. Alliance.",
+            "Ils veulent revenir en arrière, vouloir changer ce qu'ils auraient pu faire auparavant."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Пятерка Кубков",
          "normal":[
-            "",
-            ""
+            "Разочарование. Неожиданное несчастье. Частичная потеря. Потерянная дружба или любовь. Наследство.",
+            "Потеряна, Горе, Сожаление, Слишком доверяй другим, ласковая, будь более рациональной"
          ],
          "inverted":[
-            "",
-            ""
+            "Новое счастье. Возвращение старой любви или друга. Альянс.",
+            "Они хотят повернуть время вспять, желая изменить то, что они могли сделать раньше"
          ]
       }
    }
@@ -2592,58 +2592,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Six of Cups",
          "normal":[
-            "",
-            ""
+            "Pleasure. Happiness that comes from the past. Nostalgia. Success.",
+            "Friendship, affinity, sociable, developing relationship, gifts. Nostalgia, Innocence."
          ],
          "inverted":[
-            "",
-            ""
+            "Insecurity. Living too much in the past. Worthless associates or friends. Inheritance.",
+            "Give without receiving and vice versa, expect something in return."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Seis de Copas",
          "normal":[
-            "",
-            ""
+            "Placer. Felicidad que viene desde el pasado. Nostalgia. Exito.",
+            "Amistad, afinidad, sociable, relación en desarrollo, obsequios. Nostalgia, Inocencia."
          ],
          "inverted":[
-            "",
-            ""
+            "Inseguridad. Vivir demasiado en el pasado. Asociados o amigos que no valen nada. Herencia.",
+            "Da sin recibir y viceversa, espera algo a cambio."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Sechs Pokale",
          "normal":[
-            "",
-            ""
+            "Vergnügen. Glück, das aus der Vergangenheit kommt. Nostalgie. Erfolg.",
+            "Freundschaft, Affinität, Geselligkeit, sich entwickelnde Beziehung, Geschenke. Nostalgie, Unschuld."
          ],
          "inverted":[
-            "",
-            ""
+            "Unsicherheit. Zu sehr in der Vergangenheit leben. Mitarbeiter oder Freunde, die wertlos sind. Vererbung.",
+            "Geben ohne zu empfangen und umgekehrt, eine Gegenleistung erwarten."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Six de Coupes",
          "normal":[
-            "",
-            ""
+            "Plaisir. Un bonheur qui vient du passé. Nostalgie. Succès.",
+            "Amitié, affinité, sociabilité, relation évolutive, cadeaux. Nostalgie, Innocence."
          ],
          "inverted":[
-            "",
-            ""
+            "Insécurité. Vivre trop dans le passé. Associés ou amis qui ne valent rien. Héritage.",
+            "Donner sans recevoir et vice versa, attendre quelque chose en retour."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Шестерка Кубков",
          "normal":[
-            "",
-            ""
+            "Удовольствие. Счастье, которое приходит из прошлого. Ностальгия. Успех.",
+            "Дружба, близость, коммуникабельность, развивающиеся отношения, подарки. Ностальгия, Невинность"
          ],
          "inverted":[
-            "",
-            ""
+            "Неуверенность в себе. Слишком много жизни в прошлом. Бесполезные партнеры или друзья. Наследство",
+            "Отдавайте, не получая, и наоборот, ожидайте чего-то взамен"
          ]
       }
    }
@@ -2652,61 +2652,61 @@
    "id":42,
    "number":"7",
    "type":"Cups",
-   "Points":[ 10, -10 ],
+   "Points":[ -10, 10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Seven of Cups",
          "normal":[
-            "",
-            ""
+            "Corruption. Foolish expectations. Illusory dreams, deception, intoxication, drug addiction.",
+            "Different options, illusions, fantasies, dreams, disorder, carelessness."
          ],
          "inverted":[
-            "",
-            ""
+            "New will. Smart decision. Short trips.",
+            "Daydreaming, fantasizing, escaping, pretending, losing control of reality, no chance of advancement."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Siete de Copas",
          "normal":[
-            "",
-            ""
+            "Corrupción. Expectativas necias. Sueños ilusorios, decepción, intoxicación, adición a las drogas.",
+            "Distintas opciones, ilusiones, fantasias, sueños, desorden, descuido."
          ],
          "inverted":[
-            "",
-            ""
+            "Nueva voluntad. Decisión inteligente. Viajes cortos.",
+            "Sueña despierto, fantasías, escapa, finge, perder control de la realidad, sin oportunidad de avance."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Sieben Pokale",
          "normal":[
-            "",
-            ""
+            "Korruption. Törichte Erwartungen. Illusionäre Träume, Enttäuschung, Rausch, Drogenabhängigkeit.",
+            "Verschiedene Optionen, Illusionen, Fantasien, Träume, Unordnung, Nachlässigkeit."
          ],
          "inverted":[
-            "",
-            ""
+            "Neues Testament. Kluge Entscheidung. Kurztrips.",
+            "Tagträumen, phantasieren, fliehen, so tun, als ob, die Kontrolle über die Realität verlieren, ohne Aufstiegschancen."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Sept de Coupes",
          "normal":[
-            "",
-            ""
+            "Corruption. Attentes insensées. Rêves illusoires, déception, ivresse, toxicomanie.",
+            "Différentes options, illusions, fantasmes, rêves, désordre, insouciance."
          ],
          "inverted":[
-            "",
-            ""
+            "Nouvelle volonté. Décision intelligente. Déplacements courts.",
+            "Rêver, fantasmer, s'évader, faire semblant, perdre le contrôle de la réalité, sans possibilité d'avancement."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Семерка Кубков",
          "normal":[
-            "",
-            ""
+            "Коррупция. Глупые ожидания. Иллюзорные мечты, разочарования, опьянение, наркомания.",
+            "Разные варианты, иллюзии, фантазии, мечты, беспорядок, беспечность"
          ],
          "inverted":[
-            "",
-            ""
+            "Новая воля. Умное решение. Короткие поездки.",
+            "Мечтать, фантазировать, убегать, притворяться, терять контроль над реальностью, без возможности продвижения"
          ]
       }
    }
@@ -2715,61 +2715,61 @@
    "id":43,
    "number":"8",
    "type":"Cups",
-   "Points":[ 10, -10 ],
+   "Points":[ -10, 10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Eight of Cups",
          "normal":[
-            "",
-            ""
+            "Indolence, instability. Material success abandoned, perhaps in pursuit of something higher. Fading interest. Wandering.",
+            "Looking for a substitute, denying deep emotional needs, enigma, superficiality."
          ],
          "inverted":[
-            "",
-            ""
+            "Joy, happiness. A new love or a new interest in material things.",
+            "Reflection, understanding, meditation, depth, searching. moving forward, regret."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Ocho de Copas",
          "normal":[
-            "",
-            ""
+            "Indolencia, inestabilidad. Suceso material abandonado, quizás en pos de algo más alto. Interés que se esfuma. Vagabundeo.",
+            "Busca un sustituto, niega sus necesidades emocionales profundas, enigma, superficialidad."
          ],
          "inverted":[
-            "",
-            ""
+            "Alegría, felicidad. Un nuevo amor o un nuevo interés en las cosas materiales.",
+            "Reflexión, comprensión, meditación, profundidad, búsqueda. continuar adelante, pesar."            
          ]
       },
       "de":{
-         "name":"",
+         "name":"Acht Tassen",
          "normal":[
-            "",
-            ""
+            "Trägheit, Instabilität. Aufgegebenes materielles Ereignis, vielleicht auf der Suche nach etwas Höherem. Interesse, das verschwindet. Landstreicherei.",
+            "Sucht nach einem Ersatz, verleugnet seine tiefen emotionalen Bedürfnisse, Rätselhaftigkeit, Oberflächlichkeit."
          ],
          "inverted":[
-            "",
-            ""
+            "Freude, Glück. Eine neue Liebe oder ein neues Interesse an materiellen Dingen.",
+            "Reflexion, Verständnis, Meditation, Tiefe, Suche. Weitermachen, Bedauern."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Huit de Coupes",
          "normal":[
-            "",
-            ""
+            "Indolence, instabilité. Événement matériel abandonné, peut-être à la recherche de quelque chose de plus élevé. Intérêt qui s'évanouit. Vagabond.",
+            "Cherche un substitut, nie ses besoins émotionnels profonds, son énigme, sa superficialité."
          ],
          "inverted":[
-            "",
-            ""
+            "Joie, bonheur. Un nouvel amour ou un nouvel intérêt pour les choses matérielles.",
+            "Réflexion, compréhension, méditation, profondeur, recherche. continuez, regrettez."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Восьмерка Кубков",
          "normal":[
-            "",
-            ""
+            "Леность, нестабильность. Заброшенное материальное событие, возможно, в погоне за чем-то более высоким. Интерес, который исчезает. Брожение.",
+            "Ищет замену, отрицает свои глубокие эмоциональные потребности, загадочность, поверхностность"
          ],
          "inverted":[
-            "",
-            ""
+            "Радость, счастье. Новая любовь или новый интерес к материальным вещам.",
+            "Размышление, понимание, медитация, глубина, поиск. Продолжайте идти вперед, сожалейте"
          ]
       }
    }
@@ -2778,60 +2778,60 @@
    "id":44,
    "number":"9",
    "type":"Cups",
-   "Points":[ 10, -10 ],
+   "Points":[ 20, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Nine of Cups",
          "normal":[
-            "",
+            "Happiness. Success and complete material well-being. You will get what you want.",
             ""
          ],
          "inverted":[
-            "",
+            "Imperfection, deceit, intemperance. You will get what you do not want.",
             ""
          ]
       },
       "es":{
-         "name":"",
+         "name":"Nueve de Copas",
          "normal":[
-            "",
+            "Felicidad. Exito y bienestar material completo. Usted conseguirá lo que anhela.",
             ""
          ],
          "inverted":[
-            "",
+            "Imperfección, engaño, intemperancia. Usted conseguirá lo que no quiere.",
             ""
          ]
       },
       "de":{
-         "name":"",
+         "name":"Neun Tassen",
          "normal":[
-            "",
+            "Glück. Erfolg und vollkommenes materielles Wohlbefinden. Sie werden bekommen, was Sie wollen.",
             ""
          ],
          "inverted":[
-            "",
+            "Unvollkommenheit, Betrug, Maßlosigkeit. Du wirst bekommen, was du nicht willst.",
             ""
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Neuf de Coupes",
          "normal":[
-            "",
+            "Bonheur. Succès et bien-être matériel complet. Vous obtiendrez ce que vous voulez.",
             ""
          ],
          "inverted":[
-            "",
+            "Imperfection, tromperie, intempérance. Vous obtiendrez ce que vous ne voulez pas.",
             ""
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Девятка Кубков",
          "normal":[
-            "",
+            "Счастье. Успехов и полного материального благополучия. Вы получите то, что хотите.",
             ""
          ],
          "inverted":[
-            "",
+            "Несовершенство, обман, невоздержанность. Вы получите то, чего не хотите.",
             ""
          ]
       }
@@ -2844,58 +2844,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Ten of Cups",
          "normal":[
-            "",
-            ""
+            "Satisfaction. Perfect love and contentment. Peace, friendship.",
+            "Marriage, dedication, unity, joy, happiness, family, truce, home."
          ],
          "inverted":[
-            "",
-            ""
+            "Dissipation, loss of friendship, betrayal. Wasted things.",
+            "Unstable, flees from commitment."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Diez de Copas",
          "normal":[
-            "",
-            ""
+            "Saciedad. Amor y contentamiento perfectos. Paz, amistad.",
+            "Matrimonio, dedicación, unidad, alegria, felicidad, familia, tregua, hogar."
          ],
          "inverted":[
-            "",
-            ""
+            "Disipación, pérdida de la amistad, traición. Cosas desperdiciadas.",
+            "Inestable, huye del compromiso."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Zehn Pokale",
          "normal":[
-            "",
-            ""
+            "Sättigung. Vollkommene Liebe und Zufriedenheit. Frieden, Freundschaft.",
+            "Ehe, Hingabe, Einheit, Freude, Glück, Familie, Waffenstillstand, Zuhause."
          ],
          "inverted":[
-            "",
-            ""
+            "Zerstreutheit, Verlust der Freundschaft, Verrat. Verschwendete Dinge.",
+            "Instabil, flieht vor Bindung."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Dix de Coupes",
          "normal":[
-            "",
-            ""
+            "Satiété. Amour et contentement parfaits. Paix, amitié.",
+            "Mariage, dévouement, unité, joie, bonheur, famille, trêve, foyer."
          ],
          "inverted":[
-            "",
-            ""
+            "Dissipation, perte d'amitié, trahison. Choses gaspillées.",
+            "Instable, fuit son engagement."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Десятка Кубков",
          "normal":[
-            "",
-            ""
+            "Сытость. Совершенная любовь и довольство. Мир, дружба.",
+            "Брак, преданность делу, единство, радость, счастье, семья, перемирие, дом"
          ],
          "inverted":[
-            "",
-            ""
+            "Распутство, потеря дружбы, предательство. Вещи потрачены впустую.",
+            "Нестабилен, бежит от обязательств"
          ]
       }
    }
@@ -2907,58 +2907,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Page of Cups",
          "normal":[
-            "",
-            ""
+            "Quiet and studious young man, but also sweet and dreamy. News or proposition.",
+            "He gets to know himself better through others, romance, 'comes out of his shell', feelings, hunch, romance"
          ],
          "inverted":[
-            "",
-            ""
+            "A sensual libertine who is not harmful but not helpful either. Unpleasant news. Flattering, self-centered.",
+            "Too introverted, reserved, insecure, shy, naive."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Paje de Copas",
          "normal":[
-            "",
-            ""
+            "Joven tranquilo y estudioso, pero también dulce y soñador. Noticias o proposición.",
+            "Se conoce mejor a través de los demás, romance, 'sale del cascarón'. sentimientos, corazonada, romance"
          ],
          "inverted":[
-            "",
-            ""
+            "Un libertino sensual que no es perjudicial pero tampoco sirve de ayuda. Noticias desagradables. Adulador, egocéntrico.",
+            "Demasiado introvertida, reservada, insegura, tímida, ingenua."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Seite der Pokale",
          "normal":[
-            "",
-            ""
+            "Ruhiger und fleißiger junger Mann, aber auch süß und verträumt. Neuigkeit oder Vorschlag.",
+            "Man lernt sich selbst besser kennen durch andere, Romantik, „Komm aus deinem Schneckenhaus heraus.“ Gefühle, Ahnung, Romantik."
          ],
          "inverted":[
-            "",
-            ""
+            "Ein sinnlicher Libertin, der nicht schädlich, aber auch nicht hilfreich ist. Unangenehme Nachrichten. Speichellecker, egozentrisch.",
+            "Zu introvertiert, zurückhaltend, unsicher, schüchtern, naiv."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Page de Coupes",
          "normal":[
-            "",
-            ""
+            "Jeune homme calme et studieux, mais aussi doux et rêveur. Nouvelle ou proposition.",
+            "On se connaît mieux grâce aux autres, à la romance, 'sortez de votre coquille'. sentiments, intuition, romance."
          ],
          "inverted":[
-            "",
-            ""
+            "Un libertin sensuel qui n'est pas nuisible mais qui n'aide pas non plus. Mauvaise nouvelle. Sycophante, égocentrique.",
+            "Trop introverti, réservé, peu sûr de lui, timide, naïf."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Паж Кубков",
          "normal":[
-            "",
-            ""
+            "Тихий и прилежный молодой человек, но в то же время милый и мечтательный. Новости или предложение.",
+            "Ты лучше узнаешь себя через других, романтика, «выходи из своей скорлупы». чувства, предчувствие, романтика"
          ],
          "inverted":[
-            "",
-            ""
+            "Чувственный развратник, который не вредит, но и не помогает. Неприятная новость. Подхалим, эгоист.",
+            "Слишком замкнутый, сдержанный, неуверенный в себе, застенчивый, наивный"
          ]
       }
    }
@@ -2970,57 +2970,57 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Knight of Cups",
          "normal":[
-            "",
-            ""
+            "A young man, perhaps an artist, graceful and poetic. He is an indolent dreamer of sensual pleasures.",
+            "It may mean a messenger, a proposition or an invitation."
          ],
          "inverted":[
-            "",
+            "Lazy and deceitful. Dissolute and ruthless.",
             ""
          ]
       },
       "es":{
-         "name":"",
+         "name":"Caballero de Copas",
          "normal":[
-            "",
-            ""
+            "Un hombre joven, quizás un artista, gracioso y poético. Es un soñador indolente de placeres sensuales. ",
+            "Puede significar un mensajero, una proposición o una invitación."
          ],
          "inverted":[
-            "",
+            "Perezoso y engañoso. Disoluto y despiadado.",
             ""
          ]
       },
       "de":{
-         "name":"",
+         "name":"Ritter der Pokale",
          "normal":[
-            "",
-            ""
+            "Ein junger Mann, vielleicht ein Künstler, anmutig und poetisch. Er ist ein träger Träumer sinnlicher Freuden.",
+            "Es kann einen Boten, einen Vorschlag oder eine Einladung bedeuten."
          ],
          "inverted":[
-            "",
+            "Faul und betrügerisch. Ausschweifend und rücksichtslos.",
             ""
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Chevalier des Coupes",
          "normal":[
-            "",
-            ""
+            "Un jeune homme, peut-être artiste, gracieux et poétique. C'est un rêveur indolent de plaisirs sensuels.",
+            "Cela peut signifier un messager, une proposition ou une invitation."
          ],
          "inverted":[
-            "",
+            "Paresseux et trompeur. Dissolu et impitoyable.",
             ""
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Рыцарь Кубков",
          "normal":[
-            "",
-            ""
+            "Молодой человек, возможно, художник, изящный и поэтичный. Он ленивый мечтатель чувственных удовольствий.",
+            "Это может означать посланника, предложение или приглашение"
          ],
          "inverted":[
-            "",
+            "Ленивый и лживый. Распутный и безжалостный.",
             ""
          ]
       }
@@ -3033,58 +3033,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Queen of Cups",
          "normal":[
-            "",
-            ""
+            "Dreamy, calm, poetic, imaginative, kind, but not willing to go to great lengths to help another.", 
+            "Artistic, affectionate, stable mother figure."
          ],
          "inverted":[
-            "",
-            ""
+            "Dishonest and vicious woman. Untrustworthy.",
+            "Immorality, dishonesty, disloyalty, insensitive to the needs of others."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Reina de Copas",
          "normal":[
-            "",
-            ""
+            "Soñadora, tranquila, poética, imaginativa, amable, pero no dispuesta a tomar muchas molestias para ayudar a otro.", 
+            "Artística, afectuosa, figura de Ia madre estable."
          ],
          "inverted":[
-            "",
-            ""
+            "Mujer deshonesta y viciosa. Indigna de confianza.",
+            "Inmoralidad, deshonestidad, deslealtad, insensible a las necesidades de los demás."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Königin der Pokale",
          "normal":[
-            "",
-            ""
+            "Träumerin, ruhig, poetisch, einfallsreich, freundlich, aber nicht bereit, sich große Mühe zu geben, um anderen zu helfen.",
+            "Künstlerische, liebevolle, stabile Mutterfigur."
          ],
          "inverted":[
-            "",
-            ""
+            "Unehrliche und bösartige Frau. Unwürdig des Vertrauens.",
+            "Unmoral, Unehrlichkeit, Illoyalität, Unsensibilität gegenüber den Bedürfnissen anderer."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Reine des Coupes",
          "normal":[
-            "",
-            ""
+            "Rêveuse, calme, poétique, imaginative, gentille, mais ne voulant pas se donner beaucoup de mal pour aider autrui.", 
+            "Figure maternelle artistique, affectueuse et stable."
          ],
          "inverted":[
-            "",
-            ""
+            "Femme malhonnête et vicieuse. Indigne de confiance.",
+            "Immoralité, malhonnêteté, déloyauté, insensibilité aux besoins des autres."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Королева Кубков",
          "normal":[
-            "",
-            ""
+            "Мечтательница, спокойная, поэтичная, с богатым воображением, добрая, но не желающая прилагать большие усилия, чтобы помочь другому",
+            "Артистичная, ласковая, стабильная мать"
          ],
          "inverted":[
-            "",
-            ""
+            "Нечестная и порочная женщина. Недостойная доверия.",
+            "Безнравственность, нечестность, нелояльность, нечувствительность к нуждам других"
          ]
       }
    }
@@ -3096,58 +3096,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"King of Cups",
          "normal":[
-            "",
-            ""
+            "A man who is knowledgeable about law or business, but also interested in science, art, religion or philosophy.",
+            "A good friend, liberal, idealistic and creative. Kind and willing to take on some responsibility or provide help."
          ],
          "inverted":[
-            "",
-            ""
+            "A superficial man, easily carried away by enthusiasm but lacking depth or firmness of character. Untrustworthy, a liar, ruthless and vicious.",
+            "Dull, people-pleasing, half-baked, sentimental."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Rey de Copas",
          "normal":[
-            "",
-            ""
+            "Un hombre que conoce de leyes o comercio, pero también interesado en ciencia, arte, religión o filosofía. ",
+            "Un buen amigo, liberal, idealista y creativo. Amable y dispuesto a tomar alguna responsabilidad o brindar ayuda."
          ],
          "inverted":[
-            "",
-            ""
+            "Un hombre superficial, que se entusiasma fácilmente pero sin profundidad ni firmeza de carácter. Indigno de confianza, mentiroso, despiadado y vicioso.",
+            "Insulso, complace a los demás, entre dos aguas, sensiblero."
          ]
       },
       "de":{
-         "name":"",
+         "name":"König der Pokale",
          "normal":[
-            "",
-            ""
+            "Ein Mann, der sich mit Recht und Wirtschaft auskennt, sich aber auch für Wissenschaft, Kunst, Religion oder Philosophie interessiert.",
+            "Ein guter Freund, liberal, idealistisch und kreativ. Freundlich und bereit, Verantwortung zu übernehmen oder Hilfe zu leisten."
          ],
          "inverted":[
-            "",
-            ""
+            "Ein oberflächlicher Mann, leicht erregbar, aber ohne Tiefe oder Festigkeit des Charakters. Unzuverlässig, lügnerisch, rücksichtslos und bösartig.",
+            "Vase, gefällt anderen, zwischen zwei Wassern, Rührseliger."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Roi des Coupes",
          "normal":[
-            "",
-            ""
+            "Un homme qui connaît le droit ou le commerce, mais qui s'intéresse également à la science, à l'art, à la religion ou à la philosophie.",
+            "Un bon ami, libéral, idéaliste et créatif. Gentil et disposé à assumer certaines responsabilités ou à apporter son aide."
          ],
          "inverted":[
-            "",
-            ""
+            "Un homme superficiel, facilement excité mais sans profondeur ni fermeté de caractère. Indigne de confiance, menteur, impitoyable et vicieux.",
+            "Vase, ça plaît aux autres, entre deux eaux, maudlin."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Король Кубков",
          "normal":[
-            "",
-            ""
+            "Человек, который разбирается в праве или торговле, но также интересуется наукой, искусством, религией или философией",
+            "Хороший друг, либеральный, идеалистичный и творческий. Добрый и готовый взять на себя некоторую ответственность или оказать помощь"
          ],
          "inverted":[
-            "",
-            ""
+            "Человек поверхностный, легко возбудимый, но лишенный глубины и твердости характера. Ненадежный, лживый, безжалостный и порочный",
+            "Ваза, радует других, между двух вод, сентиментальна"
          ]
       }
    }
