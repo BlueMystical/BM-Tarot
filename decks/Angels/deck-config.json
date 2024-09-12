@@ -1,0 +1,6 @@
+{
+    "cardBackImg": "Angels/card-back-01.png",
+    "pageBackImg": "Angels/page-back-1080.png",
+    "cardBoxRgba": [255, 255, 255, 0.4],
+    "pageTheme": "clear"
+}

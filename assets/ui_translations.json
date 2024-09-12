@@ -14,11 +14,11 @@
         {
             "key": "main-intro",
             "lang": {
-                "en": "Its a simple and easy to use App to read your Tarot.<br>Start by clicking this Blue button to draw your cards.",
-                "es": "Es una aplicación sencilla y fácil de usar para leer tu Tarot.<br>Comienza haciendo clic en este botón azul para sacar tus cartas.",
-                "de": "Es ist eine einfache und leicht zu verwendende App zum Tarotlesen.<br>Klicken Sie zunächst auf diese blaue Schaltfläche, um Ihre Karten zu ziehen.",
-                "ru": "Это простое и удобное приложение для чтения карт Таро.<br>Начните с нажатия этой синей кнопки, чтобы вытянуть карты.",
-                "fr": "C'est une application simple et facile à utiliser pour lire votre Tarot.<br>Commencez par cliquer sur ce bouton bleu pour tirer vos cartes."
+                "en": "Ask anything and click the blue button.",
+                "es": "Pregunta cualquier cosa y haz clic en el botón azul.",
+                "de": "Fragen Sie etwas und klicken Sie auf diese blaue Schaltfläche.",
+                "ru": "Спросите что-нибудь и нажмите эту синюю кнопку.",
+                "fr": "Demandez n'importe quoi et cliquez sur ce bouton bleu."
             }
         },
         {

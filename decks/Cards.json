@@ -3153,8 +3153,6 @@
    }
   },
 
-
-
   {
    "id":50,
    "number":"1",
@@ -3162,7 +3160,7 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"As of Coins",
          "normal":[
             "",
             ""
@@ -3173,7 +3171,7 @@
          ]
       },
       "es":{
-         "name":"",
+         "name":"As de Oros",
          "normal":[
             "",
             ""

@@ -1,0 +1,6 @@
+{
+    "cardBackImg": "Cyberpunk/card-back.jpg",
+    "pageBackImg": "Cyberpunk/page-back.jpg",
+    "cardBoxRgba": [0, 0, 0, 0.7],
+    "pageTheme": "dark"
+}

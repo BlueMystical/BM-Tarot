@@ -3,11 +3,11 @@ var UserDeck = 'Marsella';   //<- Design of the Card Deck
 var CardCount = 6;      //<- How many Cards should we draw
 var LANG = null;        //<- UI Translations
 var MyDeck = null;      //<- Data of all cards
+var DeckConfig = null;  //<- Config of Current Deck
 var MyCards = [];       //<- Random Cards currently chosen
 var FlippedCards = false; //<- true if cards are flipped over
 
-const popOwner = document.getElementById('cmdDrawCards');
-var popMessg = new bootstrap.Popover(popOwner, {
+var popMessg = new bootstrap.Popover(document.getElementById('cmdDrawCards'), {
     animation: true,
     placement: 'bottom',
     trigger: 'focus',
@@ -25,6 +25,7 @@ $('#cboLanguage').on('change', function () {
 $('#cboUserDeck').on('change', function () {
     UserDeck = $(this).val();
     setCookie("UserDeck", UserDeck, 7); //<- Remembers User's choice for 7 days
+    LoadDeck(UserDeck);
     ShuffleCards();
 });
 $('#cboCardCount').on('change', function () {
@@ -34,12 +35,10 @@ $('#cboCardCount').on('change', function () {
 });
 
 $(document).on("click", "#cmdDrawCards", function (evt) {
-   // console.log('Boton cmdDrawCards');
     ShuffleCards();
     FlipCards();
 }); 
 $(document).on("click", "#cmdFlipCards", function (evt) {
-    //console.log('Boton cmdFlipCards');
     FlipCards();
 });
 
@@ -115,11 +114,25 @@ function Iniciar() {
         });
         $.getJSON('decks/Cards.json?version=1', function (data) {
             MyDeck = data;
-            ShuffleCards();
+            LoadDeck(UserDeck);
         });
 
     } catch (e) {
-        $.alert({ title: e.name, content: e.message, useBootstrap: false });
+        console.log(e);
+    }
+}
+
+function LoadDeck(deckName) {
+    try {
+        $.getJSON('decks/'+ deckName + '/deck-config.json?version=1', function (data) {
+           // console.log(data);
+            DeckConfig = data;            
+            $("#mainContainer").attr( "style", 
+            "background: url('decks/"+ DeckConfig.pageBackImg + "'); background-repeat: no-repeat; background-position:center; background-size:cover;");           
+            ShuffleCards(); 
+        });
+    } catch (e) {
+        console.log(e);
     }
 }
 
@@ -153,14 +166,19 @@ function TranslateUI(lang) {
 function ShuffleCards() {
     if (MyDeck != null) {
         MyCards = [];
-
-        // Hide all Cards
+        
         for (let index = 1; index <= 6; index++) {
+            // Hide all Cards
             const myCard = document.getElementById('Card-0'+ index +'-div');
             if (!hasClass(myCard, "invisible")) {
                 myCard.className += " invisible";
             }
-            $("#Card-0" + index + "-img").attr("src", "decks/"+ UserDeck +"/background.png"  );  
+            //Color for the Box of each card:
+            $('#Card-0'+ index +'-div').attr("style", "background-color: rgba(" + 
+                DeckConfig.cardBoxRgba[0] + ", "+ DeckConfig.cardBoxRgba[1] +", "+ DeckConfig.cardBoxRgba[2] +", "+ DeckConfig.cardBoxRgba[3] +");");
+
+            //Back Image for Cards:
+            $("#Card-0" + index + "-img").attr("src", "decks/" + DeckConfig.cardBackImg  );  
             $("#Card-0" + index + "-img").attr("style", "width:200px");
         }
         FlippedCards = false;
@@ -195,12 +213,23 @@ function ShuffleCards() {
         //console.log(MyCards);
 
         // 3. Add the cards to the deck
+        if (CardCount == 1) {
+            console.log("1 carta!");
+
+            //Add the Data to each card
+            $("#Card-02").attr("data-bs-info", JSON.stringify(MyCards[0]));  
+            $("#Card-02-img").attr("alt", MyCards[0].id  ); 
+            console.log(MyCards[0]);
+            
+            //Make the Card Visible again
+            const myCard = document.getElementById('Card-02-div');
+                myCard.className = myCard.className.replace(" invisible", "");
+        }
         if (CardCount == 3) {
             console.log("3 cartas!");
             for (let index = 1; index <= 3; index++) {
                 //Add the Data to each card
                 $("#Card-0" + index).attr("data-bs-info", JSON.stringify(MyCards[index - 1]));  
-                $("#Card-0" + index + "-img").attr("src", "decks/"+ UserDeck +"/background.png"  );  
                 $("#Card-0" + index + "-img").attr("alt", MyCards[index - 1].id  ); 
                 console.log(MyCards[index - 1]);
                 
@@ -215,13 +244,12 @@ function ShuffleCards() {
                 const i = index <= 1 ? index : index + 1;
                 //Add the Data to each card
                 $("#Card-0" + i).attr("data-bs-info", JSON.stringify(MyCards[index - 1]));  
-                $("#Card-0" + i + "-img").attr("src", "decks/"+ UserDeck +"/background.png"  );  
                 $("#Card-0" + i + "-img").attr("alt", MyCards[index - 1].id  ); 
                 console.log(MyCards[index - 1]);
 
                 //Make the Card Visible again
                 const myCard = document.getElementById('Card-0'+ i +'-div');
-                myCard.className = myCard.className.replace(" invisible", "");
+                    myCard.className = myCard.className.replace(" invisible", "");
             }
         }
     }
@@ -232,41 +260,46 @@ function FlipCards() {
     try {
         if (FlippedCards == true) {           
             // Turn the cards over so that the back side is showing.
+            console.log(DeckConfig);
             for (let index = 1; index <= 9; index++) {
                 try {                    
-                    $("#Card-0" + index + "-img").attr("src", "decks/"+ UserDeck +"/background.png"  );  
+                    $("#Card-0" + index + "-img").attr("src", "decks/"+ DeckConfig.cardBackImg  );  
                     $("#Card-0" + index + "-img").attr("style", "width:350px");
                 } catch {}
             }
             FlippedCards = false;   
             HideAlert();         
         } else {
+            
             // Turn the cards over so that the front side is showing.
             var DeckPoints = [];
-            for (let index = 1; index <= 9; index++) {
+            for (let index = 1; index <= 6; index++) {
                 try {
+                   // console.log(index); console.log(DeckPoints);
                     const data = JSON.parse($("#Card-0" + index).attr('data-bs-info')); //<- Extract info from data-bs-* attributes
-                    DeckPoints.push(data.points);
+                    if (data != null && data !== undefined) {
+                        DeckPoints.push(data.points);
+                        console.log('decks/'+ UserDeck +'/'+ data.id +'.png');
 
-                    const myImage = document.getElementById("Card-0" + index + "-img");
-                          myImage.setAttribute('src', 'decks/'+ UserDeck +'/'+ data.id +'.png');
-                          myImage.setAttribute("style", "width:180px; opacity:1.0;");
+                        const myImage = document.getElementById("Card-0" + index + "-img");
+                            myImage.setAttribute('src', 'decks/'+ UserDeck +'/'+ data.id +'.png');
+                            myImage.setAttribute("style", "width:180px; opacity:1.0;");
 
-                    if (data.is_inverted) {     // Only if the class hasnt been already set                    
-                        if (!hasClass(myImage, "inverted-image")) {
-                            myImage.className += " inverted-image"; // Carta Invertida:
+                        if (data.is_inverted) {     // Only if the class hasnt been already set                    
+                            if (!hasClass(myImage, "inverted-image")) {
+                                myImage.className += " inverted-image"; // Carta Invertida:
+                            }
+                        } else {
+                            // Carta Normal:
+                            myImage.className = myImage.className.replace(" inverted-image", "");
                         }
-                    } else {
-                        // Carta Normal:
-                        myImage.className = myImage.className.replace(" inverted-image", "");
-                    }                     
-                } catch {}
+                    }                                         
+                } catch (e) { }
             }
-            FlippedCards = true;
-            //ShowAlert(SumarPuntos(DeckPoints));     
+            FlippedCards = true; 
             ShowAlertEx(SumarPuntos(DeckPoints));    
         }
-    } catch {}
+    } catch (e) { console.log(e) }
 }
 
 function ShowAlertEx(points = 0) {
@@ -275,6 +308,21 @@ function ShowAlertEx(points = 0) {
     var Messages = [];  
     var className = '';   
     
+    if (CardCount == 1) {
+        if (points >= 10) {
+            className = 'popBack-Green';
+            Messages = (LANG.translations.find((element) => element.key === 'GreenMsg').lang[UserLang]).split('|');            
+        } else if (points >= 5) {
+            className = 'popBack-Blue';
+            Messages = (LANG.translations.find((element) => element.key === 'BlueMsg').lang[UserLang]).split('|');  
+        } else if (points >= 1) {
+            className = 'popBack-Yellow';
+            Messages = (LANG.translations.find((element) => element.key === 'YellowMsg').lang[UserLang]).split('|');  
+        } else {
+            className = 'popBack-Red';
+            Messages = (LANG.translations.find((element) => element.key === 'RedMsg').lang[UserLang]).split('|');  
+        }
+    }
     if (CardCount == 3) {
         if (points >= 30) {
             className = 'popBack-Green';
@@ -308,10 +356,6 @@ function ShowAlertEx(points = 0) {
 
     popMessg._config.title = Messages[0];
     popMessg._config.content = Messages[1];
-    popMessg._config.customClass = className;
-
-   // console.log(popMessg);
-    //popMessg.update();
     popMessg.show();
 }
 
@@ -384,11 +428,15 @@ function SumarPuntos(DeckPoints) {
 
     if (DeckPoints != null && DeckPoints.length > 0) {
         DeckPoints.forEach(point => {
-            if (point > 0) {
-                Positives += point;
-            } else {
-                Negatives += Math.abs(point);
-            }
+            try {
+                if (point !== undefined) {
+                    if (point > 0) {
+                        Positives += point;
+                    } else {
+                        Negatives += Math.abs(point);
+                    }
+                }                
+            } catch {}            
         });
     }
     return Positives - Negatives;

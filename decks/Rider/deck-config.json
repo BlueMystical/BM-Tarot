@@ -1,0 +1,6 @@
+{
+    "cardBackImg": "Rider/card-back-01.png",
+    "pageBackImg": "Rider/page-back.jpg",
+    "cardBoxRgba": [0, 0, 0, 0.7],
+    "pageTheme": "dark"
+}

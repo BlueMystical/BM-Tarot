@@ -32,10 +32,6 @@
   <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css" >
 
   <style>
-    .main-container {
-        background-image: url('assets/patterns/Pattern_04.jpg');
-    }
-
     .bd-placeholder-img {
       font-size: 1.125rem;
       text-anchor: middle;
@@ -104,11 +100,9 @@
       --bs-btn-active-bg: #5a23c8;
       --bs-btn-active-border-color: #5a23c8;
     }
-
     .bd-mode-toggle {
       z-index: 1500;
     }
-
     .bd-mode-toggle .dropdown-menu .active .bi {
       display: block !important;
     }
@@ -117,24 +111,6 @@
         transform: rotate(180deg);
     }
 
-    .popBack-Green {
-      background-color: rgb(78, 236, 78);
-    }    
-    .popBack-Blue {
-      background-color: rgb(90, 215, 247);
-    }
-    .popBack-Yellow {
-      background-color: yellow;
-    }
-    .popBack-Red {
-      background-color: rgb(248, 47, 47);
-    }
-
-    .my-popover {
-      --bs-popover-bg: dodgerblue;
-      --bs-popover-body-color: #e7fc03;
-      --bs-popover-header-bg: #fff;
-    }
     .custom-popover {
       --bs-popover-max-width: 200px;
       --bs-popover-border-color: var(--bs-primary);
@@ -243,6 +219,7 @@
             </select>
             <label id="lblcboCardCount" for="cboCardCount">Cards to Draw:</label>
             <select id="cboCardCount" class="form-select" aria-label="Default select example">
+              <option value="1">1</option>
               <option selected value="3">3</option>
               <option value="5">5</option>
             </select>
@@ -260,6 +237,7 @@
         </div>
       </div>
     </div>
+
     <!-- Page's Title -->
     <div class="navbar navbar-dark bg-dark shadow-sm">
       <div class="container">
@@ -278,8 +256,8 @@
     </div>
   </header>
 
-  <main style="background-color: rgb(0 0 1 / 80%); ">
-    
+  <main>
+
     <section class="py-2 text-center container" >
       <div class="row py-lg-3">
         <div class="col-lg-6 col-md-8 mx-auto">
@@ -296,7 +274,7 @@
       </div>
     </section>
 
-    <div class="album py-5 bg-body-tertiary main-container">
+    <div id="mainContainer" class="album py-5 bg-body-tertiary main-container">
 
       <div class="container d-flex ">
         <!-- First Row, 3 Cards-->
@@ -309,7 +287,7 @@
             </div>
           </div>
           <div class="col">
-            <div id="Card-02-div" class="card shadow-sm align-items-center visible"  style="background-color: rgb(0 0 0 / 70%);">
+            <div id="Card-02-div" class="card shadow-sm align-items-center visible"  style="background-color: rgba(255, 255, 255, 0.6);">
               <a id="Card-02" href="#" data-bs-toggle="modal" data-bs-target="#CardInfo" data-bs-info=""><img id="Card-02-img" src="decks/background_01.jpg" alt="card" style="width:420px"></a>
             </div>
           </div>

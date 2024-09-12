@@ -1,0 +1,6 @@
+{
+    "cardBackImg": "Marsella/card-back.png",
+    "pageBackImg": "Marsella/page-back.jpg",
+    "cardBoxRgba": [0, 0, 0, 0.7],
+    "pageTheme": "dark"
+}
