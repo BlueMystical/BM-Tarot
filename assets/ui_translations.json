@@ -72,6 +72,16 @@
             }
         },
         {
+            "key": "cboCardCountEx",
+            "lang": {
+                "en": "1 - Quick Yes/No Answers|3 - Normal Tarot Read|5 - For advanced or complex queries",
+                "es": "1 - Respuestas rápidas de Sí/No | 3 - Lectura de tarot normal | 5 - Para consultas avanzadas o complejas",
+                "de": "1 - Schnelle Ja/Nein-Antworten|3 - Normales Tarot-Lesen|5 - Für fortgeschrittene oder komplexe Fragen",
+                "ru": "1 - Быстрые ответы «Да/Нет»|3 - Обычное чтение Таро|5 - Для расширенных или сложных вопросов",
+                "fr": "1 - Réponses rapides par oui/non | 3 - Lecture normale du tarot | 5 - Pour les requêtes avancées ou complexes"
+            }
+        },
+        {
             "key": "lbContact",
             "lang": {
                 "en": "Contact",
@@ -160,7 +170,7 @@
                 "ru": "Катастрофический провал!| На этот раз вы уперлись в стену, идите домой и попробуйте это завтра.",
                 "fr": "Échec désastreux !| Cette fois, vous vous heurtez à un mur, rentrez chez vous et essayez-le demain."
             }
-        },
+        },        
         {
             "key": "",
             "lang": {

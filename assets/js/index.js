@@ -29,7 +29,7 @@ $('#cboUserDeck').on('change', function () {
     ShuffleCards();
 });
 $('#cboCardCount').on('change', function () {
-    CardCount = $(this).val();
+    CardCount = $(this).val(); //console.log(CardCount);
     setCookie("CardCount", CardCount, 7); //<- Remembers User's choice for 7 days
     ShuffleCards();
 });
@@ -65,31 +65,33 @@ $(document).on("click", "#Card-06", function (evt) {
 /* EVENTO AL ABRIR EL DETALLE DE LA CARTA */
 var CardInfo = document.getElementById('CardInfo')
 CardInfo.addEventListener('show.bs.modal', function (event) {
-    var button = event.relatedTarget; //<- Button that triggered the modal  
-    var jsonData = button.getAttribute('data-bs-info'); //<- Extract info from data-bs-* attributes
-    if (jsonData != null) {
-        const CardData = JSON.parse(jsonData); console.log(CardData);
+    try {
+        var button = event.relatedTarget; //<- Button that triggered the modal  
+        var jsonData = button.getAttribute('data-bs-info'); //<- Extract info from data-bs-* attributes
+        if (jsonData != null) {
+            const CardData = JSON.parse(jsonData); console.log(CardData);
 
-        var modalTitle = CardInfo.querySelector('.modal-title');
-            modalTitle.textContent = CardData.name + ' [' + CardData.id + ']';
+            var modalTitle = CardInfo.querySelector('.modal-title');
+                modalTitle.textContent = CardData.name + ' [' + CardData.id + ']';
 
-        const myImage = document.getElementById("imgCardFull");
-              myImage.setAttribute('src', 'decks/'+ UserDeck +'/'+ CardData.id +'.png'); //<- usar la baraja indicada x el usuario
+            const myImage = document.getElementById("imgCardFull");
+                myImage.setAttribute('src', 'decks/'+ UserDeck +'/'+ CardData.id +'.png'); //<- usar la baraja indicada x el usuario
 
-        if (CardData.is_inverted) {
-            // Carta Invertida:
-            if (!hasClass(myImage, "inverted-image")) {
-                myImage.className += " inverted-image";
-            }
-            $("#cardText").html( CardData.inverted[0]);
-            $("#cardText2").html(CardData.inverted[1]);
-        } else {
-            // Imagen Normal:
-            myImage.className = myImage.className.replace(" inverted-image", "");
-            $("#cardText").html( CardData.normal[0]);
-            $("#cardText2").html(CardData.normal[1]);
-        }       
-    }
+            if (CardData.is_inverted) {
+                // Carta Invertida:
+                if (!hasClass(myImage, "inverted-image")) {
+                    myImage.className += " inverted-image";
+                }
+                $("#cardText").html( CardData.inverted[0]);
+                $("#cardText2").html(CardData.inverted[1]);
+            } else {
+                // Imagen Normal:
+                myImage.className = myImage.className.replace(" inverted-image", "");
+                $("#cardText").html( CardData.normal[0]);
+                $("#cardText2").html(CardData.normal[1]);
+            }       
+        }
+    } catch (error) { console.log(error) }  
 })
 
 Iniciar();
@@ -98,13 +100,14 @@ function Iniciar() {
         // 1. Get the User Choices from the Cookies, use default values if unset/expired
         UserLang = NVL(getCookie("UserLang"), 'en'); 
         UserDeck = NVL(getCookie("UserDeck"), 'Rider');
-        CardCount= NVL(getCookie("CardCount"), 3);
+        CardCount= NVL(getCookie("CardCount"), 3); //console.log('Cookie: ' + CardCount);
 
         $.getJSON('decks/available-decks.json?version=1', function (data) {
             var ListVar = $("#cboUserDeck");
             ListVar.empty();
             data.forEach(function(deck) {
-                var opt = $("<option>" + deck.desc + "</option>").attr("value", deck.name );
+                //<option selected value="3">3</option>
+                var opt = $("<option>" + deck.desc + "</option>").attr("value", deck.name );                
                 ListVar.append(opt);
             });
         });
@@ -117,9 +120,7 @@ function Iniciar() {
             LoadDeck(UserDeck);
         });
 
-    } catch (e) {
-        console.log(e);
-    }
+    } catch (error) { console.log(error) }   
 }
 
 function LoadDeck(deckName) {
@@ -131,36 +132,44 @@ function LoadDeck(deckName) {
             "background: url('decks/"+ DeckConfig.pageBackImg + "'); background-repeat: no-repeat; background-position:center; background-size:cover;");           
             ShuffleCards(); 
         });
-    } catch (e) {
-        console.log(e);
-    }
+    } catch (error) { console.log(error) }   
 }
 
 function TranslateUI(lang) {
-    if (LANG != null) {
-        $('#cboLanguage').val(UserLang); 
-        $('#cboUserDeck').val(UserDeck); 
-        $('#cboCardCount').val(CardCount);
-
-        $("#lblcboLanguage").html(LANG.translations.find((element) => element.key === 'cboLanguage').lang[lang]);
-        $("#lblcboUserDeck").html(LANG.translations.find((element) => element.key === 'cboUserDeck').lang[lang]);
-        $("#lblcboCardCount").html(LANG.translations.find((element) => element.key === 'cboCardCount').lang[lang]);
-
-        $("#lbContact").html(LANG.translations.find((element) => element.key === 'lbContact').lang[lang]); txtUserQuery
-
-        $("#lbGithub").html(LANG.translations.find((element) => element.key === 'lbGithub').lang[lang]);
-        $("#lbEmail").html(LANG.translations.find((element) => element.key === 'lbEmail').lang[lang]);
-        $("#lbBuyaBeer").html(LANG.translations.find((element) => element.key === 'lbBuyaBeer').lang[lang]);
-
-        $("#lblWelcome").html(LANG.translations.find((element) => element.key === 'main-welcome').lang[lang]);
-        $("#lblIntroduction").html(LANG.translations.find((element) => element.key === 'main-intro').lang[lang]);
-        $("#cmdDrawCards").html(LANG.translations.find((element) => element.key === 'main-button').lang[lang]);
-        $("#cmdFlipCards").html(LANG.translations.find((element) => element.key === 'main-button2').lang[lang]);
-
-        $("#txtUserQuery").attr("placeholder", LANG.translations.find((element) => element.key === 'UserQuery').lang[lang]);
-
-        // TODO: El pie de pagina
-    }
+    try {
+        if (LANG != null) {
+            $('#cboLanguage').val(UserLang); 
+            $('#cboUserDeck').val(UserDeck);             
+    
+            $("#lblcboLanguage").html(LANG.translations.find((element) => element.key === 'cboLanguage').lang[lang]);
+            $("#lblcboUserDeck").html(LANG.translations.find((element) => element.key === 'cboUserDeck').lang[lang]);
+            $("#lblcboCardCount").html(LANG.translations.find((element) => element.key === 'cboCardCount').lang[lang]);
+    
+            $("#lbContact").html(LANG.translations.find((element) => element.key === 'lbContact').lang[lang]); txtUserQuery
+    
+            $("#lbGithub").html(LANG.translations.find((element) => element.key === 'lbGithub').lang[lang]);
+            $("#lbEmail").html(LANG.translations.find((element) => element.key === 'lbEmail').lang[lang]);
+            $("#lbBuyaBeer").html(LANG.translations.find((element) => element.key === 'lbBuyaBeer').lang[lang]);
+    
+            $("#lblWelcome").html(LANG.translations.find((element) => element.key === 'main-welcome').lang[lang]);
+            $("#lblIntroduction").html(LANG.translations.find((element) => element.key === 'main-intro').lang[lang]);
+            $("#cmdDrawCards").html(LANG.translations.find((element) => element.key === 'main-button').lang[lang]);
+            $("#cmdFlipCards").html(LANG.translations.find((element) => element.key === 'main-button2').lang[lang]);
+    
+            $("#txtUserQuery").attr("placeholder", LANG.translations.find((element) => element.key === 'UserQuery').lang[lang]);
+    
+            const ComboCountCards = (LANG.translations.find((element) => element.key === 'cboCardCountEx').lang[lang]).split('|'); 
+            var ListVar = $("#cboCardCount");
+                ListVar.empty();
+                ComboCountCards.forEach(function(data) {
+                    const KeyValue = data.split('-');
+                    ListVar.append($("<option>" + data + "</option>").attr("value", KeyValue[0].trim() ));
+                });
+                ListVar.val(CardCount);
+    
+            // TODO: El pie de pagina
+        }
+    } catch (error) { console.log(error) }    
 }
 
 function ShuffleCards() {
@@ -279,7 +288,7 @@ function FlipCards() {
                     const data = JSON.parse($("#Card-0" + index).attr('data-bs-info')); //<- Extract info from data-bs-* attributes
                     if (data != null && data !== undefined) {
                         DeckPoints.push(data.points);
-                        console.log('decks/'+ UserDeck +'/'+ data.id +'.png');
+                        //console.log('decks/'+ UserDeck +'/'+ data.id +'.png');
 
                         const myImage = document.getElementById("Card-0" + index + "-img");
                             myImage.setAttribute('src', 'decks/'+ UserDeck +'/'+ data.id +'.png');

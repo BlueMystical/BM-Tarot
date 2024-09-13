@@ -3157,61 +3157,61 @@
    "id":50,
    "number":"1",
    "type":"Pentacles",
-   "Points":[ 10, -10 ],
+   "Points":[ 10, -5 ],
    "translations":{
       "en":{
-         "name":"As of Coins",
+         "name":"Ace of Coins",
          "normal":[
-            "",
-            ""
+            "The beginning of prosperity and wealth. Pleasure and beauty.",
+            "Profitable, profitable, fruitful, profitable, valuable, income, profits, earnings, anchorage, satisfaction, resources, stability, root, foundation, contracts."
          ],
          "inverted":[
-            "",
-            ""
+            "Success is delayed or does not bring the expected happiness. Greed.",
+            "Disconnected from the physical universe."
          ]
       },
       "es":{
          "name":"As de Oros",
          "normal":[
-            "",
-            ""
+            "El comienzo de la prosperidad y la riqueza. Placer y belleza.",
+            "Negocio lucrativo, beneficioso, fructífero, provechoso, valioso, ingresos, ganancias, utilidades, anclaje, satisfacción, recursos, estabilidad, raíz, cimiento, contratos."
          ],
          "inverted":[
-            "",
-            ""
+            "El éxito se retrasa o no trae la felicidad esperada. Avaricia.",
+            "Desconectado del universo físico."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Ass der Pentacles",
          "normal":[
-            "",
-            ""
+            "Der Beginn von Wohlstand und Reichtum. Vergnügen und Schönheit.",
+            "Lukratives, vorteilhaftes, fruchtbares, profitables, wertvolles Geschäft, Einkommen, Gewinne, Gewinne, Verankerung, Zufriedenheit, Ressourcen, Stabilität, Wurzel, Fundament, Verträge."
          ],
          "inverted":[
-            "",
-            ""
+            "Der Erfolg verzögert sich oder bringt nicht das erwartete Glück. Gier.",
+            "Vom physischen Universum getrennt."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"As de Pentacles",
          "normal":[
-            "",
-            ""
+            "Le début de la prospérité et de la richesse. Plaisir et beauté.",
+            "Entreprise lucrative, bénéfique, fructueuse, rentable, précieuse, revenus, bénéfices, bénéfices, ancrage, satisfaction, ressources, stabilité, racine, fondation, contrats."
          ],
          "inverted":[
-            "",
-            ""
+            "Le succès est retardé ou n'apporte pas le bonheur attendu. Cupidité.",
+            "Déconnecté de l'univers physique."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Туз Пентаклей",
          "normal":[
-            "",
-            ""
+            "Начало процветания и богатства. Удовольствие и красота.",
+            "Прибыльный, выгодный, плодотворный, выгодный, ценный бизнес, доход, прибыль, прибыль, якорь, удовлетворение, ресурсы, стабильность, корень, фундамент, контракты"
          ],
          "inverted":[
-            "",
-            ""
+            "Успех задерживается или не приносит ожидаемого счастья. Жадность.",
+            "Отключен от физической вселенной"
          ]
       }
    }
@@ -3223,58 +3223,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Two of Coins",
          "normal":[
-            "",
-            ""
+            "Change. Alternation of gain and loss. Balance in the midst of change. Ability to adapt to new circumstances. ",
+            "Some complications. Unstable temperament. Different circumstances or places, continuity, transition."
          ],
          "inverted":[
-            "",
-            ""
+            "Insecurity. Difficulty adapting to new circumstances.",
+            "Immobility, rigidity, aversion to change, stuck in a rut."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Dos de Oros",
          "normal":[
-            "",
-            ""
+            "Cambio. Alternación de ganancia y pérdida. Equilibrio en el medio del cambio. Habilidad para adaptarse a nuevas circunstancias. ",
+            "Algunas complicaciones. Temperamento inestable. Circunstancias o lugares diferentes, continuidad, transición."
          ],
          "inverted":[
-            "",
-            ""
+            "Inseguridad. Dificultad para adaptarse a nuevas circunstancias.",
+            "Inmovilidad, rigidez, aversión al cambio, atascado en un bache."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Zwei Pentacles",
          "normal":[
-            "",
-            ""
+            "Veränderung. Wechsel von Gewinn und Verlust. Balance inmitten von Veränderungen. Fähigkeit, sich an neue Umstände anzupassen.",
+            "Einige Komplikationen. Instabiles Temperament. Andere Umstände oder Orte, Kontinuität, Übergang."
          ],
          "inverted":[
-            "",
-            ""
+            "Unsicherheit. Schwierigkeiten, sich an neue Umstände anzupassen.",
+            "Immobilität, Starrheit, Abneigung gegen Veränderungen, festgefahren."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Deux des Pentacles",
          "normal":[
-            "",
-            ""
+            "Changement. Alternance de gains et de pertes. Équilibre au milieu du changement. Capacité à s'adapter aux nouvelles circonstances.",
+            "Quelques complications. Tempérament instable. Circonstances ou lieux différents, continuité, transition."
          ],
          "inverted":[
-            "",
-            ""
+            "Insécurité. Difficulté à s'adapter aux nouvelles circonstances.",
+            "Immobilité, rigidité, aversion au changement, coincé dans une ornière."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Двойка Пентаклей",
          "normal":[
-            "",
-            ""
+            "Изменения. Чередование приобретений и потерь. Баланс среди перемен. Способность адаптироваться к новым обстоятельствам.",
+            "Некоторые осложнения. Нестабильный темперамент. Разные обстоятельства и места, непрерывность, переход"
          ],
          "inverted":[
-            "",
-            ""
+            "Неуверенность в себе. Трудности с адаптацией к новым обстоятельствам.",
+            "Неподвижность, жесткость, отвращение к переменам, застревание в колее"
          ]
       }
    }
@@ -3286,58 +3286,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Three of Coins",
          "normal":[
-            "",
-            ""
+            "Jobs. A job well done. Business transactions. Progress and growth in the chosen profession. Dignity. A child.",
+            "Self-sufficiency, it's never too late, learn the basics, it's practical."
          ],
          "inverted":[
-            "",
-            ""
+            "Insufficient skill or knowledge to achieve what is intended. Useless work. Lack of seriousness.",
+            "Trusting others to do everything, lack of interest in learning."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Tres de Oros",
          "normal":[
-            "",
-            ""
+            "Trabajos. Tarea bien realizada. Transacciones comerciales. Progreso y crecimiento en la profesión elegida. Dignidad. Un niño.",
+            "Autosuficiencia, nunca es demasiado tarde, aprende los fundamentos, es práctico."
          ],
          "inverted":[
-            "",
-            ""
+            "Habilidad o conocimiento insuficiente para lograr lo que se pretende. Trabajo inútil. Carencia de seriedad.",
+            "Confía en que los demás lo hagan todo, desinterés por aprender."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Drei der Pentacles",
          "normal":[
-            "",
-            ""
+            "Jobs. Aufgabe gut ausgeführt. Geschäftstransaktionen. Fortschritt und Wachstum im gewählten Beruf. Würde. Ein Kind.",
+            "Eigenständigkeit, es ist nie zu spät, lernen Sie die Grundlagen, es ist praktisch."
          ],
          "inverted":[
-            "",
-            ""
+            "Unzureichende Fähigkeiten oder Kenntnisse, um das Ziel zu erreichen. Nutzlose Arbeit. Mangel an Ernsthaftigkeit.",
+            "Vertraut anderen, alles zu tun, mangelndes Interesse am Lernen."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Trois des Pentacles",
          "normal":[
-            "",
-            ""
+            "Des emplois. Tâche bien accomplie. Transactions commerciales. Progrès et croissance dans la profession choisie. Dignité. Un enfant.",
+            "L'autonomie, il n'est jamais trop tard, apprendre les fondamentaux, c'est pratique."
          ],
          "inverted":[
-            "",
-            ""
+            "Compétence ou connaissances insuffisantes pour réaliser ce qui est prévu. Travail inutile. Manque de sérieux.",
+            "Fait confiance aux autres pour tout faire, manque d'intérêt pour l'apprentissage."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Тройка Пентаклей",
          "normal":[
-            "",
-            ""
+            "Работа. Хорошо выполненное задание. Деловые операции. Прогресс и рост в выбранной профессии. Достоинство. Ребенок.",
+            "Самостоятельность, никогда не поздно, изучите основы, это практично"
          ],
          "inverted":[
-            "",
-            ""
+            "Недостаточно навыков или знаний для достижения задуманного. Бесполезная работа. Отсутствие серьезности.",
+            "Доверяет все другим, отсутствие интереса к обучению"
          ]
       }
    }
@@ -3349,58 +3349,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Four of Coins",
          "normal":[
-            "",
-            ""
+            "Power. Material gain and security. A gift or inheritance. A girl. Greed.",
+            "Consolidation, strength, reserved, conservative, saving, accumulation, possession, calculation, protection."
          ],
          "inverted":[
-            "",
-            ""
+            "Prejudice, limitation. Stagnation or material loss. Excessive spending of money.",
+            "Physical or material self-gratification, greed, hiding behind a wall of money, avarice, dormant resources."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Cuatro de Oros",
          "normal":[
-            "",
-            ""
+            "Poder. Ganancia y seguridad materiales. Un regalo o una herencia. Una niña. Avaricia.",
+            "Consolidación, fortaleza, reservado, conservador, ahorro, acumulación, posesión, cálculo, protección."
          ],
          "inverted":[
-            "",
-            ""
+            "Prejuicio, limitación. Estancamiento o pérdida material. Gasto desmedido de dinero.",
+            "Autogratificación física o material, codicia, se oculta tras un muro de dinero, avaricia, recursos dormidos."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Vier der Pentacles",
          "normal":[
-            "",
-            ""
+            "Macht. Materieller Gewinn und Sicherheit. Ein Geschenk oder Erbe. Ein Mädchen. Gier.",
+            "Konsolidierung, Stärke, zurückhaltend, konservativ, Ersparnisse, Akkumulation, Besitz, Berechnung, Schutz."
          ],
          "inverted":[
-            "",
-            ""
+            "Prejuicio, limitación. Estancamiento o perdida material. Gasto desmedido de dinero.",
+            "Autogratificación fisica o material, codicia, se okulta tras un muro de dinero, avaricia, recursos dormidos."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Quatre des Pentacles",
          "normal":[
-            "",
-            ""
+            "Pouvoir. Gain matériel et sécurité. Un cadeau ou un héritage. Une fille. La cupidité.",
+            "Consolidation, force, réserve, conservation, épargne, accumulation, possession, calcul, protection."
          ],
          "inverted":[
-            "",
-            ""
+            "Préjugés, limitation. Stagnation ou perte matérielle. Dépense excessive d'argent.",
+            "L'autosatisfaction physique ou matérielle, l'avidité, cachée derrière un mur d'argent, l'avidité, les ressources dormantes."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Четверка Пентаклей",
          "normal":[
-            "",
-            ""
+            "Власть. Материальная выгода и безопасность. Подарок или наследство. Девушка. Жадность.",
+            "Консолидация, сила, сдержанность, консервативность, сбережения, накопление, владение, расчет, защита"
          ],
          "inverted":[
-            "",
-            ""
+            "Предрассудки, ограничения. Застой или материальные потери. Чрезмерная трата денег.",
+            "Физическое или материальное самоудовлетворение, жадность, спрятанная за стеной денег, жадность, дремлющие ресурсы"
          ]
       }
    }
@@ -3409,61 +3409,61 @@
    "id":54,
    "number":"5",
    "type":"Pentacles",
-   "Points":[ 10, -10 ],
+   "Points":[ -10, 10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Five of Coins",
          "normal":[
-            "",
-            ""
+            "Worries. Loss of money or job. Poverty, defeat. Good luck in love, lovers, love or friendship that is in the middle of problems.",
+            "need, weakness, social limitation."
          ],
          "inverted":[
-            "",
-            ""
+            "New job or opportunity. Productive work. Bad luck in love.",
+            "Poverty, seeking compassion, blaming others or circumstances, lack of self-esteem, looking for someone to care for, unexpected expenses."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Cinco de Oros",
          "normal":[
-            "",
-            ""
+            "Preocupaciones. Pérdida de dinero o del empleo. Pobreza, derrota. Buena suerte en el amor, amantes, amor o amistad que se encuentra en el medio de los problemas.",
+            "Necesidad, debilidad, limitación social."
          ],
          "inverted":[
-            "",
-            ""
+            "Nuevo empleo u oportunidad. Trabajo productivo. Mala suerte en el amor.",
+            "Pobreza, busca la compasión, culpa a los demás o a las circunstancias, falta de autoestima, busca alguien a quien cuidar, gastos inesperados."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Fünf der Pentacles",
          "normal":[
-            "",
-            ""
+            "Sorgen. Geld- oder Jobverlust. Armut, Niederlage. Viel Glück in der Liebe, in der Liebe, in der Liebe oder in der Freundschaft, die inmitten von Problemen steckt.",
+            "Notwendigkeit, Schwäche, soziale Begrenzung."
          ],
          "inverted":[
-            "",
-            ""
+            "Neuer Job oder neue Chance. Produktive Arbeit. Pech in der Liebe.",
+            "Armut, das Streben nach Mitgefühl, die Schuldzuweisung an andere oder die Umstände, mangelndes Selbstwertgefühl, die Suche nach jemandem, um den man sich kümmern kann, unerwartete Ausgaben."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Cinq des Pentacles",
          "normal":[
-            "",
-            ""
+            "Soucis. Perte d'argent ou d'emploi. Pauvreté, défaite. Bonne chance en amour, en amoureux, en amour ou en amitié au milieu des problèmes.",
+            "nécessité, faiblesse, limitation sociale"
          ],
          "inverted":[
-            "",
-            ""
+            "Nouvel emploi ou opportunité. Travail productif. Pas de chance en amour.",
+            "La pauvreté, la recherche de compassion, le fait de blâmer les autres ou les circonstances, le manque d'estime de soi, la recherche de quelqu'un à qui s'occuper, les dépenses imprévues."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Пятерка Пентаклей",
          "normal":[
-            "",
-            ""
+            "Обеспокоения. Потеря денег или работы. Бедность, поражение. Удачи в любви, любовниках, любви или дружбе, которая находится в центре проблем.",
+            "необходимость, слабость, социальная ограниченность"
          ],
          "inverted":[
-            "",
-            ""
+            "Новая работа или возможность. Продуктивная работа. Невезение в любви.",
+            "Бедность, поиск сострадания, обвинение других или обстоятельств, отсутствие самоуважения, поиск того, о ком можно позаботиться, непредвиденные расходы"
          ]
       }
    }
@@ -3475,58 +3475,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Six of Pentacles",
          "normal":[
-            "",
-            ""
+            "Success. Material gain and power. Ability to share wealth with others.",
+            "Commerce, industry, balance, accounting, business strategy, transaction, foresight, speculation."
          ],
          "inverted":[
-            "",
-            ""
+            "Temporary gain. Prodigality, ostentation of wealth, bribery.",
+            "Spends more than he earns, wastes time and effort, gives to those who do not deserve it."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Seis de Oros",
          "normal":[
-            "",
-            ""
+            "Exito. Ganancia y poder materiales. Capacidad de compartir con otros la riqeza.",
+            "Comercio, industria, equilibrio, contabilidad, estrategia comercial, transacción, previsión, especulación."
          ],
          "inverted":[
-            "",
-            ""
+            "Ganancia temporal. Prodigalidad, ostentación de la riqueza, soborno.",
+            "Gasta más de lo que gana, desperdicia tiempo y esfuerzo, da a quienes no lo merecen."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Sechs der Pentacles",
          "normal":[
-            "",
-            ""
+            "Erfolg. Materieller Gewinn und Macht. Fähigkeit, Reichtum mit anderen zu teilen.",
+            "Handel, Industrie, Bilanz, Buchhaltung, Geschäftsstrategie, Transaktion, Prognose, Spekulation."
          ],
          "inverted":[
-            "",
-            ""
+            "Vorübergehender Gewinn. Verschwendung, Zurschaustellung von Reichtum, Bestechung.",
+            "Er gibt mehr aus, als er verdient, verschwendet Zeit und Mühe und gibt denen, die es nicht verdienen."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Six des Pentacles",
          "normal":[
-            "",
-            ""
+            "Succès. Gain matériel et pouvoir. Capacité à partager la richesse avec les autres.",
+            "Commerce, industrie, bilan, comptabilité, stratégie d'entreprise, transaction, prévision, spéculation."
          ],
          "inverted":[
-            "",
-            ""
+            "Gain temporaire. Prodigalité, étalage de richesse, corruption.",
+            "Il dépense plus qu'il ne gagne, perd du temps et des efforts, donne à ceux qui ne le méritent pas."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Шестерка Пентаклей",
          "normal":[
-            "",
-            ""
+            "Успех. Материальная выгода и власть. Способность делиться богатством с другими",
+            "Торговля, промышленность, баланс, бухгалтерский учет, бизнес-стратегия, транзакции, прогнозирование, спекуляции"
          ],
          "inverted":[
-            "",
-            ""
+            "Временная выгода. Расточительство, демонстрация богатства, взяточничество.",
+            "Он тратит больше, чем зарабатывает, тратит время и силы, отдает тем, кто этого не заслуживает"
          ]
       }
    }
@@ -3535,61 +3535,61 @@
    "id":56,
    "number":"7",
    "type":"Pentacles",
-   "Points":[ 10, -10 ],
+   "Points":[ -10, 10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Seven of Coins",
          "normal":[
-            "",
-            ""
+            "Failure, defeat, loss of money. Hard work but little gain. Greed.",
+            "There are no guarantees. Be grateful, focus on the present and do what you can with what you have."
          ],
          "inverted":[
-            "",
-            ""
+            "Success delayed after hard work. Work done for the love of the work, but without expecting material rewards.",
+            "Rewards, Results, Profit, Payments, Dividends, Shares, Bonus, Benefits, Large inheritance."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Siete de Oros",
          "normal":[
-            "",
-            ""
+            "Fracaso, derrota, pérdida de dinero. Trabajo duro pero con poca ganancia. Avaricia.",
+            "No hay garantías Sé agradecido, concéntrate en el presente y haz lo que puedas con lo que tienes."
          ],
          "inverted":[
-            "",
-            ""
+            "Exito retrasado después de un trabajo duro. Trabajo realizado por amor al trabajo, pero sin esperar retribuciones materiales.",
+            "Recompensas, Resultados, Beneficio, Pagos, Dividendos, Acciones, Bonificación, Beneficios, Gran herencia."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Sieben der Pentacles",
          "normal":[
-            "",
-            ""
+            "Misserfolg, Niederlage, Geldverlust. Harte Arbeit, aber wenig Gewinn. Gier.",
+            "Es gibt keine Garantien. Seien Sie dankbar, konzentrieren Sie sich auf die Gegenwart und tun Sie mit dem, was Sie haben."
          ],
          "inverted":[
-            "",
-            ""
+            "Verzögerter Erfolg nach harter Arbeit. Arbeit aus Liebe zur Arbeit geleistet, aber ohne materielle Belohnung zu erwarten.",
+            "Belohnungen, Ergebnisse, Gewinn, Zahlungen, Dividenden, Aktien, Boni, Vorteile, große Erbschaft."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Sept des Pentacles",
          "normal":[
-            "",
-            ""
+            "Échec, défaite, perte d'argent. Travail acharné mais peu de gain. Cupidité.",
+            "Il n'y a aucune garantie. Soyez reconnaissant, concentrez-vous sur le présent et faites ce que vous pouvez avec ce que vous avez."
          ],
          "inverted":[
-            "",
-            ""
+            "Un succès retardé après un travail acharné. Un travail effectué par amour du travail, mais sans attendre de récompenses matérielles.",
+            "Récompenses, résultats, bénéfices, paiements, dividendes, actions, bonus, avantages, gros héritage."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Семерка пентаклей",
          "normal":[
-            "",
-            ""
+            "Неудача, поражение, потеря денег. Тяжелая работа, но мало прибыли. Жадность.",
+            "Нет никаких гарантий. Будьте благодарны, сосредоточьтесь на настоящем и делайте все, что можете, с тем, что у вас есть"
          ],
          "inverted":[
-            "",
-            ""
+            "Отложенный успех после упорного труда. Работа выполнена из любви к труду, но без ожидания материального вознаграждения.",
+            "Награды, Результаты, Прибыль, Выплаты, Дивиденды, Акции, Бонусы, Льготы, Большое наследство"
          ]
       }
    }
@@ -3601,57 +3601,57 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Eight of Coins",
          "normal":[
-            "",
-            ""
+            "Prudence. The first step in a profitable profession. Learning a business or profession. ",
+            "Skill in material matters. A brunette."
          ],
          "inverted":[
-            "",
+            "Greed. Childish egocentrism. Vanity.",
             ""
          ]
       },
       "es":{
-         "name":"",
+         "name":"Ocho de Oros",
          "normal":[
-            "",
-            ""
+            "Prudencia. El primer paso en una provechosa profesión. Aprendiendo un negocio o profesión. ",
+            "Habilidad en asuntos materiales. Una morocha."
          ],
          "inverted":[
-            "",
+            "Avaricia. Egocentrismo infantil. Vanidad.",
             ""
          ]
       },
       "de":{
-         "name":"",
+         "name":"Acht der Pentacles",
          "normal":[
-            "",
-            ""
+            "Besonnenheit. Der erste Schritt in einen profitablen Beruf. Erlernen eines Geschäfts oder Berufes.",
+            "Geschick in materiellen Angelegenheiten. Eine Brünette."
          ],
          "inverted":[
-            "",
+            "Habsucht. Egozentrismus in der Kindheit. Eitelkeit.",
             ""
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Huit de Pentacles",
          "normal":[
-            "",
-            ""
+            "Prudence. Le premier pas vers un métier rentable. Apprendre un métier ou un métier.",
+            "Compétence en matière matérielle. Une brune."
          ],
          "inverted":[
-            "",
+            "Avarice. L'égocentrisme de l'enfance. Vanité.",
             ""
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Восьмерка Пентаклей",
          "normal":[
-            "",
-            ""
+            "Благоразумие. Первый шаг к прибыльной профессии. Обучение делу или профессии.",
+            "Умение в материальных вопросах. Брюнетка"
          ],
          "inverted":[
-            "",
+            "Жадность. Детский эгоцентризм. Тщеславие.",
             ""
          ]
       }
@@ -3664,58 +3664,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Nine of Pentacles",
          "normal":[
-            "",
-            ""
+            "Gain. Practical wisdom limited to home and everyday affairs. Stability, solitude, inheritance.",
+            "Discipline, Self-sufficiency, Refinement, Fame, promotion, rank, reward, success, increase."
          ],
          "inverted":[
-            "",
-            ""
+            "Material or friendship losses. Project cancelled. Beware of scoundrels.",
+            "Presumptuous, egotism, put on a pedestal, peacock, obsessed with appearances."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Nueve de Oros",
          "normal":[
-            "",
-            ""
+            "Ganancia. Sabiduría práctica limitado al hogar y los asuntos cotidianos. Estabilidad, soledad, herencia.",
+            "Disciplina, Autosuficiencia, Refinamiento, Fama, promoción, rango, premio, éxito, incremento."
          ],
          "inverted":[
-            "",
-            ""
+            "Pérdidas materiales o de la amistad. Proyecto cancelado. Tenga cuidado con los bribones.",
+            "Presumido, egotismo, puesto en un pedestal, pavo real, obsesionado por las apariencias."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Neun der Pentacles",
          "normal":[
-            "",
-            ""
+            "Gewinn. Praktische Weisheit beschränkt auf häusliche und alltägliche Angelegenheiten. Stabilität, Einsamkeit, Erbe.",
+            "Disziplin, Eigenständigkeit, Verfeinerung, Ruhm, Beförderung, Rang, Auszeichnung, Erfolg, Steigerung."
          ],
          "inverted":[
-            "",
-            ""
+            "Verlust von Material oder Freundschaft. Projekt abgebrochen. Vorsicht vor Schurken.",
+            "Eingebildet, egoistisch, auf ein Podest gestellt, Pfau, besessen von Äußerlichkeiten."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Neuf des Pentacles",
          "normal":[
-            "",
-            ""
+            "Gain. Sagesse pratique limitée au foyer et aux affaires quotidiennes. Stabilité, solitude, héritage.",
+            "Discipline, autonomie, raffinement, renommée, promotion, rang, récompense, succès, augmentation."
          ],
          "inverted":[
-            "",
-            ""
+            "Perte de matériel ou d'amitié. Projet annulé. Attention aux canailles.",
+            "Vaniteux, égoïste, mis sur un piédestal, paon, obsédé par les apparences."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Девятка Пентаклей",
          "normal":[
-            "",
-            ""
+            "Прибыль. Практическая мудрость, ограниченная домом и повседневными делами. Стабильность, одиночество, наследство.",
+            "Дисциплина, Самостоятельность, Утонченность, Слава, продвижение по службе, звание, награда, успех, повышение"
          ],
          "inverted":[
-            "",
-            ""
+            "Потеря материала или дружбы. Проект отменен. Остерегайтесь подлецов.",
+            "Тщеславный, эгоистичный, возведенный на пьедестал, павлин, одержимый внешностью"
          ]
       }
    }
@@ -3727,58 +3727,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Ten of Coins",
          "normal":[
-            "",
-            ""
+            "Wealth. Complete material fortune. ",
+            "Family affairs, inheritance, family home."
          ],
          "inverted":[
-            "",
-            ""
+            "Misfortune in the family. Loss of an inheritance. ",
+            "Be careful with risky projects."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Diez de Oros",
          "normal":[
-            "",
-            ""
+            "Riqueza. Fortuna material completa. ",
+            "Asuntos de familia, herencia, casa familiar."
          ],
          "inverted":[
-            "",
-            ""
+            "Desgracia en la familia. Pérdida de una herencia. ", 
+            "Tenga cuidado con los proyectos aventurados."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Zehn Pentacles",
          "normal":[
-            "",
-            ""
+            "Reichtum. Vollkommenes materielles Vermögen.",
+            "Familienangelegenheiten, Erbe, Familienheim."
          ],
          "inverted":[
-            "",
-            ""
+            "Unglück in der Familie. Verlust einer Erbschaft.",
+            "Seien Sie vorsichtig bei riskanten Projekten."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Dix de Pentacles",
          "normal":[
-            "",
-            ""
+            "Richesse. Fortune matérielle complète.",
+            "Affaires de famille, héritage, maison familiale."
          ],
          "inverted":[
-            "",
-            ""
+            "Malheur dans la famille. Perte d'un héritage.",
+            "Soyez prudent avec les projets risqués."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Десятка Пентаклей",
          "normal":[
-            "",
-            ""
+            "Богатство. Полное материальное благополучие.",
+            "Семейные дела, наследство, семейный дом"
          ],
          "inverted":[
-            "",
-            ""
+            "Несчастье в семье. Потеря наследства.",
+            "Будьте осторожны с рискованными проектами"
          ]
       }
    }
@@ -3787,61 +3787,61 @@
    "id":60,
    "number":"P",
    "type":"Pentacles",
-   "Points":[ 10, -10 ],
+   "Points":[ 15, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Page of Coins",
          "normal":[
-            "",
-            ""
+            "A well-educated, careful and thoughtful young person. Good administrative ability, kindness and benevolence. Bearer of good news or messages.",
+            "Abundance, Refinement, Feeling fulfilled, Enjoying the fruits of your work and the good things in life."
          ],
          "inverted":[
-            "",
-            ""
+            "Wasteful, illogical. Rebellious young man. Bad news. Loss of money.",
+            "Inability to achieve success. Maybe it is due to inconstancy, lack of energy and discipline. "
          ]
       },
       "es":{
-         "name":"",
+         "name":"Paje de Oros",
          "normal":[
-            "",
-            ""
+            "Una persona joven instruída, cuidadosa y reflexiva. Buena capacidad administrativa, amabilidad y benevolencia. Portador de buenas noticias o mensajes.",
+            "Abundancia, Refinamiento, Sentirse realizado, Disfrutar del fruto de tu trabajo y de las buenas cosas de la vida."
          ],
          "inverted":[
-            "",
-            ""
+            "Despilfarrador, ilógico. Joven rebelde. Malas noticias. Pérdida de dinero.",
+            "Imposibilidad de alcanzar el éxito. Tal vez sea por inconstancia, falta de energía y disciplina. "
          ]
       },
       "de":{
-         "name":"",
+         "name":"Seite der Pentacles",
          "normal":[
-            "",
-            ""
+            "Ein gebildeter, vorsichtiger und nachdenklicher junger Mensch. Gute Verwaltungsfähigkeiten, Freundlichkeit und Wohlwollen. Überbringer guter Nachrichten oder Botschaften.",
+            "Fülle, Verfeinerung, sich erfüllt fühlen, die Früchte Ihrer Arbeit und die guten Dinge im Leben genießen."
          ],
          "inverted":[
-            "",
-            ""
+            "Verschwenderisch, unlogisch. Rebellischer junger Mann. Schlechte Nachrichten. Geldverschwendung.",
+            "Unfähigkeit, Erfolg zu haben. Vielleicht liegt es an Unbeständigkeit, mangelnder Energie und Disziplin."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Page des Pentacles",
          "normal":[
-            "",
-            ""
+            "Un jeune instruit, prudent et réfléchi. Bonnes compétences administratives, gentillesse et bienveillance. Porteur de bonnes nouvelles ou de messages.",
+            "Abondance, Raffinement, Se sentir épanoui, Profiter du fruit de son travail et des bonnes choses de la vie."
          ],
          "inverted":[
-            "",
-            ""
+            "Gaspillage, illogique. Jeune homme rebelle. Mauvaise nouvelle. Gaspillage d'argent.",
+            "Incapacité de réussir. Cela est peut-être dû à l'inconstance, au manque d'énergie et de discipline."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Паж Пентаклей",
          "normal":[
-            "",
-            ""
+            "Образованный, внимательный и вдумчивый молодой человек. Хорошие административные навыки, доброта и доброжелательность. Носитель хороших новостей или сообщений.",
+            "Изобилие, утонченность, чувство удовлетворения, наслаждение плодами своей работы и хорошими вещами в жизни"
          ],
          "inverted":[
-            "",
-            ""
+            "Расточительно, нелогично. Мятежный молодой человек. Плохие новости. Пустая трата денег.",
+            "Неспособность добиться успеха. Возможно, это связано с непостоянством, недостатком энергии и дисциплины"
          ]
       }
    }
@@ -3853,58 +3853,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Knight of Coins",
          "normal":[
-            "",
-            ""
+            "Mature, trustworthy, hardworking, responsible man. A capable manager. Important matters involving money.",
+            "Organized, well prepared, persistent, resilient, planning, professional, slow but steady, prudence, responsibility."
          ],
          "inverted":[
-            "",
-            ""
+            "Stupid, lazy, careless or clumsy man. Stagnation.",
+            "Despite being someone who makes the effort, the expected return is not obtained."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Caballero de Oros",
          "normal":[
-            "",
-            ""
+            "Hombre maduro, digno de confianza, trabajador y responsable. Un administrador capacitado. Asuntos importantes relacionados con dinero.",
+            "Organiza, bien preparado, persistente, resistente, planificación, profesional, lento pero constante, prudencia, responsabilidad."
          ],
          "inverted":[
-            "",
-            ""
+            "Hombre tonto, perezoso, descuidado o torpe. Estancamiento.", 
+            "A pesar de ser alguien que hace el esfuerzo no se obtiene el rédito esperado."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Ritter der Pentacles",
          "normal":[
-            "",
-            ""
+            "Reifer, vertrauenswürdiger, fleißiger und verantwortungsbewusster Mann. Ein ausgebildeter Administrator. Wichtige Angelegenheiten im Zusammenhang mit Geld.",
+            "Organisiert, gut vorbereitet, beharrlich, belastbar, planend, professionell, langsam aber stetig, Umsicht, Verantwortung."
          ],
          "inverted":[
-            "",
-            ""
+            "Dummer, fauler, nachlässiger oder ungeschickter Mann. Stagnation.",
+            "Obwohl man jemand ist, der sich die Mühe macht, wird die erwartete Rendite nicht erzielt."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Chevalier des Pentacles",
          "normal":[
-            "",
-            ""
+            "Homme mûr, digne de confiance, travailleur et responsable. Un administrateur formé. Questions importantes liées à l'argent.",
+            "Organisé, bien préparé, persévérant, résilient, planifiant, professionnel, lent mais régulier, prudent, responsable."
          ],
          "inverted":[
-            "",
-            ""
+            "Homme idiot, paresseux, insouciant ou maladroit. Stagnation.",
+            "Même si quelqu'un fait l'effort, le retour escompté n'est pas obtenu."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Рыцарь Пентаклей",
          "normal":[
-            "",
-            ""
+            "Зрелый, надежный, трудолюбивый и ответственный мужчина. Обученный администратор. Важные вопросы, связанные с деньгами.",
+            "Организованный, хорошо подготовленный, настойчивый, выносливый, планирующий, профессиональный, медленный, но уверенный, расчетливый, ответственный"
          ],
          "inverted":[
-            "",
-            ""
+            "Глупый, ленивый, нерадивый или неуклюжий человек. Застой.",
+            "Несмотря на то, что он прилагает усилия, ожидаемая отдача не получена"
          ]
       }
    }
@@ -3916,58 +3916,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Queen of Coins",
          "normal":[
-            "",
-            ""
+            "Charming and generous woman. Pragmatic and calm, but ambitious. Opulence, security.",
+            "Generosity, Security, Freedom, Grace, Dignity, Prosperity."
          ],
          "inverted":[
-            "",
-            ""
+            "Foolish and temperamental. Quick to distrust and excessively fearful of failure. Careless.",
+            "Insecurity, lack of self-confidence."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Reina de Oros",
          "normal":[
-            "",
-            ""
+            "Mujer encantadora y generosa. Prágmática y tranquila, pero ambiciosa. Opulencia, seguridad.",
+            "Generosidad, Seguridad, Libertad, Gracia, Dignidad, Prosperidad."
          ],
          "inverted":[
-            "",
-            ""
+            "Dada a tonterías y temperamental. Rápida para desconfiar y excesivamente temerosa del fracaso. Negligente.",
+            "Inseguridad, falta de confianza en uno mismo."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Königin der Pentacles",
          "normal":[
-            "",
-            ""
+            "Charmante und großzügige Frau. Pragmatisch und ruhig, aber ehrgeizig. Opulenz, Sicherheit.",
+            "Großzügigkeit, Sicherheit, Freiheit, Gnade, Würde, Wohlstand."
          ],
          "inverted":[
-            "",
-            ""
+            "Zu Unsinn neigend und temperamentvoll. Schnell misstrauisch und übermäßig ängstlich vor dem Scheitern. Nachlässig.",
+            "Unsicherheit, Mangel an Selbstvertrauen."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Reine des Pentacles",
          "normal":[
-            "",
-            ""
+            "Femme charmante et généreuse. Pragmatique et calme, mais ambitieuse. Opulence, sécurité.",
+            "Générosité, Sécurité, Liberté, Grâce, Dignité, Prospérité."
          ],
          "inverted":[
-            "",
-            ""
+            "Adonné aux bêtises et capricieux. Rapide à se méfier et excessivement craintif de l'échec. Négligent.",
+            "Insécurité, manque de confiance en soi."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Королева Пентаклей",
          "normal":[
-            "",
-            ""
+            "Очаровательная и щедрая женщина. Прагматичная и спокойная, но амбициозная. Богатство, безопасность.",
+            "Щедрость, Безопасность, Свобода, Благодать, Достоинство, Процветание"
          ],
          "inverted":[
-            "",
-            ""
+            "Склонен к глупостям и темпераментен. Спешен к недоверию и чрезмерно боится неудач. Нерадив",
+            "Неуверенность в себе, неуверенность в себе"
          ]
       }
    }
@@ -3979,58 +3979,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"King of Coins",
          "normal":[
-            "",
-            ""
+            "A married man, wealthy and knowledgeable in monetary matters. Patient and hard-working. He is an experienced boss and a trusted ally.",
+            "Constant, permanent, prodigal, lending, calculating, administrator."
          ],
          "inverted":[
-            "",
-            ""
+            "Vicious and greedy man. Beware of gamblers or speculators. Easy to bribe. He can be a dangerous man.",
+            "There is no control over the situation, we have a certain spirit that is too fickle and too changeable that prevents economic energy from flowing."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Rey de Oros",
          "normal":[
-            "",
-            ""
+            "Un hombre casado, adinero y entendido en asuntos monetarios. Paciente y trabajor. El es un jefe experimentado y un aliado de confianza.",
+            "Constante, permanente, pródigo, préstamos, calculado, administrador."
          ],
          "inverted":[
-            "",
-            ""
+            "Hombre vicioso y avaro. Cuídese de jugadores o especuladores. Fácil de sobornar. El puede ser un hombre peligroso.",
+            "No se tiene ningún control de la situación, poseemos cierto espíritu demasiado voluble y demasiado movedizo que impide que la energía económica fluya."
          ]
       },
       "de":{
-         "name":"",
+         "name":"König der Pentacles",
          "normal":[
-            "",
-            ""
+            "Ein verheirateter Mann, wohlhabend und sachkundig in Geldangelegenheiten. Geduldig und fleißig. Er ist ein erfahrener Chef und ein vertrauenswürdiger Verbündeter.",
+            "Konstant, dauerhaft, verschwenderisch, leihend, kalkuliert, Verwalter."
          ],
          "inverted":[
-            "",
-            ""
+            "Laster und gieriger Mann. Hüten Sie sich vor Spielern oder Spekulanten. Leicht zu bestechen. Er kann ein gefährlicher Mann sein.",
+            "Wir haben keine Kontrolle über die Situation, wir haben einen gewissen Geist, der zu wankelmütig und zu mobil ist und den Fluss der wirtschaftlichen Energie verhindert."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Roi des Pentacles",
          "normal":[
-            "",
-            ""
+            "Un homme marié, riche et compétent en matière monétaire. Patient et travailleur. C'est un patron expérimenté et un allié de confiance.",
+            "Constant, permanent, somptueux, prêtant, calculé, administrateur."
          ],
          "inverted":[
-            "",
-            ""
+            "Homme vice et avide. Méfiez-vous des joueurs ou des spéculateurs. Facile à soudoyer. Il peut être un homme dangereux.",
+            "Nous n'avons aucun contrôle sur la situation, nous avons un certain esprit trop inconstant et trop mobile qui empêche l'énergie économique de circuler."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Король Пентаклей",
          "normal":[
-            "",
-            ""
+            "Женатый мужчина, состоятельный и разбирающийся в денежных вопросах. Терпеливый и трудолюбивый. Он опытный начальник и надежный союзник.",
+            "Постоянный, постоянный, щедрый, кредитный, расчетливый, администратор"
          ],
          "inverted":[
-            "",
-            ""
+            "Порочный и жадный человек. Остерегайтесь игроков и спекулянтов. Легко подкупить. Он может быть опасным человеком.",
+            "Мы не контролируем ситуацию, у нас есть определенный дух, слишком непостоянный и слишком подвижный, который мешает потоку экономической энергии"
          ]
       }
    }
@@ -4044,58 +4044,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Ace of Wands",
          "normal":[
-            "",
-            ""
+            "Creation, birth. The power or ability to initiate or to carry forward a plan or task with energy.",
+            "Capacity for undertaking and determination. Beginning of a business, adventure, invention, or something new."
          ],
          "inverted":[
-            "",
-            ""
+            "Falling. Losing or postponing something (job, business, etc.). False starts.",
+            "Lack of initiative, lack of energy."
          ]
       },
       "es":{
-         "name":"",
+         "name":"As de Bastos",
          "normal":[
-            "",
-            ""
+            "Creación, nacimiento. El poder o habilidad para iniciar o para seguir adelante un plan o tarea con energía. ",
+            "Capacidad para realizar emprendimientos y determinación. Comienzo de una empresa, aventura, invención o algo nuevo."
          ],
          "inverted":[
-            "",
-            ""
+            "Caída. Perder o postergar alguna cosa (empleo, emprendimiento, etc). Falsos comienzos.",
+            "Falta de iniciativa, falta de energía."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Zauberstab-Ass",
          "normal":[
-            "",
-            ""
+            "Schöpfung, Geburt. Die Kraft oder Fähigkeit, einen Plan oder eine Aufgabe mit Energie zu initiieren oder voranzutreiben.",
+            "Fähigkeit zum Unternehmertum und Entschlossenheit. Gründung eines Unternehmens, Abenteuer, Erfindung oder etwas Neues."
          ],
          "inverted":[
-            "",
-            ""
+            "Sturz. Etwas verlieren oder verschieben (Job, Unternehmertum usw.). Fehlstarts.",
+            "Mangelnde Initiative, Mangel an Energie."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"As de baguettes",
          "normal":[
-            "",
-            ""
+            "Création, naissance. Le pouvoir ou la capacité d'initier ou de réaliser un plan ou une tâche avec énergie.",
+            "Capacité d'entreprendre et détermination. Création d'une entreprise, aventure, invention ou quelque chose de nouveau."
          ],
          "inverted":[
-            "",
-            ""
+            "Chute. Perdre ou reporter quelque chose (emploi, entrepreneuriat, etc.). Faux départs.",
+            "Manque d'initiative, manque d'énergie."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Туз Жезлов",
          "normal":[
-            "",
-            ""
+            "Создание, рождение. Сила или способность инициировать или осуществлять план или задачу с помощью энергии",
+            "Способность осуществлять предпринимательство и решительность. Начало компании, приключение, изобретение или что-то новое"
          ],
          "inverted":[
-            "",
-            ""
+            "Падение. Потеря или откладывание чего-либо (работы, предпринимательства и т. д.). Фальстарт.",
+            "Отсутствие инициативы, отсутствие энергии"
          ]
       }
    }
@@ -4107,58 +4107,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Two of Wands",
          "normal":[
-            "",
-            ""
+            "Dominance. Maturity. Boldness with self-control. Influence.",
+            "Puts new ideas into action, listens to the opinions of others."
          ],
          "inverted":[
-            "",
-            ""
+            "Disturbances. Indifference or disregard for consequences. Fear, illness.",
+            "Asks for advice but does not listen when given, expects others to undertake ideas, cannot make decisions."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Dos de Bastos",
          "normal":[
-            "",
-            ""
+            "Dominio. Madurez. Audacia con autocontrol. Influencia.",
+            "Pone en marcha nuevas ideas, escucha las opiniones de los demás."
          ],
          "inverted":[
-            "",
-            ""
+            "Disturbios. Indiferencia o desprecio de las consecuencias. Miedo, enfermedad.",
+            "Pide consejo pero no escucha cuando se lo dan, espera que los demás emprendan las ideas, no puede tomar decisiones."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Zwei Zauberstäbe",
          "normal":[
-            "",
-            ""
+            "Dominanz. Reife. Kühnheit mit Selbstbeherrschung. Einfluss.",
+            "Setzen Sie neue Ideen in die Tat um, hören Sie sich die Meinungen anderer an."
          ],
          "inverted":[
-            "",
-            ""
+            "Unruhe. Gleichgültigkeit oder Missachtung der Konsequenzen. Angst, Krankheit.",
+            "Er bittet um Rat, hört ihm aber nicht zu, er wartet darauf, dass andere Ideen annehmen, er kann keine Entscheidungen treffen."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Deux de baguettes",
          "normal":[
-            "",
-            ""
+            "Dominance. Maturité. Audace et maîtrise de soi. Influence.",
+            "Mettez de nouvelles idées en action, écoutez les opinions des autres."
          ],
          "inverted":[
-            "",
-            ""
+            "Troubles. Indifférence ou mépris des conséquences. Peur, maladie.",
+            "Il demande des conseils mais n'écoute pas quand on les lui donne, il attend que les autres prennent des idées, il ne peut pas prendre de décisions."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Двойка Жезлов",
          "normal":[
-            "",
-            ""
+            "Доминирование. Зрелость. Смелость с самоконтролем. Влияние.",
+            "Применяйте новые идеи в жизнь, прислушивайтесь к мнению других"
          ],
          "inverted":[
-            "",
-            ""
+            "Беспорядки. Безразличие или игнорирование последствий. Страх, болезнь.",
+            "Он просит совета, но не слушает, когда его дают, он ждет, пока другие подхватят идеи, он не может принимать решения"
          ]
       }
    }
@@ -4170,58 +4170,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Three of Wands",
          "normal":[
-            "",
-            ""
+            "Virtue. Established strength, realization of hope, nobility. Cooperation, association.",
+            "Effective, resolute, inspiration, honest, demonstrative, mastery."
          ],
          "inverted":[
-            "",
-            ""
+            "Inconsistency, deception, deceit. Theft, loss.",
+            "Too much talk and too little action, lack of will."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Tres de Bastos",
          "normal":[
-            "",
-            ""
+            "Virtud. Fuerza establecida, realización de la esperanza, nobleza. Cooperación, asociación.",
+            "Eficaz, resuelto, inspiración, honesto, demostrativo, dominio."
          ],
          "inverted":[
-            "",
-            ""
+            "Inconsistencia, decepción, engaño. Robo, pérdida.",
+            "Habla mucho y actúa poco, falta de voluntad."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Drei Zauberstäbe",
          "normal":[
-            "",
-            ""
+            "Tugend. Etablierte Stärke, Verwirklichung der Hoffnung, Adel. Zusammenarbeit, Partnerschaft.",
+            "Effektiv, zielstrebig, inspirierend, ehrlich, demonstrativ, meisterhaft."
          ],
          "inverted":[
-            "",
-            ""
+            "Inkonsistenz, Täuschung, Täuschung. Diebstahl, Verlust.",
+            "Redet viel und handelt wenig, mangelnder Wille."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Trois de baguettes",
          "normal":[
-            "",
-            ""
+            "Vertu. Force établie, réalisation de l'espoir, noblesse. Coopération, partenariat.",
+            "Efficace, déterminé, inspirant, honnête, démonstratif, maîtrisé."
          ],
          "inverted":[
-            "",
-            ""
+            "Incohérence, tromperie, tromperie. Vol, perte.",
+            "Parle beaucoup et agit peu, manque de volonté."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Тройка Жезлов",
          "normal":[
-            "",
-            ""
+            "Добродетель. Установленная сила, реализация надежды, благородство. Сотрудничество, партнёрство.",
+            "Эффективный, решительный, вдохновляющий, честный, демонстративный, мастерский"
          ],
          "inverted":[
-            "",
-            ""
+            "Несоответствие, обман, обман. Кража, потеря.",
+            "Много говорит и мало делает, отсутствие воли"
          ]
       }
    }
@@ -4233,58 +4233,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Four of Wands",
          "normal":[
-            "",
-            ""
+            "Complete realization. Settlement, peace, harmony. Romance, marriage, society.",
+            "Dynamics of life, execution, building a better world."
          ],
          "inverted":[
-            "",
-            ""
+            "Insecurity, discomfort, distrust, contradictions. Incomplete happiness.",
+            "Feeling worthless, lack of belonging."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Cuatro de Bastos",
          "normal":[
-            "",
-            ""
+            "Completa realización. Asentamiento, paz, armonía. Romance, matrimonio, sociedad.",
+            "Dinámica de la vida, ejecución, construcción de un mundo mejor."
          ],
          "inverted":[
-            "",
-            ""
+            "Inseguridad, incomodidad, desconfianza, Contradicciones. Felicidad incompleta.",
+            "Se siente inútil, falta de pertenencia."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Vier Zauberstäbe",
          "normal":[
-            "",
-            ""
+            "Vollständige Verwirklichung. Ruhe, Frieden, Harmonie. Romantik, Ehe, Gesellschaft.",
+            "Dynamik des Lebens, Umsetzung, Aufbau einer besseren Welt."
          ],
          "inverted":[
-            "",
-            ""
+            "Unsicherheit, Unbehagen, Misstrauen, Widersprüche. Unvollständiges Glück.",
+            "Du fühlst dich wertlos, mangelst an Zugehörigkeit."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Quatre de baguettes",
          "normal":[
-            "",
-            ""
+            "Réalisation complète. Règlement, paix, harmonie. Romance, mariage, société.",
+            "Dynamique de vie, exécution, construction d'un monde meilleur."
          ],
          "inverted":[
-            "",
-            ""
+            "Insécurité, mal-être, méfiance, Contradictions. Bonheur incomplet.",
+            "Vous vous sentez sans valeur, manque d'appartenance."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Четверка Жезлов",
          "normal":[
-            "",
-            ""
+            "Полная реализация. Поселение, мир, гармония. Романтика, брак, общество.",
+            "Динамика жизни, исполнение, построение лучшего мира"
          ],
          "inverted":[
-            "",
-            ""
+            "Неуверенность, дискомфорт, недоверие, Противоречия. Неполное счастье.",
+            "Вы чувствуете себя никчемным, лишенным принадлежности"
          ]
       }
    }
@@ -4293,61 +4293,61 @@
    "id":68,
    "number":"5",
    "type":"Wands",
-   "Points":[ 10, -10 ],
+   "Points":[ -10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Five of Wands",
          "normal":[
-            "",
-            ""
+            "Conflict, competition, trial, obstacles, opposition. Violence, fight.",
+            "Argumentative, games, courage, sport, impulse, effort. challenge."
          ],
          "inverted":[
-            "",
-            ""
+            "Dangerous indecision, betrayal, complication.",
+            "Tightness, imposing himself excessively, too aggressive, hasty."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Cinco de Bastos",
          "normal":[
-            "",
-            ""
+            "Conflicto, competición, juicio, obstáculos, oposición. Violencia, pelea.",
+            "Discutidor, juegos, coraje, deporte, impulso, esfuerzo. desafio."
          ],
          "inverted":[
-            "",
-            ""
+            "Peligrosa indecisión, traición, complicación.",
+            "Tirantez, se impone en exceso, demasiado agresivo, precipitado."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Fünf Zauberstäbe",
          "normal":[
-            "",
-            ""
+            "Konflikt, Konkurrenz, Urteil, Hindernisse, Widerstand. Gewalt, Kampf.",
+            "Debattieren, Spiele, Mut, Sport, Antrieb, Anstrengung. Herausforderung."
          ],
          "inverted":[
-            "",
-            ""
+            "Gefährliche Unentschlossenheit, Verrat, Komplikationen.",
+            "Enge, übertrieben, zu aggressiv, voreilig."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Cinq de baguettes",
          "normal":[
-            "",
-            ""
+            "Conflit, compétition, jugement, obstacles, opposition. Violence, combat.",
+            "Débatteur, jeux, courage, sport, dynamisme, effort. défi."
          ],
          "inverted":[
-            "",
-            ""
+            "Indécision dangereuse, trahison, complication.",
+            "Des tensions, trop imposées, trop agressives, précipitées."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Пятерка Жезлов",
          "normal":[
-            "",
-            ""
+            "Конфликт, конкуренция, осуждение, препятствия, противостояние. Насилие, борьба.",
+            "Спорщик, игры, смелость, спорт, драйв, усилия. Вызов"
          ],
          "inverted":[
-            "",
-            ""
+            "Опасная нерешительность, предательство, осложнение.",
+            "Зажатость, чрезмерно навязанная, слишком агрессивная, поспешная"
          ]
       }
    }
@@ -4359,58 +4359,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Six of Wands",
          "normal":[
-            "",
-            ""
+            "Victory after a conflict. Good news, progress. Helping friends.",
+            "Winner, achievement, confidence, self-esteem, fame, impressive."
          ],
          "inverted":[
-            "",
-            ""
+            "Postponement. Insolence, excessive pride. Betrayal, apprehension.",
+            "Too vain, pomposity, pretension, arrogant."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Seis de Bastos",
          "normal":[
-            "",
-            ""
+            "Victoria después de un conflicto. Buenas noticias, progreso. Ayudando a los amigos.",
+            "Ganador, logro, confianza, autoestima, fama, impresionante."
          ],
          "inverted":[
-            "",
-            ""
+            "Aplazamiento. Insolencia, excesivo orgullo. Traición, aprensión.",
+            "Demasiado vanidoso, pomposidad, pretensión, arrogante."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Sechs Zauberstäbe",
          "normal":[
-            "",
-            ""
+            "Sieg nach einem Konflikt. Gute Nachrichten, Fortschritt. Freunden helfen.",
+            "Gewinner, Leistung, Selbstvertrauen, Selbstwertgefühl, Ruhm, beeindruckend."
          ],
          "inverted":[
-            "",
-            ""
+            "Aufschub. Unverschämtheit, übermäßiger Stolz. Verrat, Besorgnis.",
+            "Zu eitel, überheblich, anmaßend, arrogant."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Six de baguettes",
          "normal":[
-            "",
-            ""
+            "Victoire après un conflit. Bonnes nouvelles, progrès. Aider les amis.",
+            "Gagnant, réussite, confiance, estime de soi, renommée, impressionnant."
          ],
          "inverted":[
-            "",
-            ""
+            "Report. Insolence, orgueil excessif. Trahison, appréhension.",
+            "Trop vaniteux, pompeux, prétentieux, arrogant."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Шестерка Жезлов",
          "normal":[
-            "",
-            ""
+            "Победа после конфликта. Хорошие новости, прогресс. Помощь друзьям.",
+            "Победитель, достижение, уверенность, чувство собственного достоинства, слава, впечатляющий"
          ],
          "inverted":[
-            "",
-            ""
+            "Отсрочка. Наглость, чрезмерная гордость. Предательство, опасения.",
+            "Слишком тщеславно, напыщенно, претенциозно, высокомерно"
          ]
       }
    }
@@ -4422,58 +4422,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Seven of Wands",
          "normal":[
-            "",
-            ""
+            "Courage. Victory through courage. Effort, struggle, fierce competition. Some success. Negotiation, contract.",
+            "Effort, courage, obstacles, mastery."
          ],
          "inverted":[
-            "",
-            ""
+            "Complication, difficulty, insecurity and fear. Pregnancy. False appearance.",
+            "Surprised, irregular, overlooks problems, overwhelming."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Siete de Bastos",
          "normal":[
-            "",
-            ""
+            "Valor. Victoria a través del coraje. Esfuerzo, lucha, fiera competición. Cierto éxito. Negociación, contrato.",
+            "Esfuerzo, coraje, obstáculos, dominio."
          ],
          "inverted":[
-            "",
-            ""
+            "Complicación, dificultad, inseguridad y miedo. Embarazo. Falsa apariencia.",
+            "Sorprendido, irregular, pasa por alto los problemas, abrumador."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Sieben Zauberstäbe",
          "normal":[
-            "",
-            ""
+            "Mut. Sieg durch Mut. Anstrengung, Kampf, harter Wettbewerb. Sicherer Erfolg. Verhandlung, Vertrag.",
+            "Anstrengung, Mut, Hindernisse, Meisterschaft."
          ],
          "inverted":[
-            "",
-            ""
+            "Komplikation, Schwierigkeit, Unsicherheit und Angst. Schwangerschaft. Falsches Aussehen.",
+            "Überrascht, unregelmäßig, übersieht Probleme, überwältigend."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Sept de baguettes",
          "normal":[
-            "",
-            ""
+            "Courage. Victoire par courage. Effort, lutte, compétition acharnée. Succès certain. Négociation, contrat.",
+            "Effort, courage, obstacles, maîtrise."
          ],
          "inverted":[
-            "",
-            ""
+            "Complication, difficulté, insécurité et peur. Grossesse. Fausse apparence.",
+            "Surpris, irrégulier, néglige les problèmes, accablant."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Семерка Жезлов",
          "normal":[
-            "",
-            ""
+            "Мужество. Победа через мужество. Усилия, борьба, жесткая конкуренция. Определенный успех. Переговоры, контракт.",
+            "Усилия, смелость, препятствия, мастерство"
          ],
          "inverted":[
-            "",
-            ""
+            "Осложнения, трудности, неуверенность и страх. Беременность. Ложная внешность.",
+            "Удивленный, нерегулярный, игнорирует проблемы, подавляющий"
          ]
       }
    }
@@ -4485,58 +4485,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Eight of Wands",
          "normal":[
-            "",
-            ""
+            "Speed. Hasty decision. Air travel, messages, love letters. Hyperactivity. Great expectations.",
+            "Action, many ideas, very creative, dedication to different projects."
          ],
          "inverted":[
-            "",
-            ""
+            "Opposition, jealousy. Delay in business or love affairs.",
+            "Too busy, no time, travels excessively, restless everywhere."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Ocho de Bastos",
          "normal":[
-            "",
-            ""
+            "Velocidad. Decisión apresurada. Viaje aéreo, mensajes, cartas de amor. Hiperactividad. Grandes esperanzas.",
+            "Acción, muchas ideas, muy creativo, dedicación a diferentes proyectos."
          ],
          "inverted":[
-            "",
-            ""
+            "Oposición, celos. Retraso en los negocios o en los asuntos amorosos.",
+            "Demasiado ocupado, no tiene tiempo, viaja en exceso, inquieto en todas partes."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Acht Zauberstäbe",
          "normal":[
-            "",
-            ""
+            "Geschwindigkeit. Übereilte Entscheidung. Flugreisen, Nachrichten, Liebesbriefe. Hyperaktivität. Große Hoffnungen.",
+            "Action, viele Ideen, sehr kreativ, Engagement für verschiedene Projekte."
          ],
          "inverted":[
-            "",
-            ""
+            "Widerstand, Eifersucht. Verzögerung im Geschäft oder in Liebesbeziehungen.",
+            "Zu beschäftigt, keine Zeit, übermäßiges Reisen, überall unruhig."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Huit de baguettes",
          "normal":[
-            "",
-            ""
+            "Vitesse. Décision hâtive. Voyages en avion, messages, lettres d'amour. Hyperactivité. De grands espoirs.",
+            "Action, beaucoup d'idées, très créatif, dévouement à différents projets."
          ],
          "inverted":[
-            "",
-            ""
+            "Opposition, jalousie. Retard dans les affaires ou les amours.",
+            "Trop occupé, pas de temps, voyage excessivement, agité partout."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Восьмерка Жезлов",
          "normal":[
-            "",
-            ""
+            "Скорость. Поспешное решение. Авиаперелеты, сообщения, любовные письма. Гиперактивность. Большие надежды.",
+            "Действие, много идей, очень творческий подход, преданность различным проектам"
          ],
          "inverted":[
-            "",
-            ""
+            "Противостояние, ревность. Задержка в делах или любовных делах.",
+            "Слишком занят, нет времени, много путешествует, везде беспокойный"
          ]
       }
    }
@@ -4548,58 +4548,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Nine of Wands",
          "normal":[
-            "",
-            ""
+            "Strength, ability to endure a long struggle or effort and ultimately achieve victory. Recovery of health. Strength in reserve. Good arrangement.",
+            "Resilience, courage, perseverance, test of faith, limits."
          ],
          "inverted":[
-            "",
-            ""
+            "Weakness, delays, suspension, adversity. Poor health.",
+            "Does not need anyone, rejects outside help, pride, feels weak, struggles, overwhelm, defensiveness, paranoia."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Nueve de Bastos",
          "normal":[
-            "",
-            ""
+            "Fuerza, capacidad de soportar una larga lucha o esfuerzo y finalmente lograr la victoria. Recuperación de la salud. Fuerza en reserva. Buen arreglo.",
+            "Resiliencia, coraje, perseverancia, prueba de fe, límites."
          ],
          "inverted":[
-            "",
-            ""
+            "Debilidad, retrasos, suspensión, adversidad. Mala salud.",
+            "No necesita a nadie, rechaza la ayuda ajena, orgullo, se siente débil, lucha, abrumar, defensiva, paranoia."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Neun Zauberstäbe",
          "normal":[
-            "",
-            ""
+            "Stärke, Fähigkeit, einen langen Kampf oder eine lange Anstrengung zu ertragen und schließlich den Sieg zu erringen. Wiederherstellung der Gesundheit. Kraft in Reserve. Gute Vereinbarung.",
+            "Belastbarkeit, Mut, Ausdauer, Glaubensprüfung, Grenzen."
          ],
          "inverted":[
-            "",
-            ""
+            "Schwäche, Verzögerungen, Aussetzung, Widrigkeiten. Schlechter Gesundheitszustand.",
+            "Braucht niemanden, lehnt Hilfe von anderen ab, ist stolz, fühlt sich schwach, kämpft, überfordert, defensiv, Paranoia."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Neuf de baguettes",
          "normal":[
-            "",
-            ""
+            "Force, capacité à supporter une longue lutte ou un effort et finalement remporter la victoire. Récupération de la santé. Force en réserve. Bon arrangement.",
+            "Résilience, courage, persévérance, épreuve de foi, limites."
          ],
          "inverted":[
-            "",
-            ""
+            "Faiblesse, retards, suspension, adversité. Mauvaise santé.",
+            "N'a besoin de personne, rejette l'aide des autres, est fier, se sent faible, se bat, dépassé, sur la défensive, paranoïaque."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Девятка Жезлов",
          "normal":[
-            "",
-            ""
+            "Сила, способность выдержать длительную борьбу или усилие и, наконец, добиться победы. Восстановление здоровья. Силы в запасе. Хорошая расстановка.",
+            "Устойчивость, смелость, настойчивость, испытание веры, пределы"
          ],
          "inverted":[
-            "",
-            ""
+            "Слабость, задержки, отстранения, невзгоды. Плохое здоровье.",
+            "Не нуждается ни в ком, отвергает помощь других, гордится, чувствует себя слабым, борется, подавлен, занимает оборонительную позицию, паранойя"
          ]
       }
    }
@@ -4608,61 +4608,61 @@
    "id":73,
    "number":"10",
    "type":"Wands",
-   "Points":[ 10, -10 ],
+   "Points":[ -10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Ten of Wands",
          "normal":[
-            "",
-            ""
+            "Oppression. Imbalance and egocentrism. Heavy burden. Force disconnected from spiritual sources. A problem will soon be resolved.",
+            "Devotion, obligation, pressure, effort, reaching the goal, excess, stress, exchange, development."
          ],
          "inverted":[
-            "",
-            ""
+            "Discomfort, betrayal, separation, emigration, some losses. Sterility.",
+            "Wrong purpose, too much effort, refusal to learn."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Diez de Bastos",
          "normal":[
-            "",
-            ""
+            "Opresión. Desequilibrio y egocentrismo. Pesada carga. Fuerza desligada de las fuentes espirituales. Un problema se resolverá pronto.",
+            "Devoción, obligación, presión, esfuerzo, llegar a la meta, exceso, estrés, intercambio, desarrollo."
          ],
          "inverted":[
-            "",
-            ""
+            "Molestias, traición, separación, emigración, algunas pérdidas. Esterilidad.",
+            "Propósito equivocado, demasiado esfuerzo, negativa a aprender."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Zehn Zauberstäbe",
          "normal":[
-            "",
-            ""
+            "Unterdrückung. Ungleichgewicht und Egozentrismus. Schwere Belastung. Kraft getrennt von spirituellen Quellen. Ein Problem wird bald gelöst sein.",
+            "Hingabe, Verpflichtung, Druck, Anstrengung, Zielerreichung, Übermaß, Stress, Austausch, Entwicklung."
          ],
          "inverted":[
-            "",
-            ""
+            "Ärgernisse, Verrat, Trennung, Auswanderung, einige Verluste. Sterilität.",
+            "Falsche Absicht, zu viel Aufwand, Lernverweigerung."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Dix de baguettes",
          "normal":[
-            "",
-            ""
+            "Oppression. Déséquilibre et égocentrisme. Lourd fardeau. Force déconnectée des sources spirituelles. Un problème sera bientôt résolu.",
+            "Dévouement, obligation, pression, effort, atteinte du but, excès, stress, échange, développement."
          ],
          "inverted":[
-            "",
-            ""
+            "Des désagréments, des trahisons, des séparations, des émigrations, quelques pertes. Stérilité.",
+            "Mauvais objectif, trop d'efforts, refus d'apprendre."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Десятка Жезлов",
          "normal":[
-            "",
-            ""
+            "Угнетение. Неуравновешенность и эгоцентризм. Тяжелое бремя. Сила отключена от духовных источников. Проблема скоро разрешится.",
+            "Преданность, обязанность, давление, усилие, достижение цели, избыток, стресс, обмен, развитие"
          ],
          "inverted":[
-            "",
-            ""
+            "Неприятности, предательство, разлука, эмиграция, какие-то потери. Бесплодие.",
+            "Неправильная цель, слишком много усилий, отказ учиться"
          ]
       }
    }
@@ -4674,58 +4674,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Page of Wands",
          "normal":[
-            "",
-            ""
+            "Young and bright. Enthusiastic and daring. A messenger or bearer of news.",
+            "Inspiration, ideas, discovery, unlimited potential, free spirit, a spiritual path."
          ],
          "inverted":[
-            "",
-            ""
+            "Frivolous, theatrical, hollow young man. Cruel, oppressive.",
+            "Hasty, gullible, impatient, lacking energy/ideas."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Paje de Bastos",
          "normal":[
-            "",
-            ""
+            "Joven y brillante. Entusiasta y atrevido. Un mensajero o portador de noticias.",
+            "Inspiración, ideas, descubrimiento, potencial ilimitado, espíritu libre, un camino espiritual."
          ],
          "inverted":[
-            "",
-            ""
+            "Joven frívolo, teatral y hueco. Cruel, opresivo.",
+            "Apresurada, crédula, impaciente, falta de energía / ideas."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Seite der Zauberstäbe",
          "normal":[
-            "",
-            ""
+            "Jung und klug. Enthusiastisch und mutig. Ein Bote oder Überbringer von Nachrichten.",
+            "Inspiration, Ideen, Entdeckung, unbegrenztes Potenzial, Freigeist, ein spiritueller Weg."
          ],
          "inverted":[
-            "",
-            ""
+            "Frivoler, theatralischer und hohler junger Mann. Grausam, bedrückend.",
+            "Voreilig, leichtgläubig, ungeduldig, Mangel an Energie/Ideen."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Page de baguettes",
          "normal":[
-            "",
-            ""
+            "Jeune et brillant. Enthousiaste et audacieux. Messager ou porteur de nouvelles.",
+            "De l'inspiration, des idées, des découvertes, un potentiel illimité, un esprit libre, un chemin spirituel."
          ],
          "inverted":[
-            "",
-            ""
+            "Jeune homme frivole, théâtral et creux. Cruel, oppressant.",
+            "Hâtif, crédule, impatient, manque d'énergie/d'idées."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Паж Жезлов",
          "normal":[
-            "",
-            ""
+            "Молодой и яркий. Энергичный и смелый. Вестник или носитель новостей.",
+            "Вдохновение, идеи, открытия, неограниченный потенциал, свободный дух, духовный путь"
          ],
          "inverted":[
-            "",
-            ""
+            "Легкомысленный, театральный и пустой молодой человек. Жестокий, деспотичный.",
+            "Поспешный, доверчивый, нетерпеливый, отсутствие энергии/идей"
          ]
       }
    }
@@ -4737,58 +4737,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Knight of Wands",
          "normal":[
-            "",
-            ""
+            "A young and energetic man, fast and daring. He can be noble and generous, but also violent and hasty.",
+            "He is physically attractive, focusing on style and appearance."
          ],
          "inverted":[
-            "",
-            ""
+            "Jealous, weak and intolerant. Quarrel, discord, frustration.",
+            "It suggests a flagrant lack of action on the part of the consultant."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Caballero de Bastos",
          "normal":[
-            "",
-            ""
+            "Un hombre joven y energético, veloz y atrevido. Puede ser noble y generoso, pero también violento y apresurado.",
+            "Es físicamente atractivo,se enfoca en el estilo y la apariencia."
          ],
          "inverted":[
-            "",
-            ""
+            "Celoso, débil e intolerante. Pelea, discordia, frustración.",
+            "Sugiere una flagrante falta de acción por parte del consultante."
          ]
       },
       "de":{
-         "name":"",
+         "name":"Ritter der Zauberstäbe",
          "normal":[
-            "",
-            ""
+            "Ein junger und energischer Mann, schnell und mutig. Er kann edel und großzügig sein, aber auch gewalttätig und hastig.",
+            "Er ist körperlich attraktiv, legt Wert auf Stil und Aussehen."
          ],
          "inverted":[
-            "",
-            ""
+            "Eifersüchtig, schwach und intolerant. Streit, Zwietracht, Frustration.",
+            "Es deutet auf eine eklatante Untätigkeit des Beraters hin."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Chevalier des baguettes",
          "normal":[
-            "",
-            ""
+            "Un homme jeune et énergique, rapide et audacieux. Il peut être noble et généreux, mais aussi violent et précipité.",
+            "Il est physiquement attirant, se concentre sur le style et l'apparence."
          ],
          "inverted":[
-            "",
-            ""
+            "Jaloux, faible et intolérant. Querelle, discorde, frustration.",
+            "Cela suggère un manque d'action flagrant de la part du consultant."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Рыцарь Жезлов",
          "normal":[
-            "",
-            ""
+            "Молодой и энергичный человек, быстрый и смелый. Он может быть благородным и щедрым, но также жестоким и поспешным.",
+            "Он физически привлекателен, уделяет особое внимание стилю и внешнему виду"
          ],
          "inverted":[
-            "",
-            ""
+            "Ревнивый, слабый и нетерпимый. Ссоры, раздоры, разочарования.",
+            "Это предполагает вопиющее бездействие со стороны консультанта"
          ]
       }
    }
@@ -4800,58 +4800,58 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"Queen of Wands",
          "normal":[
-            "",
-            ""
+            "A kind, energetic, but calm woman. Conservative, pragmatic and authoritarian. Fruitful in mind and body.",
+            "Cordial, affectionate, active, helpful, enterprising, guiding, attractive."
          ],
          "inverted":[
-            "",
-            ""
+            "Dominant, jealous, dogmatic and irrational. Quick to take offense.",
+            "Misdirected power, off-target, timid, fearful or weak, lacking self-confidence, overly tyrannical, stubborn, Jealousy, Infidelity"
          ]
       },
       "es":{
-         "name":"",
+         "name":"Reina de Bastos",
          "normal":[
-            "",
-            ""
+            "Mujer amable, energética, pero calma. Conservadora, pragmática y autoritaria. Fructífera en mente y cuerpo.",
+            "Cordial, afectuosa, activa, servicial, emprendedora, guía, atractiva."
          ],
          "inverted":[
-            "",
-            ""
+            "Dominante, celosa, dogmática e irracional. Rápida para ofenderse.",
+            "Poder mal dirigido, fuera de objetivo, tímida, temerosa o débil, sin confianza en si misma, demasiado tiránica, obstinada, Celos, Infidelidad"
          ]
       },
       "de":{
-         "name":"",
+         "name":"Königin der Zauberstäbe",
          "normal":[
-            "",
-            ""
+            "Freundliche, energische, aber ruhige Frau. Konservativ, pragmatisch und autoritär. Fruchtbar in Geist und Körper.",
+            "Herzlich, liebevoll, aktiv, hilfsbereit, unternehmungslustig, leitend, attraktiv."
          ],
          "inverted":[
-            "",
-            ""
+            "Herrschsüchtig, eifersüchtig, dogmatisch und irrational. Schnell beleidigt.",
+            "Macht fehlgeleitet, vom Ziel abgekommen, schüchtern, ängstlich oder schwach, mangelndes Selbstvertrauen, übermäßig tyrannisch, stur, Eifersucht, Untreue"
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Reine des baguettes",
          "normal":[
-            "",
-            ""
+            "Femme gentille, énergique, mais calme. Conservatrice, pragmatique et autoritaire. Féconde d'esprit et de corps.",
+            "Cordial, affectueux, actif, serviable, entreprenant, guide, attrayant."
          ],
          "inverted":[
-            "",
-            ""
+            "Dominatrice, jalouse, dogmatique et irrationnelle. Rapide à s'offusquer.",
+            "Pouvoir mal dirigé, hors cible, timide, craintif ou faible, manque de confiance en soi, trop tyrannique, têtu, Jalousie, Infidélité"
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Королева Жезлов",
          "normal":[
-            "",
-            ""
+            "Добрая, энергичная, но спокойная женщина. Консервативная, прагматичная и авторитарная. Плодотворная душой и телом.",
+            "Сердечный, ласковый, активный, отзывчивый, предприимчивый, направляющий, привлекательный"
          ],
          "inverted":[
-            "",
-            ""
+            "Властный, ревнивый, догматичный и иррациональный. Быстро обижается.",
+            "Власть направлена ​​не по назначению, не по назначению, робкая, боязливая или слабая, неуверенная в себе, чрезмерно тираническая, упрямая, ревность, неверность"
          ]
       }
    }
@@ -4863,58 +4863,54 @@
    "Points":[ 10, -10 ],
    "translations":{
       "en":{
-         "name":"",
+         "name":"King of Wands",
          "normal":[
-            "",
-            ""
+            "A bold, quick and generous man. Passionate and strong. Paternalistic and proud. ",
+            "May be a country gentleman, usually married. Unexpected inheritance, a good marriage."
          ],
          "inverted":[
-            "",
-            ""
+            "Despotic, intolerant, prejudiced, malicious.", "Too dominant, dictatorial, rude."
          ]
       },
       "es":{
-         "name":"",
+         "name":"Rey de Bastos",
          "normal":[
-            "",
-            ""
+            "Hombre atrevido, rápido y generoso. Apasionado y fuerte. Paternalista y orgulloso. ",
+            "Puede ser un caballero del campo, generalmente casado. Herencia inesperada, un buen matrimonio."
          ],
          "inverted":[
-            "",
-            ""
+            "Despótico, intolerante, prejuicioso, mal intencionado.",
+            "Demasiado dominante, dictatorial, rudo."
          ]
       },
       "de":{
-         "name":"",
+         "name":"König der Zauberstäbe",
          "normal":[
-            "",
-            ""
+            "Kühner, schneller und großzügiger Mann. Leidenschaftlich und stark. Paternalistisch und stolz.",
+            "Er könnte ein Landedelmann sein, der normalerweise verheiratet ist. Unerwartetes Erbe, eine gute Ehe."
          ],
          "inverted":[
-            "",
-            ""
+            "Despotisch, intolerant, voreingenommen, bösartig.", "Zu dominant, diktatorisch, unhöflich."
          ]
       },
       "fr":{
-         "name":"",
+         "name":"Roi des baguettes",
          "normal":[
-            "",
-            ""
+            "Homme audacieux, rapide et généreux. Passionné et fort. Paternaliste et fier.",
+            "C'est peut-être un gentilhomme de la campagne, généralement marié. Un héritage inattendu, un bon mariage."
          ],
          "inverted":[
-            "",
-            ""
+            "Despotique, intolérant, préjugé, malveillant.", "Trop dominant, dictatorial, grossier."
          ]
       },
       "ru":{
-         "name":"",
+         "name":"Король Жезлов",
          "normal":[
-            "",
-            ""
+            "Смелый, быстрый и щедрый мужчина. Страстный и сильный. Патерналистский и гордый.",
+            "Он может быть деревенским джентльменом, обычно женатым. Неожиданное наследство, удачный брак"
          ],
          "inverted":[
-            "",
-            ""
+            "Деспотичный, нетерпимый, предвзятый, злобный.", "Слишком властный, диктаторский, грубый"
          ]
       }
    }
