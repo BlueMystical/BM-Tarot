@@ -172,6 +172,56 @@
             }
         },        
         {
+            "key": "YesMessage_1",
+            "lang": {
+                "en": "",
+                "es": "Definitivamente Si!|La Fortuna te sonrie.",
+                "de": "",
+                "ru": "",
+                "fr": ""
+            }
+        },        
+        {
+            "key": "YesMessage_2",
+            "lang": {
+                "en": "",
+                "es": "Si|Tienes muchas posibilidades de lograrlo.",
+                "de": "",
+                "ru": "",
+                "fr": ""
+            }
+        },        
+        {
+            "key": "YesMessage_3",
+            "lang": {
+                "en": "",
+                "es": "Talvez|Es Posible, pero habrá obstaculos que superar.",
+                "de": "",
+                "ru": "",
+                "fr": ""
+            }
+        },        
+        {
+            "key": "YesMessage_4",
+            "lang": {
+                "en": "",
+                "es": "No|Esto no va a pasar.",
+                "de": "",
+                "ru": "",
+                "fr": ""
+            }
+        },        
+        {
+            "key": "YesMessage_5",
+            "lang": {
+                "en": "",
+                "es": "Definitivamente No!|No hay chance de que esto pase.",
+                "de": "",
+                "ru": "",
+                "fr": ""
+            }
+        },        
+        {
             "key": "",
             "lang": {
                 "en": "",
