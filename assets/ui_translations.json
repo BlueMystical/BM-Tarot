@@ -172,53 +172,53 @@
             }
         },        
         {
-            "key": "YesMessage_1",
+            "key": "YesNoMessage_1",
             "lang": {
-                "en": "",
+                "en": "Definitely Yes!|Fortune smiles on you.",
                 "es": "Definitivamente Si!|La Fortuna te sonrie.",
-                "de": "",
-                "ru": "",
-                "fr": ""
+                "de": "Auf jeden Fall ja!|Das Glück lächelt dir zu.",
+                "ru": "Определенно да!|Фортуна улыбается вам.",
+                "fr": "Certainement oui !|La fortune vous sourit."
             }
         },        
         {
-            "key": "YesMessage_2",
+            "key": "YesNoMessage_2",
             "lang": {
-                "en": "",
+                "en": "Yes|You have a good chance of achieving it.",
                 "es": "Si|Tienes muchas posibilidades de lograrlo.",
-                "de": "",
-                "ru": "",
-                "fr": ""
+                "de": "Ja|Sie haben gute Chancen, es zu erreichen.",
+                "ru": "Да|У вас есть хороший шанс добиться этого.",
+                "fr": "Oui | Vous avez de bonnes chances d’y parvenir."
             }
         },        
         {
-            "key": "YesMessage_3",
+            "key": "YesNoMessage_3",
             "lang": {
-                "en": "",
+                "en": "Maybe|It is possible, but there will be obstacles to overcome.",
                 "es": "Talvez|Es Posible, pero habrá obstaculos que superar.",
-                "de": "",
-                "ru": "",
-                "fr": ""
+                "de": "Vielleicht ist es möglich, aber es werden Hindernisse zu überwinden sein.",
+                "ru": "Возможно|Это возможно, но придется преодолеть препятствия.",
+                "fr": "Peut-être|C'est possible, mais il y aura des obstacles à surmonter."
             }
         },        
         {
-            "key": "YesMessage_4",
+            "key": "YesNoMessage_4",
             "lang": {
-                "en": "",
+                "en": "Nope|This is not going to happen.",
                 "es": "No|Esto no va a pasar.",
-                "de": "",
-                "ru": "",
-                "fr": ""
+                "de": "Nein|Das wird nicht passieren.",
+                "ru": "Нет|Этого не произойдет.",
+                "fr": "Nein|Das wird nicht passieren."
             }
         },        
         {
-            "key": "YesMessage_5",
+            "key": "YesNoMessage_5",
             "lang": {
-                "en": "",
+                "en": "Definitely not!|There is no chance of this happening.",
                 "es": "Definitivamente No!|No hay chance de que esto pase.",
-                "de": "",
-                "ru": "",
-                "fr": ""
+                "de": "Auf keinen Fall!|Es besteht keine Chance, dass das passiert.",
+                "ru": "Определенно нет!|Нет никаких шансов на то, что это произойдет.",
+                "fr": "Certainement non !|Il n’y a aucune chance que cela se produise."
             }
         },        
         {

@@ -320,16 +320,16 @@ function ShowAlertEx(points = 0) {
     if (CardCount == 1) {
         if (points >= 10) {
             className = 'popBack-Green';
-            Messages = (LANG.translations.find((element) => element.key === 'GreenMsg').lang[UserLang]).split('|');            
+            Messages = (LANG.translations.find((element) => element.key === 'YesNoMessage_1').lang[UserLang]).split('|');            
         } else if (points >= 5) {
             className = 'popBack-Blue';
-            Messages = (LANG.translations.find((element) => element.key === 'BlueMsg').lang[UserLang]).split('|');  
+            Messages = (LANG.translations.find((element) => element.key === 'YesNoMessage_3').lang[UserLang]).split('|');  
         } else if (points >= 1) {
             className = 'popBack-Yellow';
-            Messages = (LANG.translations.find((element) => element.key === 'YellowMsg').lang[UserLang]).split('|');  
+            Messages = (LANG.translations.find((element) => element.key === 'YesNoMessage_4').lang[UserLang]).split('|');  
         } else {
             className = 'popBack-Red';
-            Messages = (LANG.translations.find((element) => element.key === 'RedMsg').lang[UserLang]).split('|');  
+            Messages = (LANG.translations.find((element) => element.key === 'YesNoMessage_5').lang[UserLang]).split('|');  
         }
     }
     if (CardCount == 3) {
