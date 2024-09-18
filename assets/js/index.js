@@ -42,25 +42,6 @@ $(document).on("click", "#cmdFlipCards", function (evt) {
     FlipCards();
 });
 
-/* ****  EVENTOS DE LAS CARTAS  */
-$(document).on("click", "#Card-01", function (evt) {
-    //console.log('Boton Card-01');
-});
-$(document).on("click", "#Card-02", function (evt) {
-    //console.log('Boton Card-02')
-});
-$(document).on("click", "#Card-03", function (evt) {
-    //console.log('Boton Card-03')
-});
-$(document).on("click", "#Card-04", function (evt) {
-    //console.log('Boton Card-04')
-});
-$(document).on("click", "#Card-05", function (evt) {
-    //console.log('Boton Card-05')
-});
-$(document).on("click", "#Card-06", function (evt) {
-    //console.log('Boton Card-06')
-});
 
 /* EVENTO AL ABRIR EL DETALLE DE LA CARTA */
 var CardInfo = document.getElementById('CardInfo')
@@ -106,7 +87,6 @@ function Iniciar() {
             var ListVar = $("#cboUserDeck");
             ListVar.empty();
             data.forEach(function(deck) {
-                //<option selected value="3">3</option>
                 var opt = $("<option>" + deck.desc + "</option>").attr("value", deck.name );                
                 ListVar.append(opt);
             });
@@ -173,6 +153,7 @@ function TranslateUI(lang) {
 }
 
 function ShuffleCards() {
+    /* SHUFFLE RANDOMLY ALL CARDS IN THE DECK RETURNING THE AMOUNT OF CARDS REQUIRED  */
     if (MyDeck != null) {
         MyCards = [];
         
@@ -228,7 +209,7 @@ function ShuffleCards() {
             //Add the Data to each card
             $("#Card-02").attr("data-bs-info", JSON.stringify(MyCards[0]));  
             $("#Card-02-img").attr("alt", MyCards[0].id  ); 
-            console.log(MyCards[0]);
+            //console.log(MyCards[0]);
             
             //Make the Card Visible again
             const myCard = document.getElementById('Card-02-div');
@@ -240,7 +221,7 @@ function ShuffleCards() {
                 //Add the Data to each card
                 $("#Card-0" + index).attr("data-bs-info", JSON.stringify(MyCards[index - 1]));  
                 $("#Card-0" + index + "-img").attr("alt", MyCards[index - 1].id  ); 
-                console.log(MyCards[index - 1]);
+                //console.log(MyCards[index - 1]);
                 
                 //Make the Card Visible again
                 const myCard = document.getElementById('Card-0'+ index +'-div');
@@ -254,7 +235,7 @@ function ShuffleCards() {
                 //Add the Data to each card
                 $("#Card-0" + i).attr("data-bs-info", JSON.stringify(MyCards[index - 1]));  
                 $("#Card-0" + i + "-img").attr("alt", MyCards[index - 1].id  ); 
-                console.log(MyCards[index - 1]);
+                //console.log(MyCards[index - 1]);
 
                 //Make the Card Visible again
                 const myCard = document.getElementById('Card-0'+ i +'-div');
@@ -284,7 +265,7 @@ function FlipCards() {
             var DeckPoints = [];
             for (let index = 1; index <= 6; index++) {
                 try {
-                   // console.log(index); console.log(DeckPoints);
+                   // console.log(index); console.log(DeckPoints);                   
                     const data = JSON.parse($("#Card-0" + index).attr('data-bs-info')); //<- Extract info from data-bs-* attributes
                     if (data != null && data !== undefined) {
                         DeckPoints.push(data.points);
@@ -315,116 +296,32 @@ function ShowAlertEx(points = 0) {
 
     console.log('Points: ' + points);
     var Messages = [];  
-    var className = '';   
-    
+    var className = '';
+
     if (CardCount == 1) {
-        if (points >= 10) {
-            className = 'popBack-Green';
-            Messages = (LANG.translations.find((element) => element.key === 'YesNoMessage_1').lang[UserLang]).split('|');            
-        } else if (points >= 5) {
-            className = 'popBack-Blue';
-            Messages = (LANG.translations.find((element) => element.key === 'YesNoMessage_3').lang[UserLang]).split('|');  
-        } else if (points >= 1) {
-            className = 'popBack-Yellow';
-            Messages = (LANG.translations.find((element) => element.key === 'YesNoMessage_4').lang[UserLang]).split('|');  
-        } else {
-            className = 'popBack-Red';
-            Messages = (LANG.translations.find((element) => element.key === 'YesNoMessage_5').lang[UserLang]).split('|');  
-        }
+        className = points >= 10 ? 'YesNoMessage_1' :
+                    points >= 5 ? 'YesNoMessage_3' :
+                    points >= 1 ? 'YesNoMessage_4' :
+                                'YesNoMessage_5';
+    } else if (CardCount == 3) {
+        className = points >= 30 ? 'GreenMsg' :
+                    points >= 15 ? 'BlueMsg' :
+                    points >= 10 ? 'YellowMsg' :
+                                'RedMsg';
+    } else if (CardCount == 5) {
+        className = points >= 40 ? 'GreenMsg' :
+                    points >= 25 ? 'BlueMsg' :
+                    points >= 10 ? 'YellowMsg' :
+                                'RedMsg';
     }
-    if (CardCount == 3) {
-        if (points >= 30) {
-            className = 'popBack-Green';
-            Messages = (LANG.translations.find((element) => element.key === 'GreenMsg').lang[UserLang]).split('|');            
-        } else if (points >= 15) {
-            className = 'popBack-Blue';
-            Messages = (LANG.translations.find((element) => element.key === 'BlueMsg').lang[UserLang]).split('|');  
-        } else if (points >= 10) {
-            className = 'popBack-Yellow';
-            Messages = (LANG.translations.find((element) => element.key === 'YellowMsg').lang[UserLang]).split('|');  
-        } else {
-            className = 'popBack-Red';
-            Messages = (LANG.translations.find((element) => element.key === 'RedMsg').lang[UserLang]).split('|');  
-        }
-    }
-    if (CardCount == 5) {
-        if (points >= 40) {
-            className = 'popBack-Green';
-            Messages = (LANG.translations.find((element) => element.key === 'GreenMsg').lang[UserLang]).split('|');            
-        } else if (points >= 25) {
-            className = 'popBack-Blue';
-            Messages = (LANG.translations.find((element) => element.key === 'BlueMsg').lang[UserLang]).split('|');  
-        } else if (points >= 10) {
-            className = 'popBack-Yellow';
-            Messages = (LANG.translations.find((element) => element.key === 'YellowMsg').lang[UserLang]).split('|');  
-        } else {
-            className = 'popBack-Red';
-            Messages = (LANG.translations.find((element) => element.key === 'RedMsg').lang[UserLang]).split('|');  
-        }  
-    }
+
+    Messages = (LANG.translations.find((element) => element.key === className).lang[UserLang]).split('|');  
 
     popMessg._config.title = Messages[0];
     popMessg._config.content = Messages[1];
     popMessg.show();
 }
 
-function ShowAlert(points = 0) {
-    console.log('Points: ' + points);
-    
-    const myCard = document.getElementById('Alert-Div');
-    var Messages = "";
-                
-    if (CardCount == 3) {
-        if (points >= 30) {
-            myCard.className = "alert alert-success";
-            Messages = (LANG.translations.find((element) => element.key === 'GreenMsg').lang[UserLang]).split('|');            
-        } else if (points >= 20) {
-            myCard.className = "alert alert-info";
-            Messages = (LANG.translations.find((element) => element.key === 'BlueMsg').lang[UserLang]).split('|');  
-        } else if (points >= 10) {
-            myCard.className = "alert alert-warning";
-            Messages = (LANG.translations.find((element) => element.key === 'YellowMsg').lang[UserLang]).split('|');  
-        } else {
-            myCard.className = "alert alert-danger";
-            Messages = (LANG.translations.find((element) => element.key === 'RedMsg').lang[UserLang]).split('|');  
-        }        
-    }
-    if (CardCount == 5) {
-        if (points >= 50) {
-            myCard.className = "alert alert-success";
-            Messages = (LANG.translations.find((element) => element.key === 'GreenMsg').lang[UserLang]).split('|');            
-        } else if (points >= 25) {
-            myCard.className = "alert alert-info";
-            Messages = (LANG.translations.find((element) => element.key === 'BlueMsg').lang[UserLang]).split('|');  
-        } else if (points >= 10) {
-            myCard.className = "alert alert-warning";
-            Messages = (LANG.translations.find((element) => element.key === 'YellowMsg').lang[UserLang]).split('|');  
-        } else {
-            myCard.className = "alert alert-danger";
-            Messages = (LANG.translations.find((element) => element.key === 'RedMsg').lang[UserLang]).split('|');  
-        }  
-    }
-    if (CardCount == 9) {
-        if (points >= 90) {
-            myCard.className = "alert alert-success";
-            Messages = (LANG.translations.find((element) => element.key === 'GreenMsg').lang[UserLang]).split('|');            
-        } else if (points >= 60) {
-            myCard.className = "alert alert-info";
-            Messages = (LANG.translations.find((element) => element.key === 'BlueMsg').lang[UserLang]).split('|');  
-        } else if (points >= 20) {
-            myCard.className = "alert alert-warning";
-            Messages = (LANG.translations.find((element) => element.key === 'YellowMsg').lang[UserLang]).split('|');  
-        } else {
-            myCard.className = "alert alert-danger";
-            Messages = (LANG.translations.find((element) => element.key === 'RedMsg').lang[UserLang]).split('|');  
-        }  
-    }
-
-    //console.log(Messages);
-
-    $("#Alert-Title").html(Messages[0]);
-    $("#Alert-Msg").html(Messages[1]);
-}
 function HideAlert() {
     //const myCard = document.getElementById('Alert-Div');
     //myCard.className = "alert invisible";
