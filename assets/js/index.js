@@ -1,12 +1,15 @@
-var UserLang = 'en';    //<- General UI Language (en,es,de,fr,ru)
-var UserDeck = 'Marsella';   //<- Design of the Card Deck
-var CardCount = 6;      //<- How many Cards should we draw
-var LANG = null;        //<- UI Translations
-var MyDeck = null;      //<- Data of all cards
-var DeckConfig = null;  //<- Config of Current Deck
-var MyCards = [];       //<- Random Cards currently chosen
-var FlippedCards = false; //<- true if cards are flipped over
+/* ************   BM's Tarot by Blue Mystic - 2024   ************* */
+//---------------------------------------------------------------------------------
+var UserLang = 'en';        //<- UI Language (en,es,de,fr,ru)
+var UserDeck = 'Marsella';  //<- Design of the Card Deck
+var CardCount = 3;          //<- How many Cards should we draw
+var LANG = null;            //<- UI Translations
+var MyCards = [];           //<- Random Cards currently chosen
+var MyDeck = null;          //<- Data of all cards
+var DeckConfig = null;      //<- Config of Current Deck
+var FlippedCards = false;   //<- true if cards are flipped over
 
+// A Bootstrap Popup Message to show how good or bad the luck is for the current card draw.
 var popMessg = new bootstrap.Popover(document.getElementById('cmdDrawCards'), {
     animation: true,
     placement: 'bottom',
@@ -17,34 +20,35 @@ var popMessg = new bootstrap.Popover(document.getElementById('cmdDrawCards'), {
     content: 'Message'
 });
 
+// ----------------   Control Events -------------------------------------
 $('#cboLanguage').on('change', function () {
+    // To change the UI Language
     UserLang = $(this).val(); //<- Valor Seleccionado
-    setCookie("UserLang", UserLang, 7); //<- Remembers User's choice for 7 days
+    setCookie("UserLang", UserLang, 30); //<- Remembers User's choice for 30 days
     TranslateUI(UserLang);
 });
 $('#cboUserDeck').on('change', function () {
+    // To Change the Design of the Cards
     UserDeck = $(this).val();
-    setCookie("UserDeck", UserDeck, 7); //<- Remembers User's choice for 7 days
+    setCookie("UserDeck", UserDeck, 30); 
     LoadDeck(UserDeck);
     ShuffleCards();
 });
 $('#cboCardCount').on('change', function () {
-    CardCount = $(this).val(); //console.log(CardCount);
-    setCookie("CardCount", CardCount, 7); //<- Remembers User's choice for 7 days
+    // To Change the amount of cards to be drawn
+    CardCount = $(this).val(); 
+    setCookie("CardCount", CardCount, 30); 
     ShuffleCards();
 });
 
 $(document).on("click", "#cmdDrawCards", function (evt) {
+    // shuffle and show the Cards
     ShuffleCards();
     FlipCards();
 }); 
-$(document).on("click", "#cmdFlipCards", function (evt) {
-    FlipCards();
-});
 
-
-/* EVENTO AL ABRIR EL DETALLE DE LA CARTA */
-var CardInfo = document.getElementById('CardInfo')
+/* Shows a Modal Popup showing the info of the selected Card */
+var CardInfo = document.getElementById('CardInfo');
 CardInfo.addEventListener('show.bs.modal', function (event) {
     try {
         var button = event.relatedTarget; //<- Button that triggered the modal  
@@ -75,14 +79,16 @@ CardInfo.addEventListener('show.bs.modal', function (event) {
     } catch (error) { console.log(error) }  
 })
 
+//---------------- Starting Method -----------------------------------------------
 Iniciar();
 function Iniciar() {
     try {
         // 1. Get the User Choices from the Cookies, use default values if unset/expired
         UserLang = NVL(getCookie("UserLang"), 'en'); 
-        UserDeck = NVL(getCookie("UserDeck"), 'Rider');
-        CardCount= NVL(getCookie("CardCount"), 3); //console.log('Cookie: ' + CardCount);
+        UserDeck = NVL(getCookie("UserDeck"), 'Marsella');
+        CardCount= NVL(getCookie("CardCount"), 3);
 
+        //  Lists of Available Decks:
         $.getJSON('decks/available-decks.json?version=1', function (data) {
             var ListVar = $("#cboUserDeck");
             ListVar.empty();
@@ -91,10 +97,12 @@ function Iniciar() {
                 ListVar.append(opt);
             });
         });
+        // All translations for the different UI elements:
         $.getJSON('assets/ui_translations.json?version=1', function (data) {
             LANG = data;
             TranslateUI(UserLang);
         });
+        // Data of each of the 78 Tarot Cards:
         $.getJSON('decks/Cards.json?version=1', function (data) {
             MyDeck = data;
             LoadDeck(UserDeck);
@@ -104,10 +112,10 @@ function Iniciar() {
 }
 
 function LoadDeck(deckName) {
+    // Loads the Data and Card Background for the selected Deck
     try {
-        $.getJSON('decks/'+ deckName + '/deck-config.json?version=1', function (data) {
-           // console.log(data);
-            DeckConfig = data;            
+        $.getJSON('decks/'+ deckName + '/deck-config.json?version=1', function (data) {           
+            DeckConfig = data;    // console.log(data);       
             $("#mainContainer").attr( "style", 
             "background: url('decks/"+ DeckConfig.pageBackImg + "'); background-repeat: no-repeat; background-position:center; background-size:cover;");           
             ShuffleCards(); 
@@ -177,21 +185,21 @@ function ShuffleCards() {
         // 1. Get random IDs for the cards chosen:
         const randomCards = [];
         for (let i = 1; i <= CardCount; i++) {
-            randomCards.push(getRandomUnique(0, 77, randomCards)); //total de cartas: 78 (77+0)
+            randomCards.push( getRandomUnique(0, 77, randomCards) ); //total Cards: 78 (Zero based index)
         }
 
         // 2. Get the Actual cards from the chosen IDs:
         if (randomCards != null && randomCards.length > 0) {
             randomCards.forEach(number => {
                 try {
+                    const invChance = getRandom(1, 100); //<- chance of the card being inverted
+
                     var MyCard = MyDeck[number].translations[UserLang]; //<- Translated to the selected language
                         MyCard.id = MyDeck[number].type + '-' + MyDeck[number].number; //<- Name for the Picture
                         MyCard.number = MyDeck[number].number;
-
-                    const invChance = getRandom(1, 100);
-
-                    MyCard.is_inverted = invChance <= 30; //<- 30% chance of being inverted
-                    MyCard.points = MyCard.is_inverted ? MyDeck[number].Points[1] : MyDeck[number].Points[0];
+                        MyCard.is_inverted = invChance <= 30; //<- 30% chance of being inverted
+                        MyCard.points = MyCard.is_inverted ? MyDeck[number].Points[1] : MyDeck[number].Points[0];
+                    
                     MyCards.push(MyCard);
 
                     console.log(MyCard.id + ', Inverted: ' + MyCard.is_inverted + ' (' + invChance + '%), ' +  MyCard.points + ' Points.');               
@@ -204,8 +212,6 @@ function ShuffleCards() {
 
         // 3. Add the cards to the deck
         if (CardCount == 1) {
-            console.log("1 carta!");
-
             //Add the Data to each card
             $("#Card-02").attr("data-bs-info", JSON.stringify(MyCards[0]));  
             $("#Card-02-img").attr("alt", MyCards[0].id  ); 
@@ -348,6 +354,7 @@ function SumarPuntos(DeckPoints) {
     return Positives - Negatives;
 }
 
+// ------------------  AUXILIARY METHODS ---------------------------
 function setCookie(cname, cvalue, exdays) {
     const d = new Date();
     d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
